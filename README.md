@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dw/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/JungHoonGhae/opencode-kilo-auth/blob/main/LICENSE)
 
-Access AI models through **Kilo Gateway** in OpenCode, including free tier models like `z-ai/glm-5:free` and `minimax/minimax-m2.5:free`.
+**Use Kilo Gateway with your existing OpenCode installation - no need to install Kilo CLI fork.**
 
 > **Disclaimer**: This is an independent community plugin. It is not affiliated with, endorsed by, or sponsored by Kilo.ai or OpenCode. Kilo™ and OpenCode™ are trademarks of their respective owners.
 
@@ -16,43 +16,32 @@ If this plugin helps you, consider supporting its maintenance:
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
 </a>
 
-## What is Kilo Gateway?
+## The Problem
 
-**Kilo Gateway** is a unified API gateway that provides access to 340+ AI models from multiple providers through a single interface:
+Kilo Gateway offers great free tier models, but to use them you had two options:
 
-- **Anthropic**: Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
-- **OpenAI**: GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo
-- **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
-- **Meta**: Llama 3.1, Llama 3.2
-- **Mistral**: Mistral Large, Mixtral
-- **Free Tier Models**: 29 free models available
-- **And many more...**
+1. **Install Kilo CLI** - A fork of OpenCode, requiring a separate installation
+2. **Use OpenRouter** - But many free models available on Kilo Gateway aren't free on OpenRouter
 
-### Why Kilo Gateway?
+**Neither is ideal.** You shouldn't need to install a separate fork just to access Kilo Gateway models.
 
-Kilo Gateway offers **free tier models that OpenRouter does not provide for free**, including:
+## The Solution
 
-- **Step 3.5 Flash (Free)** - StepFun's powerful 196B MoE model with 256K context, not available for free on OpenRouter
-- **GLM 5 (Free)** - Z.ai's flagship model with 202K context and reasoning
-- **MiniMax M2.5 (Free)** - 204K context with strong coding and reasoning
+This plugin lets you use **Kilo Gateway directly in your existing OpenCode installation**:
 
-This makes Kilo Gateway an excellent choice for developers who want to experiment with powerful models without upfront costs.
+- ✅ Keep using OpenCode (no fork needed)
+- ✅ Access all Kilo Gateway models (342+ models)
+- ✅ Get free tier models not available on OpenRouter (e.g., Step 3.5 Flash)
+- ✅ Simple plugin installation - just add to config
 
-### Kilo Auto Routing
+### Free Models Not Available on OpenRouter
 
-`kilo/auto` **automatically routes your request to the best model for the task**. This is the recommended model for general use - no need to choose between different models.
+Kilo Gateway offers these free tier models that OpenRouter doesn't provide for free:
 
-Features:
-- Automatically selects optimal model based on your request
-- Supports vision (image attachments)
-- Supports reasoning and tool calls
-- 200K context window
-
-### Authentication
-
-Kilo Gateway supports two authentication methods:
-- **Device Authorization** - OAuth-like flow, no API key management needed
-- **API Key** - Direct API key from your Kilo account
+- **Step 3.5 Flash (Free)** - StepFun's 196B MoE model with 256K context
+- **GLM 5 (Free)** - Z.ai's flagship model with 202K context
+- **MiniMax M2.5 (Free)** - 204K context with strong coding abilities
+- **And 26 more free models...**
 
 ## Installation
 
@@ -101,36 +90,25 @@ Add the following to your `~/.config/opencode/opencode.json`:
 
 **That's it!** models.json is already in the correct format - just copy and paste.
 
-Example:
-```json
-// From models.json, just copy:
-"z-ai/glm-5:free": {
-  "id": "z-ai/glm-5:free",
-  "name": "Z.ai: GLM 5 (free)",
-  "release_date": "2026-02-16",
-  "attachment": false,
-  "reasoning": true,
-  "temperature": true,
-  "tool_call": true,
-  "limit": { "context": 202800, "output": 131072 }
-}
+## Authentication
 
-// Paste directly into opencode.json - no changes needed!
-```
+Authentication with Kilo Gateway is required to use any models.
 
-## Model Configuration Schema
+### Device Authorization Flow
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | string | Model ID (same as key) |
-| `name` | string | Display name |
-| `release_date` | string | Release date (YYYY-MM-DD) |
-| `attachment` | boolean | Supports image attachments |
-| `reasoning` | boolean | Supports reasoning/thinking |
-| `temperature` | boolean | Supports temperature parameter |
-| `tool_call` | boolean | Supports tool/function calls |
-| `limit.context` | number | Max context tokens |
-| `limit.output` | number | Max output tokens |
+1. Run `opencode auth login`
+2. Select "Other" → type "kilo"
+3. Choose "Kilo Gateway (Device Authorization)"
+4. Open the URL in your browser
+5. Authorize the application
+6. Return to OpenCode
+
+### API Key Authentication
+
+1. Run `opencode auth login`
+2. Select "Other" → type "kilo"
+3. Choose "Kilo Gateway (API Key)"
+4. Enter your Kilo API key
 
 ## Available Models
 
@@ -152,7 +130,7 @@ All free tier models end with `:free` suffix:
 - `minimax/minimax-m2.5:free`
 - `stepfun/step-3.5-flash:free`
 - `google/gemma-3-27b-it:free`, `google/gemma-3-12b-it:free`, `google/gemma-3-4b-it:free`
-- `qwen/qwen3-coder:free`, `qwen/qwen3-4b:free`, `qwen/qwen3-next-80b-a3b-instruct:free`
+- `qwen/qwen3-coder:free`, `qwen/qwen3-4b:free`
 - And more...
 
 ### Premium Models (313 models)
@@ -163,26 +141,6 @@ Premium models from all major providers:
 - **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
 - **Meta**: Llama 3.1, Llama 3.2
 - **Mistral**: Mistral Large, Mixtral
-
-## Authentication
-
-Authentication with Kilo Gateway is required to use any models.
-
-### Device Authorization Flow
-
-1. Run `opencode auth login`
-2. Select "Other" → type "kilo"
-3. Choose "Kilo Gateway (Device Authorization)"
-4. Open the URL in your browser
-5. Authorize the application
-6. Return to OpenCode
-
-### API Key Authentication
-
-1. Run `opencode auth login`
-2. Select "Other" → type "kilo"
-3. Choose "Kilo Gateway (API Key)"
-4. Enter your Kilo API key
 
 ## Usage
 
