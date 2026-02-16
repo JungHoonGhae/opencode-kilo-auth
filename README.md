@@ -223,6 +223,14 @@ MIT - See [LICENSE](https://github.com/JungHoonGhae/opencode-kilo-auth/blob/main
 
 Contributions are welcome! Feel free to submit a Pull Request at [github.com/JungHoonGhae/opencode-kilo-auth](https://github.com/JungHoonGhae/opencode-kilo-auth).
 
+---
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/lucas.ghae">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
+  </a>
+</p>
+
 ## Legal Notice
 
 This project is provided "as is" without warranty of any kind. The use of Kilo Gateway API is subject to Kilo.ai's terms of service. Users are responsible for complying with all applicable terms and conditions when using this plugin.
