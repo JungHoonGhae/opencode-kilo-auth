@@ -20,6 +20,10 @@ Access AI models through **Kilo Gateway** in OpenCode, including free tier model
 - **Free Tier Models**: 29 free models available
 - **And many more...**
 
+### Kilo Auto Routing
+
+`kilo/auto` automatically routes your request to the best model for the task. This is the recommended model for general use.
+
 ### Authentication
 
 Kilo Gateway supports two authentication methods:
@@ -37,6 +41,16 @@ Add the following to your `~/.config/opencode/opencode.json`:
     "kilo": {
       "name": "Kilo Gateway",
       "models": {
+        "kilo/auto": {
+          "id": "kilo/auto",
+          "name": "Kilo Auto",
+          "release_date": "2025-01-01",
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true,
+          "tool_call": true,
+          "limit": { "context": 200000, "output": 64000 }
+        },
         "z-ai/glm-5:free": {
           "id": "z-ai/glm-5:free",
           "name": "GLM 5 (Free)",
@@ -88,6 +102,16 @@ Each model in `provider.kilo.models` follows this schema:
 ## Available Models
 
 See [models.json](./models.json) for the complete list of 342 models.
+
+### Recommended Models
+
+| Model | Description | Context | Features |
+|-------|-------------|---------|----------|
+| `kilo/auto` | Auto-routes to best model | 200K | Vision, Reasoning, Tools |
+| `z-ai/glm-5:free` | GLM 5 free tier | 202K | Reasoning, Tools |
+| `minimax/minimax-m2.5:free` | MiniMax M2.5 free tier | 204K | Reasoning, Tools |
+| `deepseek/deepseek-r1-0528:free` | DeepSeek R1 free tier | 163K | Reasoning |
+| `meta-llama/llama-3.3-70b-instruct:free` | Llama 3.3 70B free | 128K | Tools |
 
 ### Free Tier Models (29 models)
 
@@ -166,7 +190,8 @@ Authentication with Kilo Gateway is required to use any models.
 ### Command Line
 
 ```bash
-opencode run "Hello, how are you?" --model=kilo/z-ai/glm-5:free
+opencode run "Hello, how are you?" --model=kilo/kilo/auto
+opencode run "Hello" --model=kilo/z-ai/glm-5:free
 ```
 
 ### In OpenCode TUI
