@@ -4,30 +4,27 @@
 [![npm downloads](https://img.shields.io/npm/dw/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/JungHoonGhae/opencode-kilo-auth/blob/main/LICENSE)
 
-Access AI models through **Kilo Gateway** in OpenCode, including free models like `z-ai/glm-5:free` and `minimax/minimax-m2.5:free`.
+Access AI models through **Kilo Gateway** in OpenCode, including free tier models like `z-ai/glm-5:free` and `minimax/minimax-m2.5:free`.
 
 > **Disclaimer**: This is an independent community plugin. It is not affiliated with, endorsed by, or sponsored by Kilo.ai or OpenCode. Kilo™ and OpenCode™ are trademarks of their respective owners.
 
 ## What is Kilo Gateway?
 
-**Kilo Gateway** is a unified API gateway that provides access to multiple AI model providers through a single interface. It uses an OpenRouter-compatible API, making it easy to switch between different AI models.
+**Kilo Gateway** is a unified API gateway that provides access to 340+ AI models from multiple providers through a single interface:
 
-### Kilo Gateway vs OpenRouter
+- **Anthropic**: Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
+- **OpenAI**: GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo
+- **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
+- **Meta**: Llama 3.1, Llama 3.2
+- **Mistral**: Mistral Large, Mixtral
+- **Free Tier Models**: `z-ai/glm-5:free`, `minimax/minimax-m2.5:free`
+- **And many more...**
 
-| Feature | Kilo Gateway | OpenRouter |
-|---------|--------------|------------|
-| **Free Models** | ✅ Free tier models available (requires auth) | ❌ Most models require payment |
-| **Authentication** | Device OAuth + API Key | API Key only |
-| **API Endpoint** | `api.kilo.ai` | `openrouter.ai` |
-| **Pricing** | Free tier + paid models | Pay-per-use |
+### Authentication
 
-**Key Difference**: Kilo Gateway offers **free tier models** that you can use at no cost after authentication, while OpenRouter requires payment for most models.
-
-### Why Use This Plugin?
-
-- **Free Tier Models** - Use `z-ai/glm-5:free`, `minimax/minimax-m2.5:free` at no cost after authenticating
-- **Simple Auth** - Device OAuth flow or API key authentication
-- **341+ Models** - Access to Claude, GPT, Gemini, Llama, and more through Kilo Gateway
+Kilo Gateway supports two authentication methods:
+- **Device Authorization** - OAuth-like flow, no API key management needed
+- **API Key** - Direct API key from your Kilo account
 
 ## Installation
 
@@ -58,7 +55,7 @@ Add the following to your `~/.config/opencode/opencode.json`:
 
 ## Authentication
 
-Authentication with Kilo Gateway is required to use any models, including free tier models.
+Authentication with Kilo Gateway is required to use any models.
 
 ### Device Authorization Flow
 
@@ -78,23 +75,22 @@ Authentication with Kilo Gateway is required to use any models, including free t
 
 ## Available Models
 
-### Free Tier (No Cost After Auth)
+### Free Tier Models
 
 | Model | Description | Context |
 |-------|-------------|---------|
 | `z-ai/glm-5:free` | GLM-5 free tier model | 128K |
 | `minimax/minimax-m2.5:free` | MiniMax M2.5 free tier model | 128K |
 
-### Paid Models (341+ Available)
+### Premium Models
 
-With Kilo Gateway authentication, you also get access to:
-
-- **Anthropic**: Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
-- **OpenAI**: GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo
-- **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
-- **Meta**: Llama 3.1, Llama 3.2
-- **Mistral**: Mistral Large, Mixtral
-- **And many more...**
+| Provider | Models |
+|----------|--------|
+| **Anthropic** | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
+| **OpenAI** | GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo |
+| **Google** | Gemini 1.5 Pro, Gemini 1.5 Flash |
+| **Meta** | Llama 3.1, Llama 3.2 |
+| **Mistral** | Mistral Large, Mixtral |
 
 ## Usage
 
@@ -145,7 +141,7 @@ Add models to your `opencode.json`:
 1. **Plugin Registration** - Registers `kilo` provider with OpenCode
 2. **Auth Hook** - Intercepts authentication requests for `kilo` provider
 3. **Device Flow** - OAuth-like device authorization for Kilo Gateway
-4. **API Proxy** - Routes requests through Kilo Gateway's OpenRouter-compatible API
+4. **API Proxy** - Routes requests through Kilo Gateway API
 
 ## Troubleshooting
 
@@ -178,7 +174,6 @@ bun run build
 
 - **Kilo Gateway**: [kilo.ai](https://kilo.ai) - Get your Kilo account and API keys
 - **OpenCode**: [github.com/anomalyco/opencode](https://github.com/anomalyco/opencode) - The AI coding assistant
-- **OpenRouter**: [openrouter.ai](https://openrouter.ai) - Model provider (Kilo uses OpenRouter-compatible API)
 - **npm Package**: [npmjs.com/package/opencode-kilo-auth](https://www.npmjs.com/package/opencode-kilo-auth)
 
 ## License
