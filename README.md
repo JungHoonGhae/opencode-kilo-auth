@@ -1,10 +1,12 @@
-# Kilo Gateway Plugin for OpenCode
+# Kilo Auth Plugin for OpenCode
 
-[![npm version](https://img.shields.io/npm/v/opencode-kilo-gateway.svg)](https://www.npmjs.com/package/opencode-kilo-gateway)
-[![npm downloads](https://img.shields.io/npm/dw/opencode-kilo-gateway.svg)](https://www.npmjs.com/package/opencode-kilo-gateway)
+[![npm version](https://img.shields.io/npm/v/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
+[![npm downloads](https://img.shields.io/npm/dw/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Access **free AI models** through Kilo Gateway in OpenCode. No API key required for free tier models like `z-ai/glm-5:free` and `minimax/minimax-m2.5:free`.
+
+> **Disclaimer**: This is an independent community plugin. It is not affiliated with, endorsed by, or sponsored by Kilo.ai or OpenCode. Kilo™ and OpenCode™ are trademarks of their respective owners.
 
 ## Features
 
@@ -22,7 +24,7 @@ Add to your `~/.config/opencode/opencode.json`:
 
 ```json
 {
-  "plugin": ["opencode-kilo-gateway@latest"]
+  "plugin": ["opencode-kilo-auth@latest"]
 }
 ```
 
@@ -186,3 +188,11 @@ bun run build
 ## License
 
 MIT - See [LICENSE](LICENSE) for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Legal Notice
+
+This project is provided "as is" without warranty of any kind. The use of Kilo Gateway API is subject to Kilo.ai's terms of service. Users are responsible for complying with all applicable terms and conditions when using this plugin.

@@ -1,19 +1,19 @@
 {
-  "name": "opencode-kilo-gateway",
+  "name": "opencode-kilo-auth",
   "version": "1.0.0",
-  "description": "Kilo Gateway plugin for OpenCode - access free AI models like z-ai/glm-5:free via Kilo Gateway",
+  "description": "OpenCode plugin for Kilo Gateway authentication - access free AI models like z-ai/glm-5:free",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
   "license": "MIT",
-  "author": "Kilo",
+  "author": "JungHoonGhae",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kilo-Org/opencode-kilo-gateway.git"
+    "url": "git+https://github.com/JungHoonGhae/opencode-kilo-auth.git"
   },
-  "homepage": "https://github.com/Kilo-Org/opencode-kilo-gateway#readme",
+  "homepage": "https://github.com/JungHoonGhae/opencode-kilo-auth#readme",
   "bugs": {
-    "url": "https://github.com/Kilo-Org/opencode-kilo-gateway/issues"
+    "url": "https://github.com/JungHoonGhae/opencode-kilo-auth/issues"
   },
   "keywords": [
     "opencode",

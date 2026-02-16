@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **Initial Release** - Kilo Gateway plugin for OpenCode
+- **Initial Release** - Kilo Auth plugin for OpenCode
 - **Device Authorization Flow** - OAuth-like device flow for Kilo Gateway authentication
 - **API Key Authentication** - Direct API key authentication method
 - **Free Models Support** - Access to free models like `z-ai/glm-5:free`, `minimax/minimax-m2.5:free`
@@ -34,3 +34,8 @@ Free models (no authentication required):
 Authenticated models (requires Kilo Gateway account):
 - Full access to 341+ models via OpenRouter
 - Claude, GPT, Gemini, Llama, and more
+
+### Legal
+
+- Independent community plugin, not affiliated with Kilo.ai or OpenCode
+- Users must comply with Kilo.ai's terms of service
