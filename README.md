@@ -22,7 +22,13 @@ Access AI models through **Kilo Gateway** in OpenCode, including free tier model
 
 ### Kilo Auto Routing
 
-`kilo/auto` automatically routes your request to the best model for the task. This is the recommended model for general use.
+`kilo/auto` **automatically routes your request to the best model for the task**. This is the recommended model for general use - no need to choose between different models.
+
+Features:
+- Automatically selects optimal model based on your request
+- Supports vision (image attachments)
+- Supports reasoning and tool calls
+- 200K context window
 
 ### Authentication
 
@@ -50,16 +56,6 @@ Add the following to your `~/.config/opencode/opencode.json`:
           "temperature": true,
           "tool_call": true,
           "limit": { "context": 200000, "output": 64000 }
-        },
-        "z-ai/glm-5:free": {
-          "id": "z-ai/glm-5:free",
-          "name": "GLM 5 (Free)",
-          "release_date": "2025-01-01",
-          "attachment": false,
-          "reasoning": true,
-          "temperature": true,
-          "tool_call": true,
-          "limit": { "context": 202800, "output": 131072 }
         }
       }
     }
@@ -67,25 +63,33 @@ Add the following to your `~/.config/opencode/opencode.json`:
 }
 ```
 
-## Model Configuration Schema
+## How to Add More Models
 
-Each model in `provider.kilo.models` follows this schema:
+1. Open [models.json](./models.json)
+2. Find the model you want (e.g., `z-ai/glm-5:free`)
+3. Copy the entire model object
+4. Paste into your `opencode.json` under `provider.kilo.models`
 
+**That's it!** models.json is already in the correct format - just copy and paste.
+
+Example:
 ```json
-{
-  "id": "provider/model-name",
-  "name": "Display Name",
-  "release_date": "2025-01-01",
+// From models.json, just copy:
+"z-ai/glm-5:free": {
+  "id": "z-ai/glm-5:free",
+  "name": "Z.ai: GLM 5 (free)",
+  "release_date": "2026-02-16",
   "attachment": false,
   "reasoning": true,
   "temperature": true,
   "tool_call": true,
-  "limit": {
-    "context": 128000,
-    "output": 4096
-  }
+  "limit": { "context": 202800, "output": 131072 }
 }
+
+// Paste directly into opencode.json - no changes needed!
 ```
+
+## Model Configuration Schema
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -107,7 +111,7 @@ See [models.json](./models.json) for the complete list of 342 models.
 
 | Model | Description | Context | Features |
 |-------|-------------|---------|----------|
-| `kilo/auto` | Auto-routes to best model | 200K | Vision, Reasoning, Tools |
+| `kilo/auto` | **Auto-routes to best model** | 200K | Vision, Reasoning, Tools |
 | `z-ai/glm-5:free` | GLM 5 free tier | 202K | Reasoning, Tools |
 | `minimax/minimax-m2.5:free` | MiniMax M2.5 free tier | 204K | Reasoning, Tools |
 | `deepseek/deepseek-r1-0528:free` | DeepSeek R1 free tier | 163K | Reasoning |
@@ -115,12 +119,14 @@ See [models.json](./models.json) for the complete list of 342 models.
 
 ### Free Tier Models (29 models)
 
-All free tier models end with `:free` suffix. Example free models:
-- `z-ai/glm-5:free` - GLM 5 (128K context, reasoning)
-- `minimax/minimax-m2.5:free` - MiniMax M2.5 (204K context, reasoning)
-- `deepseek/deepseek-r1-0528:free` - DeepSeek R1 (163K context, reasoning)
-- `meta-llama/llama-3.3-70b-instruct:free` - Llama 3.3 70B (128K context)
-- `google/gemma-3-27b-it:free` - Gemma 3 27B (131K context, vision)
+All free tier models end with `:free` suffix:
+- `z-ai/glm-5:free`, `z-ai/glm-4.5-air:free`
+- `minimax/minimax-m2.5:free`
+- `deepseek/deepseek-r1-0528:free`
+- `meta-llama/llama-3.3-70b-instruct:free`, `meta-llama/llama-3.2-3b-instruct:free`
+- `google/gemma-3-27b-it:free`, `google/gemma-3-12b-it:free`, `google/gemma-3-4b-it:free`
+- `qwen/qwen3-coder:free`, `qwen/qwen3-4b:free`, `qwen/qwen3-next-80b-a3b-instruct:free`
+- And more...
 
 ### Premium Models (313 models)
 
@@ -130,40 +136,6 @@ Premium models from all major providers:
 - **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
 - **Meta**: Llama 3.1, Llama 3.2
 - **Mistral**: Mistral Large, Mixtral
-
-## How to Find Model Info
-
-1. Check [models.json](./models.json) for all available models
-2. Find the model you want (e.g., `z-ai/glm-5:free`)
-3. Copy the model info from `models` object
-4. Add to your `opencode.json` under `provider.kilo.models`
-
-Example - copying from models.json:
-
-```json
-// In models.json
-"z-ai/glm-5:free": {
-  "name": "Z.ai: GLM 5 (free)",
-  "family": "glm",
-  "attachment": false,
-  "reasoning": true,
-  "temperature": true,
-  "tool_call": true,
-  "limit": { "context": 202800, "output": 131072 }
-}
-
-// Transform to opencode.json format (add id, name, release_date)
-"z-ai/glm-5:free": {
-  "id": "z-ai/glm-5:free",
-  "name": "GLM 5 (Free)",
-  "release_date": "2025-01-01",
-  "attachment": false,
-  "reasoning": true,
-  "temperature": true,
-  "tool_call": true,
-  "limit": { "context": 202800, "output": 131072 }
-}
-```
 
 ## Authentication
 
@@ -190,8 +162,8 @@ Authentication with Kilo Gateway is required to use any models.
 ### Command Line
 
 ```bash
-opencode run "Hello, how are you?" --model=kilo/kilo/auto
-opencode run "Hello" --model=kilo/z-ai/glm-5:free
+opencode run "Hello" --model=kilo/kilo/auto
+opencode run "Write a function" --model=kilo/z-ai/glm-5:free
 ```
 
 ### In OpenCode TUI
@@ -226,7 +198,7 @@ Add model definitions to your `opencode.json` (see Installation above).
 bun install
 bun run typecheck
 bun run build
-bun run fetch-models  # Update models.json
+bun run fetch-models  # Update models.json from Kilo API
 ```
 
 ## Links

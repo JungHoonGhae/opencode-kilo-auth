@@ -84,8 +84,9 @@ function transformToOpenCodeFormat(model: OpenRouterModel) {
     model.top_provider?.max_completion_tokens || model.max_completion_tokens || Math.ceil(model.context_length * 0.2)
 
   return {
+    id: model.id,
     name: model.name,
-    family: model.id === "kilo/auto" ? "kilo/auto" : extractFamily(model.id),
+    release_date: new Date().toISOString().split("T")[0],
     attachment: supportsImages,
     reasoning: supportsReasoning,
     temperature: supportsTemperature,
