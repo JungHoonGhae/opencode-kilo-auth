@@ -33,29 +33,38 @@ jobs:
           CURRENT_VERSION=$(node -p "require('./package.json').version")
           echo "current_version=$CURRENT_VERSION" >> "$GITHUB_OUTPUT"
 
-          # Abort if version contains beta/alpha/rc (prerelease identifiers)
           if echo "$CURRENT_VERSION" | grep -qE '(beta|alpha|rc)'; then
             echo "ERROR: Cannot publish prerelease version '$CURRENT_VERSION' as official release" >&2
             echo "This is main branch - version should not contain beta/alpha/rc" >&2
             exit 1
           fi
-          if git rev-parse HEAD^ >/dev/null 2>&1; then
-            PREVIOUS_VERSION=$(node -e "const { execSync } = require('node:child_process'); try { const data = execSync('git show HEAD^:package.json', { stdio: ['ignore', 'pipe', 'ignore'] }); const json = JSON.parse(data.toString()); if (json && typeof json.version === 'string') { process.stdout.write(json.version); } } catch (error) {}")
-            PREVIOUS_VERSION=${PREVIOUS_VERSION//$'\n'/}
-          else
-            PREVIOUS_VERSION=""
-          fi
-          echo "previous_version=$PREVIOUS_VERSION" >> "$GITHUB_OUTPUT"
-          if [ "$CURRENT_VERSION" = "$PREVIOUS_VERSION" ]; then
+
+          NPM_VERSION=$(npm view opencode-kilo-auth version 2>/dev/null || echo "none")
+          echo "npm_version=$NPM_VERSION" >> "$GITHUB_OUTPUT"
+
+          if [ "$CURRENT_VERSION" = "$NPM_VERSION" ]; then
+            echo "Version $CURRENT_VERSION already exists on npm, skipping publish"
             echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-          git fetch --tags --force
-          if git tag -l "v$CURRENT_VERSION" | grep -q "v$CURRENT_VERSION"; then
             echo "tag_exists=true" >> "$GITHUB_OUTPUT"
           else
-            echo "tag_exists=false" >> "$GITHUB_OUTPUT"
+            if git rev-parse HEAD^ >/dev/null 2>&1; then
+              PREVIOUS_VERSION=$(node -e "const { execSync } = require('node:child_process'); try { const data = execSync('git show HEAD^:package.json', { stdio: ['ignore', 'pipe', 'ignore'] }); const json = JSON.parse(data.toString()); if (json && typeof json.version === 'string') { process.stdout.write(json.version); } } catch (error) {}")
+              PREVIOUS_VERSION=${PREVIOUS_VERSION//$'\n'/}
+            else
+              PREVIOUS_VERSION=""
+            fi
+            echo "previous_version=$PREVIOUS_VERSION" >> "$GITHUB_OUTPUT"
+            if [ "$CURRENT_VERSION" = "$PREVIOUS_VERSION" ]; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+            fi
+            git fetch --tags --force
+            if git tag -l "v$CURRENT_VERSION" | grep -q "v$CURRENT_VERSION"; then
+              echo "tag_exists=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "tag_exists=false" >> "$GITHUB_OUTPUT"
+            fi
           fi
 
       - name: Verify NPM token
