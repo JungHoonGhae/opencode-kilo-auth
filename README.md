@@ -22,10 +22,9 @@ If this plugin helps you, consider supporting its maintenance:
 
 ## The Problem
 
-Kilo Gateway offers great free tier models, but to use them you had two options:
+Kilo Gateway offers great free tier models, but to use them from CLI you had only one option:
 
-1. **Install Kilo CLI** - A fork of OpenCode, requiring a separate installation
-2. **Use OpenRouter** - But many free models available on Kilo Gateway aren't free on OpenRouter
+**Install Kilo CLI** - A fork of OpenCode, requiring a separate installation
 
 **Neither is ideal.** You shouldn't need to install a separate fork just to access Kilo Gateway models.
 
