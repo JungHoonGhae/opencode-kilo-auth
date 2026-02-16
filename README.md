@@ -29,19 +29,19 @@ Kilo Gateway offers great free tier models, but to use them you had two options:
 
 This plugin lets you use **Kilo Gateway directly in your existing OpenCode installation**:
 
-- ✅ Keep using OpenCode (no fork needed)
+- ✅ Keep using OpenCode (no Kilo CLI needed)
 - ✅ Access all Kilo Gateway models (342+ models)
-- ✅ Get free tier models not available on OpenRouter (e.g., Step 3.5 Flash)
+- ✅ Get free tier models not available on OpenRouter (e.g., `z-ai/glm-5:free`)
 - ✅ Simple plugin installation - just add to config
 
-### Free Models Not Available on OpenRouter
+### Free Models
 
-Kilo Gateway offers these free tier models that OpenRouter doesn't provide for free:
+Kilo Gateway offers 29 free tier models, including:
 
 - **Step 3.5 Flash (Free)** - StepFun's 196B MoE model with 256K context
 - **GLM 5 (Free)** - Z.ai's flagship model with 202K context
 - **MiniMax M2.5 (Free)** - 204K context with strong coding abilities
-- **And 26 more free models...**
+- And 26 more free models...
 
 ## Installation
 
