@@ -20,6 +20,16 @@ Access AI models through **Kilo Gateway** in OpenCode, including free tier model
 - **Free Tier Models**: 29 free models available
 - **And many more...**
 
+### Why Kilo Gateway?
+
+Kilo Gateway offers **free tier models that OpenRouter does not provide for free**, including:
+
+- **Step 3.5 Flash (Free)** - StepFun's powerful 196B MoE model with 256K context, not available for free on OpenRouter
+- **GLM 5 (Free)** - Z.ai's flagship model with 202K context and reasoning
+- **MiniMax M2.5 (Free)** - 204K context with strong coding and reasoning
+
+This makes Kilo Gateway an excellent choice for developers who want to experiment with powerful models without upfront costs.
+
 ### Kilo Auto Routing
 
 `kilo/auto` **automatically routes your request to the best model for the task**. This is the recommended model for general use - no need to choose between different models.
@@ -112,18 +122,16 @@ See [models.json](./models.json) for the complete list of 342 models.
 | Model | Description | Context | Features |
 |-------|-------------|---------|----------|
 | `kilo/auto` | **Auto-routes to best model** | 200K | Vision, Reasoning, Tools |
+| `stepfun/step-3.5-flash:free` | **StepFun 196B MoE - not free on OpenRouter** | 256K | Reasoning, Tools |
 | `z-ai/glm-5:free` | GLM 5 free tier | 202K | Reasoning, Tools |
 | `minimax/minimax-m2.5:free` | MiniMax M2.5 free tier | 204K | Reasoning, Tools |
-| `deepseek/deepseek-r1-0528:free` | DeepSeek R1 free tier | 163K | Reasoning |
-| `meta-llama/llama-3.3-70b-instruct:free` | Llama 3.3 70B free | 128K | Tools |
 
 ### Free Tier Models (29 models)
 
 All free tier models end with `:free` suffix:
 - `z-ai/glm-5:free`, `z-ai/glm-4.5-air:free`
 - `minimax/minimax-m2.5:free`
-- `deepseek/deepseek-r1-0528:free`
-- `meta-llama/llama-3.3-70b-instruct:free`, `meta-llama/llama-3.2-3b-instruct:free`
+- `stepfun/step-3.5-flash:free`
 - `google/gemma-3-27b-it:free`, `google/gemma-3-12b-it:free`, `google/gemma-3-4b-it:free`
 - `qwen/qwen3-coder:free`, `qwen/qwen3-4b:free`, `qwen/qwen3-next-80b-a3b-instruct:free`
 - And more...
