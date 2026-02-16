@@ -8,6 +8,14 @@ Access AI models through **Kilo Gateway** in OpenCode, including free tier model
 
 > **Disclaimer**: This is an independent community plugin. It is not affiliated with, endorsed by, or sponsored by Kilo.ai or OpenCode. Kilo™ and OpenCode™ are trademarks of their respective owners.
 
+## Support
+
+If this plugin helps you, consider supporting its maintenance:
+
+<a href="https://www.buymeacoffee.com/lucas.ghae">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
+</a>
+
 ## What is Kilo Gateway?
 
 **Kilo Gateway** is a unified API gateway that provides access to 340+ AI models from multiple providers through a single interface:
@@ -47,6 +55,17 @@ Kilo Gateway supports two authentication methods:
 - **API Key** - Direct API key from your Kilo account
 
 ## Installation
+
+### Quick Setup with AI Assistant
+
+See [AI_INSTALL_GUIDE.md](./AI_INSTALL_GUIDE.md) for prompts you can copy to your AI assistant for quick setup:
+
+- **Free models only** - 29 free tier models
+- **Recommended models** - Best models to get started
+- **All models** - Full 342 model setup
+- **Custom selection** - Pick specific models
+
+### Manual Installation
 
 Add the following to your `~/.config/opencode/opencode.json`:
 
@@ -222,16 +241,6 @@ MIT - See [LICENSE](https://github.com/JungHoonGhae/opencode-kilo-auth/blob/main
 ## Contributing
 
 Contributions are welcome! Feel free to submit a Pull Request at [github.com/JungHoonGhae/opencode-kilo-auth](https://github.com/JungHoonGhae/opencode-kilo-auth).
-
-## Support
-
-If this plugin helps you, consider supporting its maintenance:
-
-<p align="left">
-  <a href="https://www.buymeacoffee.com/lucas.ghae">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
-  </a>
-</p>
 
 ## Legal Notice
 
