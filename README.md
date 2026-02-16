@@ -223,9 +223,11 @@ MIT - See [LICENSE](https://github.com/JungHoonGhae/opencode-kilo-auth/blob/main
 
 Contributions are welcome! Feel free to submit a Pull Request at [github.com/JungHoonGhae/opencode-kilo-auth](https://github.com/JungHoonGhae/opencode-kilo-auth).
 
----
+## Support
 
-<p align="center">
+If this plugin helps you, consider supporting its maintenance:
+
+<p align="left">
   <a href="https://www.buymeacoffee.com/lucas.ghae">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
   </a>
