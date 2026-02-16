@@ -1,0 +1,187 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+          always-auth: true
+
+      - name: Determine release state
+        id: determine
+        run: |
+          set -euo pipefail
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          echo "current_version=$CURRENT_VERSION" >> "$GITHUB_OUTPUT"
+
+          # Abort if version contains beta/alpha/rc (prerelease identifiers)
+          if echo "$CURRENT_VERSION" | grep -qE '(beta|alpha|rc)'; then
+            echo "ERROR: Cannot publish prerelease version '$CURRENT_VERSION' as official release" >&2
+            echo "This is main branch - version should not contain beta/alpha/rc" >&2
+            exit 1
+          fi
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            PREVIOUS_VERSION=$(node -e "const { execSync } = require('node:child_process'); try { const data = execSync('git show HEAD^:package.json', { stdio: ['ignore', 'pipe', 'ignore'] }); const json = JSON.parse(data.toString()); if (json && typeof json.version === 'string') { process.stdout.write(json.version); } } catch (error) {}")
+            PREVIOUS_VERSION=${PREVIOUS_VERSION//$'\n'/}
+          else
+            PREVIOUS_VERSION=""
+          fi
+          echo "previous_version=$PREVIOUS_VERSION" >> "$GITHUB_OUTPUT"
+          if [ "$CURRENT_VERSION" = "$PREVIOUS_VERSION" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          git fetch --tags --force
+          if git tag -l "v$CURRENT_VERSION" | grep -q "v$CURRENT_VERSION"; then
+            echo "tag_exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag_exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify NPM token
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        run: |
+          if [ -z "${NPM_TOKEN}" ]; then
+            echo "NPM_TOKEN secret is required" >&2
+            exit 1
+          fi
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Install dependencies
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        run: npm install
+
+      - name: Update README and Tag
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        id: update_readme
+        run: |
+          CURRENT_VERSION="${{ steps.determine.outputs.current_version }}"
+          
+          git checkout main
+          git pull origin main
+          
+          # Update version in README.md (looking for pattern opencode-kilo-gateway@x.y.z)
+          sed -i "s/opencode-kilo-gateway@[0-9]\+\.[0-9]\+\.[0-9]\+/opencode-kilo-gateway@$CURRENT_VERSION/g" README.md
+          
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: update readme version to $CURRENT_VERSION [skip ci]"
+            git push origin main
+            echo "README updated"
+          else
+            echo "README already up to date"
+          fi
+          
+          # Create and push tag on the current HEAD
+          git tag "v$CURRENT_VERSION"
+          git push origin "v$CURRENT_VERSION"
+
+      - name: Build
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        run: npm run build
+
+      - name: Verify build artifacts
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        run: |
+          set -euo pipefail
+          [ -f dist/index.js ] || { echo "dist/index.js missing" >&2; exit 1; }
+          [ -f dist/index.d.ts ] || { echo "dist/index.d.ts missing" >&2; exit 1; }
+
+      - name: Generate release notes
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        id: release_notes
+        run: |
+          set -euo pipefail
+          CURRENT_VERSION="${{ steps.determine.outputs.current_version }}"
+          PREVIOUS_VERSION="${{ steps.determine.outputs.previous_version }}"
+          RANGE=""
+          COMPARE_URL=""
+          LAST_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || true)
+          if [ -z "$LAST_TAG" ] && [ -n "$PREVIOUS_VERSION" ] && git rev-parse "refs/tags/v${PREVIOUS_VERSION}" >/dev/null 2>&1; then
+            LAST_TAG="v${PREVIOUS_VERSION}"
+          fi
+          if [ -n "$LAST_TAG" ]; then
+            RANGE="${LAST_TAG}..HEAD"
+            COMPARE_URL="https://github.com/${GITHUB_REPOSITORY}/compare/${LAST_TAG}...v${CURRENT_VERSION}"
+          fi
+          if [ -n "$RANGE" ]; then
+            CHANGELOG=$(git log --no-merges --pretty=format:'- %s (%h)' "$RANGE")
+          else
+            CHANGELOG=$(git log --no-merges --pretty=format:'- %s (%h)')
+          fi
+          if [ -z "$CHANGELOG" ]; then
+            CHANGELOG="- No commits found for this release."
+          fi
+          BODY_FILE=$(mktemp)
+          {
+            echo "## Release v${CURRENT_VERSION}"
+            echo ""
+            if [ -n "$COMPARE_URL" ]; then
+              echo "Compare changes: $COMPARE_URL"
+              echo ""
+            fi
+            printf "%s\n" "$CHANGELOG"
+            echo ""
+            echo "### Upgrade"
+            echo ""
+            echo "Update your \`opencode.json\`:"
+            echo ""
+            printf '%s\n' '```json'
+            printf '%s\n' '{'
+            printf '%s\n' "  \"plugin\": [\"opencode-kilo-gateway@${CURRENT_VERSION}\"]"
+            printf '%s\n' '}'
+            printf '%s\n' '```'
+            echo ""
+            echo "If stuck on an old version, clear the cache:"
+            echo ""
+            printf '%s\n' '```bash'
+            printf '%s\n' 'rm -rf ~/.cache/opencode/node_modules ~/.cache/opencode/bun.lock'
+            printf '%s\n' '```'
+
+          } >"$BODY_FILE"
+          cat "$BODY_FILE"
+          {
+            echo "body<<EOF"
+            cat "$BODY_FILE"
+            echo "EOF"
+          } >>"$GITHUB_OUTPUT"
+
+      - name: Create GitHub release
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.determine.outputs.current_version }}
+          release_name: v${{ steps.determine.outputs.current_version }}
+          body: ${{ steps.release_notes.outputs.body }}
+          generate_release_notes: false
+
+      - name: Publish to npm
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public --provenance

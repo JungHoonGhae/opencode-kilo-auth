@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kilo Gateway Documentation
+    url: https://kilo.ai/docs
+    about: Official Kilo Gateway documentation
+  - name: OpenCode Documentation
+    url: https://github.com/anomalyco/opencode
+    about: OpenCode repository and documentation
