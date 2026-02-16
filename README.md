@@ -53,6 +53,26 @@ Add the following to your `~/.config/opencode/opencode.json`:
 }
 ```
 
+## Available Models
+
+See [models.json](./models.json) for the complete list of 340+ models.
+
+### Free Tier Models (29 models)
+
+All free tier models end with `:free` suffix. Example free models:
+- `z-ai/glm-5:free`
+- `minimax/minimax-m2.5:free`
+- `deepseek/deepseek-r1-0528:free`
+
+### Premium Models (313 models)
+
+Premium models from all major providers:
+- **Anthropic**: Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
+- **OpenAI**: GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo
+- **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
+- **Meta**: Llama 3.1, Llama 3.2
+- **Mistral**: Mistral Large, Mixtral
+
 ## Authentication
 
 Authentication with Kilo Gateway is required to use any models.
@@ -72,25 +92,6 @@ Authentication with Kilo Gateway is required to use any models.
 2. Select "Other" → type "kilo"
 3. Choose "Kilo Gateway (API Key)"
 4. Enter your Kilo API key
-
-## Available Models
-
-### Free Tier Models
-
-| Model | Description | Context |
-|-------|-------------|---------|
-| `z-ai/glm-5:free` | GLM-5 free tier model | 128K |
-| `minimax/minimax-m2.5:free` | MiniMax M2.5 free tier model | 128K |
-
-### Premium Models
-
-| Provider | Models |
-|----------|--------|
-| **Anthropic** | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
-| **OpenAI** | GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo |
-| **Google** | Gemini 1.5 Pro, Gemini 1.5 Flash |
-| **Meta** | Llama 3.1, Llama 3.2 |
-| **Mistral** | Mistral Large, Mixtral |
 
 ## Usage
 
@@ -168,6 +169,7 @@ Add model definitions to your `opencode.json` (see Installation above).
 bun install
 bun run typecheck
 bun run build
+bun run fetch-models  # Update models.json
 ```
 
 ## Links

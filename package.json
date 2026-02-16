@@ -1,6 +1,6 @@
 {
   "name": "opencode-kilo-auth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "OpenCode plugin for Kilo Gateway authentication - access free AI models like z-ai/glm-5:free",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -45,6 +45,7 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
+    "fetch-models": "npx tsx scripts/fetch-models.ts",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
