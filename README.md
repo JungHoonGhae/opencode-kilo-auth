@@ -17,7 +17,7 @@ Access AI models through **Kilo Gateway** in OpenCode, including free tier model
 - **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
 - **Meta**: Llama 3.1, Llama 3.2
 - **Mistral**: Mistral Large, Mixtral
-- **Free Tier Models**: `z-ai/glm-5:free`, `minimax/minimax-m2.5:free`
+- **Free Tier Models**: 29 free models available
 - **And many more...**
 
 ### Authentication
@@ -38,14 +38,14 @@ Add the following to your `~/.config/opencode/opencode.json`:
       "name": "Kilo Gateway",
       "models": {
         "z-ai/glm-5:free": {
-          "name": "GLM-5 Free",
-          "limit": { "context": 128000, "output": 4096 },
-          "modalities": { "input": ["text"], "output": ["text"] }
-        },
-        "minimax/minimax-m2.5:free": {
-          "name": "MiniMax M2.5 Free",
-          "limit": { "context": 128000, "output": 4096 },
-          "modalities": { "input": ["text"], "output": ["text"] }
+          "id": "z-ai/glm-5:free",
+          "name": "GLM 5 (Free)",
+          "release_date": "2025-01-01",
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true,
+          "tool_call": true,
+          "limit": { "context": 202800, "output": 131072 }
         }
       }
     }
@@ -53,16 +53,50 @@ Add the following to your `~/.config/opencode/opencode.json`:
 }
 ```
 
+## Model Configuration Schema
+
+Each model in `provider.kilo.models` follows this schema:
+
+```json
+{
+  "id": "provider/model-name",
+  "name": "Display Name",
+  "release_date": "2025-01-01",
+  "attachment": false,
+  "reasoning": true,
+  "temperature": true,
+  "tool_call": true,
+  "limit": {
+    "context": 128000,
+    "output": 4096
+  }
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Model ID (same as key) |
+| `name` | string | Display name |
+| `release_date` | string | Release date (YYYY-MM-DD) |
+| `attachment` | boolean | Supports image attachments |
+| `reasoning` | boolean | Supports reasoning/thinking |
+| `temperature` | boolean | Supports temperature parameter |
+| `tool_call` | boolean | Supports tool/function calls |
+| `limit.context` | number | Max context tokens |
+| `limit.output` | number | Max output tokens |
+
 ## Available Models
 
-See [models.json](./models.json) for the complete list of 340+ models.
+See [models.json](./models.json) for the complete list of 342 models.
 
 ### Free Tier Models (29 models)
 
 All free tier models end with `:free` suffix. Example free models:
-- `z-ai/glm-5:free`
-- `minimax/minimax-m2.5:free`
-- `deepseek/deepseek-r1-0528:free`
+- `z-ai/glm-5:free` - GLM 5 (128K context, reasoning)
+- `minimax/minimax-m2.5:free` - MiniMax M2.5 (204K context, reasoning)
+- `deepseek/deepseek-r1-0528:free` - DeepSeek R1 (163K context, reasoning)
+- `meta-llama/llama-3.3-70b-instruct:free` - Llama 3.3 70B (128K context)
+- `google/gemma-3-27b-it:free` - Gemma 3 27B (131K context, vision)
 
 ### Premium Models (313 models)
 
@@ -72,6 +106,40 @@ Premium models from all major providers:
 - **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
 - **Meta**: Llama 3.1, Llama 3.2
 - **Mistral**: Mistral Large, Mixtral
+
+## How to Find Model Info
+
+1. Check [models.json](./models.json) for all available models
+2. Find the model you want (e.g., `z-ai/glm-5:free`)
+3. Copy the model info from `models` object
+4. Add to your `opencode.json` under `provider.kilo.models`
+
+Example - copying from models.json:
+
+```json
+// In models.json
+"z-ai/glm-5:free": {
+  "name": "Z.ai: GLM 5 (free)",
+  "family": "glm",
+  "attachment": false,
+  "reasoning": true,
+  "temperature": true,
+  "tool_call": true,
+  "limit": { "context": 202800, "output": 131072 }
+}
+
+// Transform to opencode.json format (add id, name, release_date)
+"z-ai/glm-5:free": {
+  "id": "z-ai/glm-5:free",
+  "name": "GLM 5 (Free)",
+  "release_date": "2025-01-01",
+  "attachment": false,
+  "reasoning": true,
+  "temperature": true,
+  "tool_call": true,
+  "limit": { "context": 202800, "output": 131072 }
+}
+```
 
 ## Authentication
 
@@ -107,42 +175,6 @@ opencode run "Hello, how are you?" --model=kilo/z-ai/glm-5:free
 2. Select "Connect provider" → "kilo"
 3. Authenticate with Device OAuth or API Key
 4. Select a model and start chatting
-
-## Configuration
-
-### Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `KILO_API_URL` | Override default API URL (default: `https://api.kilo.ai`) |
-| `KILO_API_KEY` | Pre-set API key for authentication |
-
-### Provider Configuration
-
-Add models to your `opencode.json`:
-
-```json
-{
-  "provider": {
-    "kilo": {
-      "name": "Kilo Gateway",
-      "models": {
-        "z-ai/glm-5:free": {
-          "name": "GLM-5 Free",
-          "limit": { "context": 128000, "output": 4096 }
-        }
-      }
-    }
-  }
-}
-```
-
-## How It Works
-
-1. **Plugin Registration** - Registers `kilo` provider with OpenCode
-2. **Auth Hook** - Intercepts authentication requests for `kilo` provider
-3. **Device Flow** - OAuth-like device authorization for Kilo Gateway
-4. **API Proxy** - Routes requests through Kilo Gateway API
 
 ## Troubleshooting
 
