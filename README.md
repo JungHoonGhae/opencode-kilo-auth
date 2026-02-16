@@ -45,18 +45,21 @@ Kilo Gateway offers these free tier models that OpenRouter doesn't provide for f
 
 ## Installation
 
-### Quick Setup with AI Assistant
+### Step 1: Add Plugin to Config
 
-See [AI_INSTALL_GUIDE.md](./AI_INSTALL_GUIDE.md) for prompts you can copy to your AI assistant for quick setup:
+Open your `~/.config/opencode/opencode.json` and add the plugin:
 
-- **Free models only** - 29 free tier models
-- **Recommended models** - Best models to get started
-- **All models** - Full 342 model setup
-- **Custom selection** - Pick specific models
+```json
+{
+  "plugin": ["opencode-kilo-auth@latest"]
+}
+```
 
-### Manual Installation
+That's it! OpenCode will automatically install the plugin from npm on next startup.
 
-Add the following to your `~/.config/opencode/opencode.json`:
+### Step 2: Add Models
+
+Add the models you want to use:
 
 ```json
 {
@@ -81,7 +84,16 @@ Add the following to your `~/.config/opencode/opencode.json`:
 }
 ```
 
-## How to Add More Models
+### Quick Setup with AI Assistant
+
+See [AI_INSTALL_GUIDE.md](./AI_INSTALL_GUIDE.md) for prompts you can copy to your AI assistant for quick setup:
+
+- **Free models only** - 29 free tier models
+- **Recommended models** - Best models to get started
+- **All models** - Full 342 model setup
+- **Custom selection** - Pick specific models
+
+### How to Add More Models
 
 1. Open [models.json](./models.json)
 2. Find the model you want (e.g., `z-ai/glm-5:free`)
