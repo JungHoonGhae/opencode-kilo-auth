@@ -62,7 +62,7 @@ That's it! OpenCode will automatically install the plugin from npm on next start
 
 ### Step 2: Add Models
 
-Add the models you want to use:
+Add the models you want to use. **Important**: You must include `npm` and `api` properties for the provider to work:
 
 ```json
 {
@@ -70,6 +70,8 @@ Add the models you want to use:
   "provider": {
     "kilo": {
       "name": "Kilo Gateway",
+      "npm": "@openrouter/ai-sdk-provider",
+      "api": "https://api.kilo.ai/api/openrouter/",
       "models": {
         "kilo/auto": {
           "id": "kilo/auto",
