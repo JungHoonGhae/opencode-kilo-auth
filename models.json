@@ -1,37 +1,14 @@
 {
-  "lastUpdated": "2026-02-16T11:27:48.063Z",
-  "totalModels": 342,
-  "freeModelsCount": 29,
+  "lastUpdated": "2026-02-17T00:36:05.871Z",
+  "totalModels": 319,
+  "freeModelsCount": 6,
   "premiumModelsCount": 313,
   "freeModels": [
     "minimax/minimax-m2.5:free",
     "z-ai/glm-5:free",
     "arcee-ai/trinity-large-preview:free",
+    "x-ai/grok-code-fast-1:optimized:free",
     "stepfun/step-3.5-flash:free",
-    "upstage/solar-pro-3:free",
-    "liquid/lfm-2.5-1.2b-thinking:free",
-    "liquid/lfm-2.5-1.2b-instruct:free",
-    "nvidia/nemotron-3-nano-30b-a3b:free",
-    "arcee-ai/trinity-mini:free",
-    "nvidia/nemotron-nano-12b-v2-vl:free",
-    "qwen/qwen3-next-80b-a3b-instruct:free",
-    "nvidia/nemotron-nano-9b-v2:free",
-    "openai/gpt-oss-120b:free",
-    "openai/gpt-oss-20b:free",
-    "z-ai/glm-4.5-air:free",
-    "qwen/qwen3-coder:free",
-    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-    "google/gemma-3n-e2b-it:free",
-    "deepseek/deepseek-r1-0528:free",
-    "google/gemma-3n-e4b-it:free",
-    "qwen/qwen3-4b:free",
-    "mistralai/mistral-small-3.1-24b-instruct:free",
-    "google/gemma-3-4b-it:free",
-    "google/gemma-3-12b-it:free",
-    "google/gemma-3-27b-it:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "meta-llama/llama-3.2-3b-instruct:free",
-    "nousresearch/hermes-3-llama-3.1-405b:free",
     "corethink:free"
   ],
   "premiumModels": [
@@ -45,7 +22,6 @@
     "google/gemini-3-pro-preview",
     "google/gemini-3-flash-preview",
     "moonshotai/kimi-k2.5",
-    "x-ai/grok-code-fast-1",
     "qwen/qwen3.5-plus-02-15",
     "qwen/qwen3.5-397b-a17b",
     "minimax/minimax-m2.5",
@@ -147,6 +123,7 @@
     "moonshotai/kimi-k2-0905",
     "moonshotai/kimi-k2-0905:exacto",
     "qwen/qwen3-30b-a3b-thinking-2507",
+    "x-ai/grok-code-fast-1",
     "nousresearch/hermes-4-70b",
     "nousresearch/hermes-4-405b",
     "deepseek/deepseek-chat-v3.1",
@@ -353,7 +330,7 @@
     "kilo/auto": {
       "id": "kilo/auto",
       "name": "Kilo: Auto",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -380,7 +357,7 @@
     "minimax/minimax-m2.5:free": {
       "id": "minimax/minimax-m2.5:free",
       "name": "MiniMax: MiniMax M2.5 (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -407,7 +384,7 @@
     "z-ai/glm-5:free": {
       "id": "z-ai/glm-5:free",
       "name": "Z.ai: GLM 5 (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -434,7 +411,7 @@
     "giga-potato": {
       "id": "giga-potato",
       "name": "Giga Potato (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -462,7 +439,7 @@
     "arcee-ai/trinity-large-preview:free": {
       "id": "arcee-ai/trinity-large-preview:free",
       "name": "Arcee AI: Trinity Large Preview (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -488,7 +465,7 @@
     "anthropic/claude-opus-4.6": {
       "id": "anthropic/claude-opus-4.6",
       "name": "Anthropic: Claude Opus 4.6",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -517,7 +494,7 @@
     "anthropic/claude-sonnet-4.5": {
       "id": "anthropic/claude-sonnet-4.5",
       "name": "Anthropic: Claude Sonnet 4.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -546,7 +523,7 @@
     "anthropic/claude-haiku-4.5": {
       "id": "anthropic/claude-haiku-4.5",
       "name": "Anthropic: Claude Haiku 4.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -575,7 +552,7 @@
     "openai/gpt-5.2": {
       "id": "openai/gpt-5.2",
       "name": "OpenAI: GPT-5.2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -603,7 +580,7 @@
     "openai/gpt-5.2-codex": {
       "id": "openai/gpt-5.2-codex",
       "name": "OpenAI: GPT-5.2-Codex",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -631,7 +608,7 @@
     "google/gemini-3-pro-preview": {
       "id": "google/gemini-3-pro-preview",
       "name": "Google: Gemini 3 Pro Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -662,7 +639,7 @@
     "google/gemini-3-flash-preview": {
       "id": "google/gemini-3-flash-preview",
       "name": "Google: Gemini 3 Flash Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -693,7 +670,7 @@
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -717,18 +694,18 @@
       },
       "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed visual and text tokens, it delivers strong performance in general reasoning, visual coding, and agentic tool-calling."
     },
-    "x-ai/grok-code-fast-1": {
-      "id": "x-ai/grok-code-fast-1",
-      "name": "xAI: Grok Code Fast 1",
-      "release_date": "2026-02-16",
+    "x-ai/grok-code-fast-1:optimized:free": {
+      "id": "x-ai/grok-code-fast-1:optimized:free",
+      "name": "xAI: Grok Code Fast 1 Optimized (free)",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
       "tool_call": true,
       "cost": {
-        "input": 2e-7,
-        "output": 0.0000015,
-        "cache_read": 2e-8
+        "input": 0,
+        "output": 0,
+        "cache_read": 0
       },
       "limit": {
         "context": 256000,
@@ -742,12 +719,12 @@
           "text"
         ]
       },
-      "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality work flows."
+      "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services."
     },
     "qwen/qwen3.5-plus-02-15": {
       "id": "qwen/qwen3.5-plus-02-15",
       "name": "Qwen: Qwen3.5 Plus 2026-02-15",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -758,7 +735,7 @@
       },
       "limit": {
         "context": 1000000,
-        "output": 64000
+        "output": 65536
       },
       "modalities": {
         "input": [
@@ -775,7 +752,7 @@
     "qwen/qwen3.5-397b-a17b": {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -785,8 +762,8 @@
         "output": 0.0000036
       },
       "limit": {
-        "context": 256000,
-        "output": 64000
+        "context": 262144,
+        "output": 65536
       },
       "modalities": {
         "input": [
@@ -803,7 +780,7 @@
     "minimax/minimax-m2.5": {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -830,7 +807,7 @@
     "z-ai/glm-5": {
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -856,7 +833,7 @@
     "qwen/qwen3-max-thinking": {
       "id": "qwen/qwen3-max-thinking",
       "name": "Qwen: Qwen3 Max Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -882,7 +859,7 @@
     "openrouter/aurora-alpha": {
       "id": "openrouter/aurora-alpha",
       "name": "Aurora Alpha (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -908,7 +885,7 @@
     "qwen/qwen3-coder-next": {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -935,7 +912,7 @@
     "openrouter/free": {
       "id": "openrouter/free",
       "name": "Free Models Router (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -962,7 +939,7 @@
     "stepfun/step-3.5-flash:free": {
       "id": "stepfun/step-3.5-flash:free",
       "name": "StepFun: Step 3.5 Flash (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -988,7 +965,7 @@
     "stepfun/step-3.5-flash": {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1012,36 +989,10 @@
       },
       "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts."
     },
-    "upstage/solar-pro-3:free": {
-      "id": "upstage/solar-pro-3:free",
-      "name": "Upstage: Solar Pro 3 (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 128000,
-        "output": 25600
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support."
-    },
     "minimax/minimax-m2-her": {
       "id": "minimax/minimax-m2-her",
       "name": "MiniMax: MiniMax M2-her",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1068,7 +1019,7 @@
     "writer/palmyra-x5": {
       "id": "writer/palmyra-x5",
       "name": "Writer: Palmyra X5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1091,62 +1042,10 @@
       },
       "description": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million tokens, powered by a novel transformer architecture and hybrid attention mechanisms. This enables faster inference and expanded memory for processing large volumes of enterprise data, critical for scaling AI agents."
     },
-    "liquid/lfm-2.5-1.2b-thinking:free": {
-      "id": "liquid/lfm-2.5-1.2b-thinking:free",
-      "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 32768,
-        "output": 6554
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is designed to provide higher-quality “thinking” responses in a small 1.2B model."
-    },
-    "liquid/lfm-2.5-1.2b-instruct:free": {
-      "id": "liquid/lfm-2.5-1.2b-instruct:free",
-      "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 32768,
-        "output": 6554
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI. It delivers strong chat quality in a 1.2B parameter footprint, with efficient edge inference and broad runtime support."
-    },
     "openai/gpt-audio": {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1174,7 +1073,7 @@
     "openai/gpt-audio-mini": {
       "id": "openai/gpt-audio-mini",
       "name": "OpenAI: GPT Audio Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1202,7 +1101,7 @@
     "z-ai/glm-4.7-flash": {
       "id": "z-ai/glm-4.7-flash",
       "name": "Z.ai: GLM 4.7 Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1229,7 +1128,7 @@
     "allenai/molmo-2-8b": {
       "id": "allenai/molmo-2-8b",
       "name": "AllenAI: Molmo2 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1257,7 +1156,7 @@
     "allenai/olmo-3.1-32b-instruct": {
       "id": "allenai/olmo-3.1-32b-instruct",
       "name": "AllenAI: Olmo 3.1 32B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1283,7 +1182,7 @@
     "bytedance-seed/seed-1.6-flash": {
       "id": "bytedance-seed/seed-1.6-flash",
       "name": "ByteDance Seed: Seed 1.6 Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1311,7 +1210,7 @@
     "bytedance-seed/seed-1.6": {
       "id": "bytedance-seed/seed-1.6",
       "name": "ByteDance Seed: Seed 1.6",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1339,7 +1238,7 @@
     "minimax/minimax-m2.1": {
       "id": "minimax/minimax-m2.1",
       "name": "MiniMax: MiniMax M2.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1366,7 +1265,7 @@
     "z-ai/glm-4.7": {
       "id": "z-ai/glm-4.7",
       "name": "Z.ai: GLM 4.7",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1393,7 +1292,7 @@
     "mistralai/mistral-small-creative": {
       "id": "mistralai/mistral-small-creative",
       "name": "Mistral: Mistral Small Creative",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -1419,7 +1318,7 @@
     "allenai/olmo-3.1-32b-think": {
       "id": "allenai/olmo-3.1-32b-think",
       "name": "AllenAI: Olmo 3.1 32B Think",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1445,7 +1344,7 @@
     "xiaomi/mimo-v2-flash": {
       "id": "xiaomi/mimo-v2-flash",
       "name": "Xiaomi: MiMo-V2-Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1469,36 +1368,10 @@
       },
       "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.\n\nUsers can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)."
     },
-    "nvidia/nemotron-3-nano-30b-a3b:free": {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 256000,
-        "output": 51200
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.\n\nThe model is fully open with open-weights, datasets and recipes so developers can easily\ncustomize, optimize, and deploy the model on their infrastructure for maximum privacy and\nsecurity.\n\nNote: For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information. This is a trial use only. Do not use for production or business-critical systems."
-    },
     "nvidia/nemotron-3-nano-30b-a3b": {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1524,7 +1397,7 @@
     "openai/gpt-5.2-chat": {
       "id": "openai/gpt-5.2-chat",
       "name": "OpenAI: GPT-5.2 Chat",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -1552,7 +1425,7 @@
     "openai/gpt-5.2-pro": {
       "id": "openai/gpt-5.2-pro",
       "name": "OpenAI: GPT-5.2 Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1579,7 +1452,7 @@
     "mistralai/devstral-2512": {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1606,7 +1479,7 @@
     "relace/relace-search": {
       "id": "relace/relace-search",
       "name": "Relace: Relace Search",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1632,7 +1505,7 @@
     "z-ai/glm-4.6v": {
       "id": "z-ai/glm-4.6v",
       "name": "Z.ai: GLM 4.6V",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1660,7 +1533,7 @@
     "nex-agi/deepseek-v3.1-nex-n1": {
       "id": "nex-agi/deepseek-v3.1-nex-n1",
       "name": "Nex AGI: DeepSeek V3.1 Nex N1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1686,7 +1559,7 @@
     "essentialai/rnj-1-instruct": {
       "id": "essentialai/rnj-1-instruct",
       "name": "EssentialAI: Rnj 1 Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -1712,7 +1585,7 @@
     "openrouter/bodybuilder": {
       "id": "openrouter/bodybuilder",
       "name": "Body Builder (beta)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -1738,7 +1611,7 @@
     "openai/gpt-5.1-codex-max": {
       "id": "openai/gpt-5.1-codex-max",
       "name": "OpenAI: GPT-5.1-Codex-Max",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1766,7 +1639,7 @@
     "amazon/nova-2-lite-v1": {
       "id": "amazon/nova-2-lite-v1",
       "name": "Amazon: Nova 2 Lite",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1794,7 +1667,7 @@
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/ministral-14b-2512",
       "name": "Mistral: Ministral 3 14B 2512",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1821,7 +1694,7 @@
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/ministral-8b-2512",
       "name": "Mistral: Ministral 3 8B 2512",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1848,7 +1721,7 @@
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/ministral-3b-2512",
       "name": "Mistral: Ministral 3 3B 2512",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1875,7 +1748,7 @@
     "mistralai/mistral-large-2512": {
       "id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1899,36 +1772,10 @@
       },
       "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license."
     },
-    "arcee-ai/trinity-mini:free": {
-      "id": "arcee-ai/trinity-mini:free",
-      "name": "Arcee AI: Trinity Mini (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 26215
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows."
-    },
     "arcee-ai/trinity-mini": {
       "id": "arcee-ai/trinity-mini",
       "name": "Arcee AI: Trinity Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1954,7 +1801,7 @@
     "deepseek/deepseek-v3.2-speciale": {
       "id": "deepseek/deepseek-v3.2-speciale",
       "name": "DeepSeek: DeepSeek V3.2 Speciale",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1981,19 +1828,19 @@
     "deepseek/deepseek-v3.2": {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
       "tool_call": true,
       "cost": {
-        "input": 2.5e-7,
+        "input": 2.6e-7,
         "output": 3.8e-7,
-        "cache_read": 1.25e-7
+        "cache_read": 1.3e-7
       },
       "limit": {
         "context": 163840,
-        "output": 65536
+        "output": 32768
       },
       "modalities": {
         "input": [
@@ -2008,7 +1855,7 @@
     "prime-intellect/intellect-3": {
       "id": "prime-intellect/intellect-3",
       "name": "Prime Intellect: INTELLECT-3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2034,7 +1881,7 @@
     "tngtech/tng-r1t-chimera": {
       "id": "tngtech/tng-r1t-chimera",
       "name": "TNG: R1T Chimera",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2061,7 +1908,7 @@
     "anthropic/claude-opus-4.5": {
       "id": "anthropic/claude-opus-4.5",
       "name": "Anthropic: Claude Opus 4.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2090,7 +1937,7 @@
     "allenai/olmo-3-32b-think": {
       "id": "allenai/olmo-3-32b-think",
       "name": "AllenAI: Olmo 3 32B Think",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2116,7 +1963,7 @@
     "allenai/olmo-3-7b-instruct": {
       "id": "allenai/olmo-3-7b-instruct",
       "name": "AllenAI: Olmo 3 7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2142,7 +1989,7 @@
     "allenai/olmo-3-7b-think": {
       "id": "allenai/olmo-3-7b-think",
       "name": "AllenAI: Olmo 3 7B Think",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2168,7 +2015,7 @@
     "x-ai/grok-4.1-fast": {
       "id": "x-ai/grok-4.1-fast",
       "name": "xAI: Grok 4.1 Fast",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2196,7 +2043,7 @@
     "deepcogito/cogito-v2.1-671b": {
       "id": "deepcogito/cogito-v2.1-671b",
       "name": "Deep Cogito: Cogito v2.1 671B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2222,7 +2069,7 @@
     "openai/gpt-5.1": {
       "id": "openai/gpt-5.1",
       "name": "OpenAI: GPT-5.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2250,7 +2097,7 @@
     "openai/gpt-5.1-chat": {
       "id": "openai/gpt-5.1-chat",
       "name": "OpenAI: GPT-5.1 Chat",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -2278,7 +2125,7 @@
     "openai/gpt-5.1-codex": {
       "id": "openai/gpt-5.1-codex",
       "name": "OpenAI: GPT-5.1-Codex",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2306,7 +2153,7 @@
     "openai/gpt-5.1-codex-mini": {
       "id": "openai/gpt-5.1-codex-mini",
       "name": "OpenAI: GPT-5.1-Codex-Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2334,7 +2181,7 @@
     "kwaipilot/kat-coder-pro": {
       "id": "kwaipilot/kat-coder-pro",
       "name": "Kwaipilot: KAT-Coder-Pro V1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2361,7 +2208,7 @@
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/kimi-k2-thinking",
       "name": "MoonshotAI: Kimi K2 Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2388,7 +2235,7 @@
     "amazon/nova-premier-v1": {
       "id": "amazon/nova-premier-v1",
       "name": "Amazon: Nova Premier 1.0",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -2416,7 +2263,7 @@
     "perplexity/sonar-pro-search": {
       "id": "perplexity/sonar-pro-search",
       "name": "Perplexity: Sonar Pro Search",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2443,7 +2290,7 @@
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/voxtral-small-24b-2507",
       "name": "Mistral: Voxtral Small 24B 2507",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2470,7 +2317,7 @@
     "openai/gpt-oss-safeguard-20b": {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "OpenAI: gpt-oss-safeguard-20b",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2494,38 +2341,10 @@
       },
       "description": "gpt-oss-safeguard-20b is a safety reasoning model from OpenAI built upon gpt-oss-20b. This open-weight, 21B-parameter Mixture-of-Experts (MoE) model offers lower latency for safety tasks like content classification, LLM filtering, and trust & safety labeling.\n\nLearn more about this model in OpenAI's gpt-oss-safeguard [user guide](https://cookbook.openai.com/articles/gpt-oss-safeguard-guide)."
     },
-    "nvidia/nemotron-nano-12b-v2-vl:free": {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
-      "release_date": "2026-02-16",
-      "attachment": true,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 128000,
-        "output": 128000
-      },
-      "modalities": {
-        "input": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s memory-efficient sequence modeling for significantly higher throughput and lower latency.\n\nThe model supports inputs of text and multi-image documents, producing natural-language outputs. It is trained on high-quality NVIDIA-curated synthetic datasets optimized for optical-character recognition, chart reasoning, and multimodal comprehension.\n\nNemotron Nano 2 VL achieves leading results on OCRBench v2 and scores ≈ 74 average across MMMU, MathVista, AI2D, OCRBench, OCR-Reasoning, ChartQA, DocVQA, and Video-MME—surpassing prior open VL baselines. With Efficient Video Sampling (EVS), it handles long-form videos while reducing inference cost.\n\nOpen-weights, training data, and fine-tuning recipes are released under a permissive NVIDIA open license, with deployment supported across NeMo, NIM, and major inference runtimes."
-    },
     "nvidia/nemotron-nano-12b-v2-vl": {
       "id": "nvidia/nemotron-nano-12b-v2-vl",
       "name": "NVIDIA: Nemotron Nano 12B 2 VL",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2553,7 +2372,7 @@
     "minimax/minimax-m2": {
       "id": "minimax/minimax-m2",
       "name": "MiniMax: MiniMax M2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2580,7 +2399,7 @@
     "qwen/qwen3-vl-32b-instruct": {
       "id": "qwen/qwen3-vl-32b-instruct",
       "name": "Qwen: Qwen3 VL 32B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -2607,7 +2426,7 @@
     "liquid/lfm2-8b-a1b": {
       "id": "liquid/lfm2-8b-a1b",
       "name": "LiquidAI: LFM2-8B-A1B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2633,7 +2452,7 @@
     "liquid/lfm-2.2-6b": {
       "id": "liquid/lfm-2.2-6b",
       "name": "LiquidAI: LFM2-2.6B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2659,7 +2478,7 @@
     "ibm-granite/granite-4.0-h-micro": {
       "id": "ibm-granite/granite-4.0-h-micro",
       "name": "IBM: Granite 4.0 Micro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2685,7 +2504,7 @@
     "qwen/qwen3-vl-8b-thinking": {
       "id": "qwen/qwen3-vl-8b-thinking",
       "name": "Qwen: Qwen3 VL 8B Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2712,7 +2531,7 @@
     "qwen/qwen3-vl-8b-instruct": {
       "id": "qwen/qwen3-vl-8b-instruct",
       "name": "Qwen: Qwen3 VL 8B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -2739,7 +2558,7 @@
     "openai/o3-deep-research": {
       "id": "openai/o3-deep-research",
       "name": "OpenAI: o3 Deep Research",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2767,7 +2586,7 @@
     "openai/o4-mini-deep-research": {
       "id": "openai/o4-mini-deep-research",
       "name": "OpenAI: o4 Mini Deep Research",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2795,7 +2614,7 @@
     "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
       "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2821,7 +2640,7 @@
     "baidu/ernie-4.5-21b-a3b-thinking": {
       "id": "baidu/ernie-4.5-21b-a3b-thinking",
       "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2847,7 +2666,7 @@
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2874,7 +2693,7 @@
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -2901,7 +2720,7 @@
     "openai/gpt-5-pro": {
       "id": "openai/gpt-5-pro",
       "name": "OpenAI: GPT-5 Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2928,7 +2747,7 @@
     "z-ai/glm-4.6": {
       "id": "z-ai/glm-4.6",
       "name": "Z.ai: GLM 4.6",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2955,7 +2774,7 @@
     "z-ai/glm-4.6:exacto": {
       "id": "z-ai/glm-4.6:exacto",
       "name": "Z.ai: GLM 4.6 (exacto)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2982,7 +2801,7 @@
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek/deepseek-v3.2-exp",
       "name": "DeepSeek: DeepSeek V3.2 Exp",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3008,7 +2827,7 @@
     "thedrummer/cydonia-24b-v4.1": {
       "id": "thedrummer/cydonia-24b-v4.1",
       "name": "TheDrummer: Cydonia 24B V4.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3034,7 +2853,7 @@
     "relace/relace-apply-3": {
       "id": "relace/relace-apply-3",
       "name": "Relace: Relace Apply 3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -3060,7 +2879,7 @@
     "google/gemini-2.5-flash-preview-09-2025": {
       "id": "google/gemini-2.5-flash-preview-09-2025",
       "name": "Google: Gemini 2.5 Flash Preview 09-2025",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3091,7 +2910,7 @@
     "google/gemini-2.5-flash-lite-preview-09-2025": {
       "id": "google/gemini-2.5-flash-lite-preview-09-2025",
       "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3122,7 +2941,7 @@
     "qwen/qwen3-vl-235b-a22b-thinking": {
       "id": "qwen/qwen3-vl-235b-a22b-thinking",
       "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3149,7 +2968,7 @@
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -3177,7 +2996,7 @@
     "qwen/qwen3-max": {
       "id": "qwen/qwen3-max",
       "name": "Qwen: Qwen3 Max",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3204,7 +3023,7 @@
     "qwen/qwen3-coder-plus": {
       "id": "qwen/qwen3-coder-plus",
       "name": "Qwen: Qwen3 Coder Plus",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3231,7 +3050,7 @@
     "openai/gpt-5-codex": {
       "id": "openai/gpt-5-codex",
       "name": "OpenAI: GPT-5 Codex",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -3259,7 +3078,7 @@
     "deepseek/deepseek-v3.1-terminus:exacto": {
       "id": "deepseek/deepseek-v3.1-terminus:exacto",
       "name": "DeepSeek: DeepSeek V3.1 Terminus (exacto)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3286,7 +3105,7 @@
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3313,7 +3132,7 @@
     "x-ai/grok-4-fast": {
       "id": "x-ai/grok-4-fast",
       "name": "xAI: Grok 4 Fast",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3341,7 +3160,7 @@
     "alibaba/tongyi-deepresearch-30b-a3b": {
       "id": "alibaba/tongyi-deepresearch-30b-a3b",
       "name": "Tongyi DeepResearch 30B A3B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3368,7 +3187,7 @@
     "qwen/qwen3-coder-flash": {
       "id": "qwen/qwen3-coder-flash",
       "name": "Qwen: Qwen3 Coder Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3395,7 +3214,7 @@
     "opengvlab/internvl3-78b": {
       "id": "opengvlab/internvl3-78b",
       "name": "OpenGVLab: InternVL3 78B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -3423,7 +3242,7 @@
     "qwen/qwen3-next-80b-a3b-thinking": {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
       "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3446,36 +3265,10 @@
       },
       "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic planning, and reports strong results across knowledge, reasoning, coding, alignment, and multilingual evaluations. Compared with prior Qwen3 variants, it emphasizes stability under long chains of thought and efficient scaling during inference, and it is tuned to follow complex instructions while reducing repetitive or off-task behavior.\n\nThe model is suitable for agent frameworks and tool use (function calling), retrieval-heavy workflows, and standardized benchmarking where step-by-step solutions are required. It supports long, detailed completions and leverages throughput-oriented techniques (e.g., multi-token prediction) for faster generation. Note that it operates in thinking-only mode."
     },
-    "qwen/qwen3-next-80b-a3b-instruct:free": {
-      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 262144,
-        "output": 52429
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual use, while remaining robust on alignment and formatting. Compared with prior Qwen3 instruct variants, it focuses on higher throughput and stability on ultra-long inputs and multi-turn dialogues, making it well-suited for RAG, tool use, and agentic workflows that require consistent final answers rather than visible chain-of-thought.\n\nThe model employs scaling-efficient training and decoding to improve parameter efficiency and inference speed, and has been validated on a broad set of public benchmarks where it reaches or approaches larger Qwen3 systems in several categories while outperforming earlier mid-sized baselines. It is best used as a general assistant, code helper, and long-context task solver in production settings where deterministic, instruction-following outputs are preferred."
-    },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3501,7 +3294,7 @@
     "meituan/longcat-flash-chat": {
       "id": "meituan/longcat-flash-chat",
       "name": "Meituan: LongCat Flash Chat",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3528,7 +3321,7 @@
     "qwen/qwen-plus-2025-07-28": {
       "id": "qwen/qwen-plus-2025-07-28",
       "name": "Qwen: Qwen Plus 0728",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3554,7 +3347,7 @@
     "qwen/qwen-plus-2025-07-28:thinking": {
       "id": "qwen/qwen-plus-2025-07-28:thinking",
       "name": "Qwen: Qwen Plus 0728 (thinking)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3577,36 +3370,10 @@
       },
       "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination."
     },
-    "nvidia/nemotron-nano-9b-v2:free": {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 128000,
-        "output": 25600
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so."
-    },
     "nvidia/nemotron-nano-9b-v2": {
       "id": "nvidia/nemotron-nano-9b-v2",
       "name": "NVIDIA: Nemotron Nano 9B V2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3632,7 +3399,7 @@
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/kimi-k2-0905",
       "name": "MoonshotAI: Kimi K2 0905",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3659,7 +3426,7 @@
     "moonshotai/kimi-k2-0905:exacto": {
       "id": "moonshotai/kimi-k2-0905:exacto",
       "name": "MoonshotAI: Kimi K2 0905 (exacto)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3685,7 +3452,7 @@
     "qwen/qwen3-30b-a3b-thinking-2507": {
       "id": "qwen/qwen3-30b-a3b-thinking-2507",
       "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3708,10 +3475,37 @@
       },
       "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated from final answers.\n\nCompared to earlier Qwen3-30B releases, this version improves performance across logical reasoning, mathematics, science, coding, and multilingual benchmarks. It also demonstrates stronger instruction following, tool use, and alignment with human preferences. With higher reasoning efficiency and extended output budgets, it is best suited for advanced research, competitive problem solving, and agentic applications requiring structured long-context reasoning."
     },
+    "x-ai/grok-code-fast-1": {
+      "id": "x-ai/grok-code-fast-1",
+      "name": "xAI: Grok Code Fast 1",
+      "release_date": "2026-02-17",
+      "attachment": false,
+      "reasoning": true,
+      "temperature": true,
+      "tool_call": true,
+      "cost": {
+        "input": 2e-7,
+        "output": 0.0000015,
+        "cache_read": 2e-8
+      },
+      "limit": {
+        "context": 256000,
+        "output": 10000
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality work flows."
+    },
     "nousresearch/hermes-4-70b": {
       "id": "nousresearch/hermes-4-70b",
       "name": "Nous: Hermes 4 70B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3738,7 +3532,7 @@
     "nousresearch/hermes-4-405b": {
       "id": "nousresearch/hermes-4-405b",
       "name": "Nous: Hermes 4 405B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3764,7 +3558,7 @@
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek/deepseek-chat-v3.1",
       "name": "DeepSeek: DeepSeek V3.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3790,7 +3584,7 @@
     "openai/gpt-4o-audio-preview": {
       "id": "openai/gpt-4o-audio-preview",
       "name": "OpenAI: GPT-4o Audio",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3818,7 +3612,7 @@
     "mistralai/mistral-medium-3.1": {
       "id": "mistralai/mistral-medium-3.1",
       "name": "Mistral: Mistral Medium 3.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -3845,7 +3639,7 @@
     "baidu/ernie-4.5-21b-a3b": {
       "id": "baidu/ernie-4.5-21b-a3b",
       "name": "Baidu: ERNIE 4.5 21B A3B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3871,7 +3665,7 @@
     "baidu/ernie-4.5-vl-28b-a3b": {
       "id": "baidu/ernie-4.5-vl-28b-a3b",
       "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3898,7 +3692,7 @@
     "z-ai/glm-4.5v": {
       "id": "z-ai/glm-4.5v",
       "name": "Z.ai: GLM 4.5V",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3926,7 +3720,7 @@
     "ai21/jamba-large-1.7": {
       "id": "ai21/jamba-large-1.7",
       "name": "AI21: Jamba Large 1.7",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3952,7 +3746,7 @@
     "openai/gpt-5-chat": {
       "id": "openai/gpt-5-chat",
       "name": "OpenAI: GPT-5 Chat",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -3980,7 +3774,7 @@
     "openai/gpt-5": {
       "id": "openai/gpt-5",
       "name": "OpenAI: GPT-5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4008,7 +3802,7 @@
     "openai/gpt-5-mini": {
       "id": "openai/gpt-5-mini",
       "name": "OpenAI: GPT-5 Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4036,7 +3830,7 @@
     "openai/gpt-5-nano": {
       "id": "openai/gpt-5-nano",
       "name": "OpenAI: GPT-5 Nano",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4061,36 +3855,10 @@
       },
       "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger counterparts, it retains key instruction-following and safety features. It is the successor to GPT-4.1-nano and offers a lightweight option for cost-sensitive or real-time applications."
     },
-    "openai/gpt-oss-120b:free": {
-      "id": "openai/gpt-oss-120b:free",
-      "name": "OpenAI: gpt-oss-120b (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 131072
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized to run on a single H100 GPU with native MXFP4 quantization. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation."
-    },
     "openai/gpt-oss-120b": {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4116,7 +3884,7 @@
     "openai/gpt-oss-120b:exacto": {
       "id": "openai/gpt-oss-120b:exacto",
       "name": "OpenAI: gpt-oss-120b (exacto)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4139,36 +3907,10 @@
       },
       "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized to run on a single H100 GPU with native MXFP4 quantization. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation."
     },
-    "openai/gpt-oss-20b:free": {
-      "id": "openai/gpt-oss-20b:free",
-      "name": "OpenAI: gpt-oss-20b (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 131072
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference and deployability on consumer or single-GPU hardware. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs."
-    },
     "openai/gpt-oss-20b": {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4194,7 +3936,7 @@
     "anthropic/claude-opus-4.1": {
       "id": "anthropic/claude-opus-4.1",
       "name": "Anthropic: Claude Opus 4.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4223,7 +3965,7 @@
     "mistralai/codestral-2508": {
       "id": "mistralai/codestral-2508",
       "name": "Mistral: Codestral 2508",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4249,7 +3991,7 @@
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4275,7 +4017,7 @@
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4302,7 +4044,7 @@
     "z-ai/glm-4.5": {
       "id": "z-ai/glm-4.5",
       "name": "Z.ai: GLM 4.5",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4326,36 +4068,10 @@
       },
       "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly enhanced capabilities in reasoning, code generation, and agent alignment. It supports a hybrid inference mode with two options, a \"thinking mode\" designed for complex reasoning and tool use, and a \"non-thinking mode\" optimized for instant responses. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)"
     },
-    "z-ai/glm-4.5-air:free": {
-      "id": "z-ai/glm-4.5-air:free",
-      "name": "Z.ai: GLM 4.5 Air (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 96000
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)"
-    },
     "z-ai/glm-4.5-air": {
       "id": "z-ai/glm-4.5-air",
       "name": "Z.ai: GLM 4.5 Air",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4382,7 +4098,7 @@
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4408,7 +4124,7 @@
     "z-ai/glm-4-32b": {
       "id": "z-ai/glm-4-32b",
       "name": "Z.ai: GLM 4 32B ",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4431,36 +4147,10 @@
       },
       "description": "GLM 4 32B is a cost-effective foundation language model.\n\nIt can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks.\n\nIt is made by the same lab behind the thudm models."
     },
-    "qwen/qwen3-coder:free": {
-      "id": "qwen/qwen3-coder:free",
-      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 262000,
-        "output": 262000
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over repositories. The model features 480 billion total parameters, with 35 billion active per forward pass (8 out of 160 experts).\n\nPricing for the Alibaba endpoints varies by context length. Once a request is greater than 128k input tokens, the higher pricing is used."
-    },
     "qwen/qwen3-coder": {
       "id": "qwen/qwen3-coder",
       "name": "Qwen: Qwen3 Coder 480B A35B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4487,7 +4177,7 @@
     "qwen/qwen3-coder:exacto": {
       "id": "qwen/qwen3-coder:exacto",
       "name": "Qwen: Qwen3 Coder 480B A35B (exacto)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4514,7 +4204,7 @@
     "bytedance/ui-tars-1.5-7b": {
       "id": "bytedance/ui-tars-1.5-7b",
       "name": "ByteDance: UI-TARS 7B ",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -4541,7 +4231,7 @@
     "google/gemini-2.5-flash-lite": {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4572,7 +4262,7 @@
     "qwen/qwen3-235b-a22b-2507": {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4598,7 +4288,7 @@
     "switchpoint/router": {
       "id": "switchpoint/router",
       "name": "Switchpoint Router",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4624,7 +4314,7 @@
     "moonshotai/kimi-k2": {
       "id": "moonshotai/kimi-k2",
       "name": "MoonshotAI: Kimi K2 0711",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4650,7 +4340,7 @@
     "mistralai/devstral-medium": {
       "id": "mistralai/devstral-medium",
       "name": "Mistral: Devstral Medium",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4676,7 +4366,7 @@
     "mistralai/devstral-small": {
       "id": "mistralai/devstral-small",
       "name": "Mistral: Devstral Small 1.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4699,36 +4389,10 @@
       },
       "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.\n\nDesigned for agentic coding workflows, Devstral Small 1.1 is optimized for tasks such as codebase exploration, multi-file edits, and integration into autonomous development agents like OpenHands and Cline. It achieves 53.6% on SWE-Bench Verified, surpassing all other open models on this benchmark, while remaining lightweight enough to run on a single 4090 GPU or Apple silicon machine. The model uses a Tekken tokenizer with a 131k vocabulary and is deployable via vLLM, Transformers, Ollama, LM Studio, and other OpenAI-compatible runtimes.\n"
     },
-    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-      "name": "Venice: Uncensored (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 32768,
-        "output": 6554
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tuned LLM, preserving user control over alignment, system prompts, and behavior. Intended for advanced and unrestricted use cases, Venice Uncensored emphasizes steerability and transparent behavior, removing default safety and alignment layers typically found in mainstream assistant models."
-    },
     "x-ai/grok-4": {
       "id": "x-ai/grok-4",
       "name": "xAI: Grok 4",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4753,36 +4417,10 @@
       },
       "description": "Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens. See more details on the [xAI docs](https://docs.x.ai/docs/models/grok-4-0709)"
     },
-    "google/gemma-3n-e2b-it:free": {
-      "id": "google/gemma-3n-e2b-it:free",
-      "name": "Google: Gemma 3n 2B (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 8192,
-        "output": 2048
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture. Based on the MatFormer architecture, it supports nested submodels and modular composition via the Mix-and-Match framework. Gemma 3n models are optimized for low-resource deployment, offering 32K context length and strong multilingual and reasoning performance across common benchmarks. This variant is trained on a diverse corpus including code, math, web, and multimodal data."
-    },
     "tencent/hunyuan-a13b-instruct": {
       "id": "tencent/hunyuan-a13b-instruct",
       "name": "Tencent: Hunyuan A13B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4808,7 +4446,7 @@
     "tngtech/deepseek-r1t2-chimera": {
       "id": "tngtech/deepseek-r1t2-chimera",
       "name": "TNG: DeepSeek R1T2 Chimera",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4835,7 +4473,7 @@
     "morph/morph-v3-large": {
       "id": "morph/morph-v3-large",
       "name": "Morph: Morph V3 Large",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4861,7 +4499,7 @@
     "morph/morph-v3-fast": {
       "id": "morph/morph-v3-fast",
       "name": "Morph: Morph V3 Fast",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4887,7 +4525,7 @@
     "baidu/ernie-4.5-vl-424b-a47b": {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
       "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4914,7 +4552,7 @@
     "baidu/ernie-4.5-300b-a47b": {
       "id": "baidu/ernie-4.5-300b-a47b",
       "name": "Baidu: ERNIE 4.5 300B A47B ",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4940,7 +4578,7 @@
     "inception/mercury": {
       "id": "inception/mercury",
       "name": "Inception: Mercury",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -4966,7 +4604,7 @@
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "name": "Mistral: Mistral Small 3.2 24B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -4994,7 +4632,7 @@
     "minimax/minimax-m1": {
       "id": "minimax/minimax-m1",
       "name": "MiniMax: MiniMax M1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5020,7 +4658,7 @@
     "google/gemini-2.5-flash": {
       "id": "google/gemini-2.5-flash",
       "name": "Google: Gemini 2.5 Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5051,7 +4689,7 @@
     "google/gemini-2.5-pro": {
       "id": "google/gemini-2.5-pro",
       "name": "Google: Gemini 2.5 Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5082,7 +4720,7 @@
     "openai/o3-pro": {
       "id": "openai/o3-pro",
       "name": "OpenAI: o3 Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5109,7 +4747,7 @@
     "x-ai/grok-3-mini": {
       "id": "x-ai/grok-3-mini",
       "name": "xAI: Grok 3 Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5136,7 +4774,7 @@
     "x-ai/grok-3": {
       "id": "x-ai/grok-3",
       "name": "xAI: Grok 3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5163,7 +4801,7 @@
     "google/gemini-2.5-pro-preview": {
       "id": "google/gemini-2.5-pro-preview",
       "name": "Google: Gemini 2.5 Pro Preview 06-05",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5190,36 +4828,10 @@
       },
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.\n"
     },
-    "deepseek/deepseek-r1-0528:free": {
-      "id": "deepseek/deepseek-r1-0528:free",
-      "name": "DeepSeek: R1 0528 (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 163840,
-        "output": 163840
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model."
-    },
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5246,7 +4858,7 @@
     "anthropic/claude-opus-4": {
       "id": "anthropic/claude-opus-4",
       "name": "Anthropic: Claude Opus 4",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5275,7 +4887,7 @@
     "anthropic/claude-sonnet-4": {
       "id": "anthropic/claude-sonnet-4",
       "name": "Anthropic: Claude Sonnet 4",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5301,36 +4913,10 @@
       },
       "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)"
     },
-    "google/gemma-3n-e4b-it:free": {
-      "id": "google/gemma-3n-e4b-it:free",
-      "name": "Google: Gemma 3n 4B (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 8192,
-        "output": 2048
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks such as text generation, speech recognition, translation, and image analysis. Leveraging innovations like Per-Layer Embedding (PLE) caching and the MatFormer architecture, Gemma 3n dynamically manages memory usage and computational load by selectively activating model parameters, significantly reducing runtime resource requirements.\n\nThis model supports a wide linguistic range (trained in over 140 languages) and features a flexible 32K token context window. Gemma 3n can selectively load parameters, optimizing memory and computational efficiency based on the task or device capabilities, making it well-suited for privacy-focused, offline-capable applications and on-device AI solutions. [Read more in the blog post](https://developers.googleblog.com/en/introducing-gemma-3n/)"
-    },
     "google/gemma-3n-e4b-it": {
       "id": "google/gemma-3n-e4b-it",
       "name": "Google: Gemma 3n 4B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5356,7 +4942,7 @@
     "nousresearch/deephermes-3-mistral-24b-preview": {
       "id": "nousresearch/deephermes-3-mistral-24b-preview",
       "name": "Nous: DeepHermes 3 Mistral 24B Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5383,7 +4969,7 @@
     "mistralai/mistral-medium-3": {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -5410,7 +4996,7 @@
     "google/gemini-2.5-pro-preview-05-06": {
       "id": "google/gemini-2.5-pro-preview-05-06",
       "name": "Google: Gemini 2.5 Pro Preview 05-06",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5441,7 +5027,7 @@
     "arcee-ai/spotlight": {
       "id": "arcee-ai/spotlight",
       "name": "Arcee AI: Spotlight",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -5468,7 +5054,7 @@
     "arcee-ai/maestro-reasoning": {
       "id": "arcee-ai/maestro-reasoning",
       "name": "Arcee AI: Maestro Reasoning",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5494,7 +5080,7 @@
     "arcee-ai/virtuoso-large": {
       "id": "arcee-ai/virtuoso-large",
       "name": "Arcee AI: Virtuoso Large",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5520,7 +5106,7 @@
     "arcee-ai/coder-large": {
       "id": "arcee-ai/coder-large",
       "name": "Arcee AI: Coder Large",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5546,7 +5132,7 @@
     "inception/mercury-coder": {
       "id": "inception/mercury-coder",
       "name": "Inception: Mercury Coder",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5569,36 +5155,10 @@
       },
       "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality. Read more in the [blog post here](https://www.inceptionlabs.ai/blog/introducing-mercury)."
     },
-    "qwen/qwen3-4b:free": {
-      "id": "qwen/qwen3-4b:free",
-      "name": "Qwen: Qwen3 4B (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 40960,
-        "output": 8192
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Qwen3-4B is a 4 billion parameter dense language model from the Qwen3 series, designed to support both general-purpose and reasoning-intensive tasks. It introduces a dual-mode architecture—thinking and non-thinking—allowing dynamic switching between high-precision logical reasoning and efficient dialogue generation. This makes it well-suited for multi-turn chat, instruction following, and complex agent workflows."
-    },
     "qwen/qwen3-4b": {
       "id": "qwen/qwen3-4b",
       "name": "Qwen: Qwen3 4B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5624,7 +5184,7 @@
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -5651,7 +5211,7 @@
     "qwen/qwen3-30b-a3b": {
       "id": "qwen/qwen3-30b-a3b",
       "name": "Qwen: Qwen3 30B A3B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5678,7 +5238,7 @@
     "qwen/qwen3-8b": {
       "id": "qwen/qwen3-8b",
       "name": "Qwen: Qwen3 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5705,7 +5265,7 @@
     "qwen/qwen3-14b": {
       "id": "qwen/qwen3-14b",
       "name": "Qwen: Qwen3 14B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5732,7 +5292,7 @@
     "qwen/qwen3-32b": {
       "id": "qwen/qwen3-32b",
       "name": "Qwen: Qwen3 32B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5759,7 +5319,7 @@
     "qwen/qwen3-235b-a22b": {
       "id": "qwen/qwen3-235b-a22b",
       "name": "Qwen: Qwen3 235B A22B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5786,7 +5346,7 @@
     "tngtech/deepseek-r1t-chimera": {
       "id": "tngtech/deepseek-r1t-chimera",
       "name": "TNG: DeepSeek R1T Chimera",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5813,7 +5373,7 @@
     "openai/o4-mini-high": {
       "id": "openai/o4-mini-high",
       "name": "OpenAI: o4 Mini High",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5841,7 +5401,7 @@
     "openai/o3": {
       "id": "openai/o3",
       "name": "OpenAI: o3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5869,7 +5429,7 @@
     "openai/o4-mini": {
       "id": "openai/o4-mini",
       "name": "OpenAI: o4 Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5897,7 +5457,7 @@
     "qwen/qwen2.5-coder-7b-instruct": {
       "id": "qwen/qwen2.5-coder-7b-instruct",
       "name": "Qwen: Qwen2.5 Coder 7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -5923,7 +5483,7 @@
     "openai/gpt-4.1": {
       "id": "openai/gpt-4.1",
       "name": "OpenAI: GPT-4.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -5951,7 +5511,7 @@
     "openai/gpt-4.1-mini": {
       "id": "openai/gpt-4.1-mini",
       "name": "OpenAI: GPT-4.1 Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -5979,7 +5539,7 @@
     "openai/gpt-4.1-nano": {
       "id": "openai/gpt-4.1-nano",
       "name": "OpenAI: GPT-4.1 Nano",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6007,7 +5567,7 @@
     "eleutherai/llemma_7b": {
       "id": "eleutherai/llemma_7b",
       "name": "EleutherAI: Llemma 7b",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6033,7 +5593,7 @@
     "alfredpros/codellama-7b-instruct-solidity": {
       "id": "alfredpros/codellama-7b-instruct-solidity",
       "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6059,7 +5619,7 @@
     "x-ai/grok-3-mini-beta": {
       "id": "x-ai/grok-3-mini-beta",
       "name": "xAI: Grok 3 Mini Beta",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6086,7 +5646,7 @@
     "x-ai/grok-3-beta": {
       "id": "x-ai/grok-3-beta",
       "name": "xAI: Grok 3 Beta",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6113,7 +5673,7 @@
     "nvidia/llama-3.1-nemotron-ultra-253b-v1": {
       "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
       "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6139,7 +5699,7 @@
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6166,7 +5726,7 @@
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6193,7 +5753,7 @@
     "qwen/qwen2.5-vl-32b-instruct": {
       "id": "qwen/qwen2.5-vl-32b-instruct",
       "name": "Qwen: Qwen2.5 VL 32B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6221,7 +5781,7 @@
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek/deepseek-chat-v3-0324",
       "name": "DeepSeek: DeepSeek V3 0324",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6248,7 +5808,7 @@
     "openai/o1-pro": {
       "id": "openai/o1-pro",
       "name": "OpenAI: o1-pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6272,37 +5832,10 @@
       },
       "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide consistently better answers."
     },
-    "mistralai/mistral-small-3.1-24b-instruct:free": {
-      "id": "mistralai/mistral-small-3.1-24b-instruct:free",
-      "name": "Mistral: Mistral Small 3.1 24B (free)",
-      "release_date": "2026-02-16",
-      "attachment": true,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 128000,
-        "output": 25600
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)"
-    },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6330,7 +5863,7 @@
     "allenai/olmo-2-0325-32b-instruct": {
       "id": "allenai/olmo-2-0325-32b-instruct",
       "name": "AllenAI: Olmo 2 32B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -6353,37 +5886,10 @@
       },
       "description": "OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model. It excels in complex reasoning and instruction-following tasks across diverse benchmarks such as GSM8K, MATH, IFEval, and general NLP evaluation. Developed by AI2, OLMo-2 32B is part of an open, research-oriented initiative, trained primarily on English-language datasets to advance the understanding and development of open-source language models."
     },
-    "google/gemma-3-4b-it:free": {
-      "id": "google/gemma-3-4b-it:free",
-      "name": "Google: Gemma 3 4B (free)",
-      "release_date": "2026-02-16",
-      "attachment": true,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 32768,
-        "output": 8192
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling."
-    },
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6407,37 +5913,10 @@
       },
       "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling."
     },
-    "google/gemma-3-12b-it:free": {
-      "id": "google/gemma-3-12b-it:free",
-      "name": "Google: Gemma 3 12B (free)",
-      "release_date": "2026-02-16",
-      "attachment": true,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 32768,
-        "output": 8192
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 12B is the second largest in the family of Gemma 3 models after [Gemma 3 27B](google/gemma-3-27b-it)"
-    },
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
       "name": "Google: Gemma 3 12B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6465,7 +5944,7 @@
     "cohere/command-a": {
       "id": "cohere/command-a",
       "name": "Cohere: Command A",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6491,7 +5970,7 @@
     "openai/gpt-4o-mini-search-preview": {
       "id": "openai/gpt-4o-mini-search-preview",
       "name": "OpenAI: GPT-4o-mini Search Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -6517,7 +5996,7 @@
     "openai/gpt-4o-search-preview": {
       "id": "openai/gpt-4o-search-preview",
       "name": "OpenAI: GPT-4o Search Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -6540,37 +6019,10 @@
       },
       "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries."
     },
-    "google/gemma-3-27b-it:free": {
-      "id": "google/gemma-3-27b-it:free",
-      "name": "Google: Gemma 3 27B (free)",
-      "release_date": "2026-02-16",
-      "attachment": true,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 8192
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)"
-    },
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6598,7 +6050,7 @@
     "thedrummer/skyfall-36b-v2": {
       "id": "thedrummer/skyfall-36b-v2",
       "name": "TheDrummer: Skyfall 36B V2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6624,7 +6076,7 @@
     "perplexity/sonar-reasoning-pro": {
       "id": "perplexity/sonar-reasoning-pro",
       "name": "Perplexity: Sonar Reasoning Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6651,7 +6103,7 @@
     "perplexity/sonar-pro": {
       "id": "perplexity/sonar-pro",
       "name": "Perplexity: Sonar Pro",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6678,7 +6130,7 @@
     "perplexity/sonar-deep-research": {
       "id": "perplexity/sonar-deep-research",
       "name": "Perplexity: Sonar Deep Research",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6704,7 +6156,7 @@
     "qwen/qwq-32b": {
       "id": "qwen/qwq-32b",
       "name": "Qwen: QwQ 32B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6730,7 +6182,7 @@
     "google/gemini-2.0-flash-lite-001": {
       "id": "google/gemini-2.0-flash-lite-001",
       "name": "Google: Gemini 2.0 Flash Lite",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6759,7 +6211,7 @@
     "anthropic/claude-3.7-sonnet": {
       "id": "anthropic/claude-3.7-sonnet",
       "name": "Anthropic: Claude 3.7 Sonnet",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6788,7 +6240,7 @@
     "anthropic/claude-3.7-sonnet:thinking": {
       "id": "anthropic/claude-3.7-sonnet:thinking",
       "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6817,7 +6269,7 @@
     "mistralai/mistral-saba": {
       "id": "mistralai/mistral-saba",
       "name": "Mistral: Saba",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6843,7 +6295,7 @@
     "meta-llama/llama-guard-3-8b": {
       "id": "meta-llama/llama-guard-3-8b",
       "name": "Llama Guard 3 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6869,7 +6321,7 @@
     "openai/o3-mini-high": {
       "id": "openai/o3-mini-high",
       "name": "OpenAI: o3 Mini High",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -6896,7 +6348,7 @@
     "google/gemini-2.0-flash-001": {
       "id": "google/gemini-2.0-flash-001",
       "name": "Google: Gemini 2.0 Flash",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6927,7 +6379,7 @@
     "qwen/qwen-vl-plus": {
       "id": "qwen/qwen-vl-plus",
       "name": "Qwen: Qwen VL Plus",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6955,7 +6407,7 @@
     "aion-labs/aion-1.0": {
       "id": "aion-labs/aion-1.0",
       "name": "AionLabs: Aion-1.0",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6981,7 +6433,7 @@
     "aion-labs/aion-1.0-mini": {
       "id": "aion-labs/aion-1.0-mini",
       "name": "AionLabs: Aion-1.0-Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7007,7 +6459,7 @@
     "aion-labs/aion-rp-llama-3.1-8b": {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7033,7 +6485,7 @@
     "qwen/qwen-vl-max": {
       "id": "qwen/qwen-vl-max",
       "name": "Qwen: Qwen VL Max",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7060,7 +6512,7 @@
     "qwen/qwen-turbo": {
       "id": "qwen/qwen-turbo",
       "name": "Qwen: Qwen-Turbo",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7087,7 +6539,7 @@
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7115,7 +6567,7 @@
     "qwen/qwen-plus": {
       "id": "qwen/qwen-plus",
       "name": "Qwen: Qwen-Plus",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7142,7 +6594,7 @@
     "qwen/qwen-max": {
       "id": "qwen/qwen-max",
       "name": "Qwen: Qwen-Max ",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7169,7 +6621,7 @@
     "openai/o3-mini": {
       "id": "openai/o3-mini",
       "name": "OpenAI: o3 Mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -7196,7 +6648,7 @@
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/mistral-small-24b-instruct-2501",
       "name": "Mistral: Mistral Small 3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7222,7 +6674,7 @@
     "deepseek/deepseek-r1-distill-qwen-32b": {
       "id": "deepseek/deepseek-r1-distill-qwen-32b",
       "name": "DeepSeek: R1 Distill Qwen 32B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7248,7 +6700,7 @@
     "perplexity/sonar": {
       "id": "perplexity/sonar",
       "name": "Perplexity: Sonar",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7275,7 +6727,7 @@
     "deepseek/deepseek-r1-distill-llama-70b": {
       "id": "deepseek/deepseek-r1-distill-llama-70b",
       "name": "DeepSeek: R1 Distill Llama 70B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7302,7 +6754,7 @@
     "deepseek/deepseek-r1": {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7328,7 +6780,7 @@
     "minimax/minimax-01": {
       "id": "minimax/minimax-01",
       "name": "MiniMax: MiniMax-01",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7355,7 +6807,7 @@
     "microsoft/phi-4": {
       "id": "microsoft/phi-4",
       "name": "Microsoft: Phi 4",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7381,7 +6833,7 @@
     "sao10k/l3.1-70b-hanami-x1": {
       "id": "sao10k/l3.1-70b-hanami-x1",
       "name": "Sao10K: Llama 3.1 70B Hanami x1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7407,7 +6859,7 @@
     "deepseek/deepseek-chat": {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7434,7 +6886,7 @@
     "sao10k/l3.3-euryale-70b": {
       "id": "sao10k/l3.3-euryale-70b",
       "name": "Sao10K: Llama 3.3 Euryale 70B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7460,7 +6912,7 @@
     "openai/o1": {
       "id": "openai/o1",
       "name": "OpenAI: o1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -7488,7 +6940,7 @@
     "cohere/command-r7b-12-2024": {
       "id": "cohere/command-r7b-12-2024",
       "name": "Cohere: Command R7B (12-2024)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7511,36 +6963,10 @@
       },
       "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning and multiple steps.\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement)."
     },
-    "meta-llama/llama-3.3-70b-instruct:free": {
-      "id": "meta-llama/llama-3.3-70b-instruct:free",
-      "name": "Meta: Llama 3.3 70B Instruct (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 128000,
-        "output": 128000
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)"
-    },
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7566,7 +6992,7 @@
     "amazon/nova-lite-v1": {
       "id": "amazon/nova-lite-v1",
       "name": "Amazon: Nova Lite 1.0",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7593,7 +7019,7 @@
     "amazon/nova-micro-v1": {
       "id": "amazon/nova-micro-v1",
       "name": "Amazon: Nova Micro 1.0",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7619,7 +7045,7 @@
     "amazon/nova-pro-v1": {
       "id": "amazon/nova-pro-v1",
       "name": "Amazon: Nova Pro 1.0",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7646,7 +7072,7 @@
     "openai/gpt-4o-2024-11-20": {
       "id": "openai/gpt-4o-2024-11-20",
       "name": "OpenAI: GPT-4o (2024-11-20)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7674,7 +7100,7 @@
     "mistralai/mistral-large-2411": {
       "id": "mistralai/mistral-large-2411",
       "name": "Mistral Large 2411",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7700,7 +7126,7 @@
     "mistralai/mistral-large-2407": {
       "id": "mistralai/mistral-large-2407",
       "name": "Mistral Large 2407",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7726,7 +7152,7 @@
     "mistralai/pixtral-large-2411": {
       "id": "mistralai/pixtral-large-2411",
       "name": "Mistral: Pixtral Large 2411",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7753,7 +7179,7 @@
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "qwen/qwen-2.5-coder-32b-instruct",
       "name": "Qwen2.5 Coder 32B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7780,7 +7206,7 @@
     "raifle/sorcererlm-8x22b": {
       "id": "raifle/sorcererlm-8x22b",
       "name": "SorcererLM 8x22B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7806,7 +7232,7 @@
     "thedrummer/unslopnemo-12b": {
       "id": "thedrummer/unslopnemo-12b",
       "name": "TheDrummer: UnslopNemo 12B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7832,7 +7258,7 @@
     "anthropic/claude-3.5-haiku": {
       "id": "anthropic/claude-3.5-haiku",
       "name": "Anthropic: Claude 3.5 Haiku",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7861,7 +7287,7 @@
     "anthracite-org/magnum-v4-72b": {
       "id": "anthracite-org/magnum-v4-72b",
       "name": "Magnum v4 72B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7887,7 +7313,7 @@
     "anthropic/claude-3.5-sonnet": {
       "id": "anthropic/claude-3.5-sonnet",
       "name": "Anthropic: Claude 3.5 Sonnet",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7914,7 +7340,7 @@
     "qwen/qwen-2.5-7b-instruct": {
       "id": "qwen/qwen-2.5-7b-instruct",
       "name": "Qwen: Qwen2.5 7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7940,7 +7366,7 @@
     "nvidia/llama-3.1-nemotron-70b-instruct": {
       "id": "nvidia/llama-3.1-nemotron-70b-instruct",
       "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7966,7 +7392,7 @@
     "inflection/inflection-3-pi": {
       "id": "inflection/inflection-3-pi",
       "name": "Inflection: Inflection 3 Pi",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7992,7 +7418,7 @@
     "inflection/inflection-3-productivity": {
       "id": "inflection/inflection-3-productivity",
       "name": "Inflection: Inflection 3 Productivity",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8018,7 +7444,7 @@
     "thedrummer/rocinante-12b": {
       "id": "thedrummer/rocinante-12b",
       "name": "TheDrummer: Rocinante 12B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8041,36 +7467,10 @@
       },
       "description": "Rocinante 12B is designed for engaging storytelling and rich prose.\n\nEarly testers have reported:\n- Expanded vocabulary with unique and expressive word choices\n- Enhanced creativity for vivid narratives\n- Adventure-filled and captivating stories"
     },
-    "meta-llama/llama-3.2-3b-instruct:free": {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 26215
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/)."
-    },
     "meta-llama/llama-3.2-3b-instruct": {
       "id": "meta-llama/llama-3.2-3b-instruct",
       "name": "Meta: Llama 3.2 3B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8096,7 +7496,7 @@
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/llama-3.2-1b-instruct",
       "name": "Meta: Llama 3.2 1B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8122,7 +7522,7 @@
     "meta-llama/llama-3.2-11b-vision-instruct": {
       "id": "meta-llama/llama-3.2-11b-vision-instruct",
       "name": "Meta: Llama 3.2 11B Vision Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8149,7 +7549,7 @@
     "qwen/qwen-2.5-72b-instruct": {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8175,7 +7575,7 @@
     "neversleep/llama-3.1-lumimaid-8b": {
       "id": "neversleep/llama-3.1-lumimaid-8b",
       "name": "NeverSleep: Lumimaid v0.2 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8201,7 +7601,7 @@
     "cohere/command-r-08-2024": {
       "id": "cohere/command-r-08-2024",
       "name": "Cohere: Command R (08-2024)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8227,7 +7627,7 @@
     "cohere/command-r-plus-08-2024": {
       "id": "cohere/command-r-plus-08-2024",
       "name": "Cohere: Command R+ (08-2024)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8253,7 +7653,7 @@
     "sao10k/l3.1-euryale-70b": {
       "id": "sao10k/l3.1-euryale-70b",
       "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8279,7 +7679,7 @@
     "qwen/qwen-2.5-vl-7b-instruct": {
       "id": "qwen/qwen-2.5-vl-7b-instruct",
       "name": "Qwen: Qwen2.5-VL 7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8306,7 +7706,7 @@
     "nousresearch/hermes-3-llama-3.1-70b": {
       "id": "nousresearch/hermes-3-llama-3.1-70b",
       "name": "Nous: Hermes 3 70B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8329,36 +7729,10 @@
       },
       "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 70B is a competitive, if not superior finetune of the [Llama-3.1 70B foundation model](/models/meta-llama/llama-3.1-70b-instruct), focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills."
     },
-    "nousresearch/hermes-3-llama-3.1-405b:free": {
-      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-      "name": "Nous: Hermes 3 405B Instruct (free)",
-      "release_date": "2026-02-16",
-      "attachment": false,
-      "reasoning": false,
-      "temperature": true,
-      "tool_call": false,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 131072,
-        "output": 26215
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two."
-    },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
       "name": "Nous: Hermes 3 405B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8384,7 +7758,7 @@
     "openai/chatgpt-4o-latest": {
       "id": "openai/chatgpt-4o-latest",
       "name": "OpenAI: ChatGPT-4o",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8411,7 +7785,7 @@
     "sao10k/l3-lunaris-8b": {
       "id": "sao10k/l3-lunaris-8b",
       "name": "Sao10K: Llama 3 8B Lunaris",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8437,7 +7811,7 @@
     "openai/gpt-4o-2024-08-06": {
       "id": "openai/gpt-4o-2024-08-06",
       "name": "OpenAI: GPT-4o (2024-08-06)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8465,7 +7839,7 @@
     "meta-llama/llama-3.1-405b": {
       "id": "meta-llama/llama-3.1-405b",
       "name": "Meta: Llama 3.1 405B (base)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8491,7 +7865,7 @@
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8517,7 +7891,7 @@
     "meta-llama/llama-3.1-405b-instruct": {
       "id": "meta-llama/llama-3.1-405b-instruct",
       "name": "Meta: Llama 3.1 405B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8543,7 +7917,7 @@
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8569,7 +7943,7 @@
     "mistralai/mistral-nemo": {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8595,7 +7969,7 @@
     "openai/gpt-4o-mini-2024-07-18": {
       "id": "openai/gpt-4o-mini-2024-07-18",
       "name": "OpenAI: GPT-4o-mini (2024-07-18)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8623,7 +7997,7 @@
     "openai/gpt-4o-mini": {
       "id": "openai/gpt-4o-mini",
       "name": "OpenAI: GPT-4o-mini",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8651,7 +8025,7 @@
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8677,7 +8051,7 @@
     "google/gemma-2-9b-it": {
       "id": "google/gemma-2-9b-it",
       "name": "Google: Gemma 2 9B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8703,7 +8077,7 @@
     "sao10k/l3-euryale-70b": {
       "id": "sao10k/l3-euryale-70b",
       "name": "Sao10k: Llama 3 Euryale 70B v2.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8729,7 +8103,7 @@
     "nousresearch/hermes-2-pro-llama-3-8b": {
       "id": "nousresearch/hermes-2-pro-llama-3-8b",
       "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8755,7 +8129,7 @@
     "mistralai/mistral-7b-instruct": {
       "id": "mistralai/mistral-7b-instruct",
       "name": "Mistral: Mistral 7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8781,7 +8155,7 @@
     "mistralai/mistral-7b-instruct-v0.3": {
       "id": "mistralai/mistral-7b-instruct-v0.3",
       "name": "Mistral: Mistral 7B Instruct v0.3",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8807,7 +8181,7 @@
     "meta-llama/llama-guard-2-8b": {
       "id": "meta-llama/llama-guard-2-8b",
       "name": "Meta: LlamaGuard 2 8B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8833,7 +8207,7 @@
     "openai/gpt-4o-2024-05-13": {
       "id": "openai/gpt-4o-2024-05-13",
       "name": "OpenAI: GPT-4o (2024-05-13)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8860,7 +8234,7 @@
     "openai/gpt-4o": {
       "id": "openai/gpt-4o",
       "name": "OpenAI: GPT-4o",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8888,7 +8262,7 @@
     "openai/gpt-4o:extended": {
       "id": "openai/gpt-4o:extended",
       "name": "OpenAI: GPT-4o (extended)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8915,7 +8289,7 @@
     "meta-llama/llama-3-70b-instruct": {
       "id": "meta-llama/llama-3-70b-instruct",
       "name": "Meta: Llama 3 70B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8941,7 +8315,7 @@
     "meta-llama/llama-3-8b-instruct": {
       "id": "meta-llama/llama-3-8b-instruct",
       "name": "Meta: Llama 3 8B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8967,7 +8341,7 @@
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/mixtral-8x22b-instruct",
       "name": "Mistral: Mixtral 8x22B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8993,7 +8367,7 @@
     "microsoft/wizardlm-2-8x22b": {
       "id": "microsoft/wizardlm-2-8x22b",
       "name": "WizardLM-2 8x22B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9019,7 +8393,7 @@
     "openai/gpt-4-turbo": {
       "id": "openai/gpt-4-turbo",
       "name": "OpenAI: GPT-4 Turbo",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9046,7 +8420,7 @@
     "anthropic/claude-3-haiku": {
       "id": "anthropic/claude-3-haiku",
       "name": "Anthropic: Claude 3 Haiku",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9075,7 +8449,7 @@
     "mistralai/mistral-large": {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9101,7 +8475,7 @@
     "openai/gpt-3.5-turbo-0613": {
       "id": "openai/gpt-3.5-turbo-0613",
       "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9127,7 +8501,7 @@
     "openai/gpt-4-turbo-preview": {
       "id": "openai/gpt-4-turbo-preview",
       "name": "OpenAI: GPT-4 Turbo Preview",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9153,7 +8527,7 @@
     "mistralai/mistral-7b-instruct-v0.2": {
       "id": "mistralai/mistral-7b-instruct-v0.2",
       "name": "Mistral: Mistral 7B Instruct v0.2",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9179,7 +8553,7 @@
     "mistralai/mixtral-8x7b-instruct": {
       "id": "mistralai/mixtral-8x7b-instruct",
       "name": "Mistral: Mixtral 8x7B Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9205,7 +8579,7 @@
     "neversleep/noromaid-20b": {
       "id": "neversleep/noromaid-20b",
       "name": "Noromaid 20B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9231,7 +8605,7 @@
     "alpindale/goliath-120b": {
       "id": "alpindale/goliath-120b",
       "name": "Goliath 120B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9257,7 +8631,7 @@
     "openai/gpt-4-1106-preview": {
       "id": "openai/gpt-4-1106-preview",
       "name": "OpenAI: GPT-4 Turbo (older v1106)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9283,7 +8657,7 @@
     "openai/gpt-3.5-turbo-instruct": {
       "id": "openai/gpt-3.5-turbo-instruct",
       "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9309,7 +8683,7 @@
     "mistralai/mistral-7b-instruct-v0.1": {
       "id": "mistralai/mistral-7b-instruct-v0.1",
       "name": "Mistral: Mistral 7B Instruct v0.1",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9335,7 +8709,7 @@
     "openai/gpt-3.5-turbo-16k": {
       "id": "openai/gpt-3.5-turbo-16k",
       "name": "OpenAI: GPT-3.5 Turbo 16k",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9361,7 +8735,7 @@
     "mancer/weaver": {
       "id": "mancer/weaver",
       "name": "Mancer: Weaver (alpha)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9387,7 +8761,7 @@
     "undi95/remm-slerp-l2-13b": {
       "id": "undi95/remm-slerp-l2-13b",
       "name": "ReMM SLERP 13B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9413,7 +8787,7 @@
     "gryphe/mythomax-l2-13b": {
       "id": "gryphe/mythomax-l2-13b",
       "name": "MythoMax 13B",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9439,7 +8813,7 @@
     "openai/gpt-4-0314": {
       "id": "openai/gpt-4-0314",
       "name": "OpenAI: GPT-4 (older v0314)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9465,7 +8839,7 @@
     "openai/gpt-4": {
       "id": "openai/gpt-4",
       "name": "OpenAI: GPT-4",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9491,7 +8865,7 @@
     "openai/gpt-3.5-turbo": {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9517,7 +8891,7 @@
     "corethink:free": {
       "id": "corethink:free",
       "name": "CoreThink (free)",
-      "release_date": "2026-02-16",
+      "release_date": "2026-02-17",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
