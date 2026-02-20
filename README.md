@@ -1,5 +1,6 @@
 # Kilo Auth Plugin for OpenCode
 
+[![skills.sh](https://skills-badge.vercel.app/badge/JungHoonGhae/opencode-kilo-auth?style=flat-square&label=installs)](https://skills.sh/JungHoonGhae/opencode-kilo-auth)
 [![npm version](https://img.shields.io/npm/v/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
 [![npm downloads](https://img.shields.io/npm/dw/opencode-kilo-auth.svg)](https://www.npmjs.com/package/opencode-kilo-auth)
 [![GitHub stars](https://img.shields.io/github/stars/JungHoonGhae/opencode-kilo-auth)](https://github.com/JungHoonGhae/opencode-kilo-auth/stargazers)
