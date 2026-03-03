@@ -10,19 +10,15 @@
 | :-----| :----- |
 | [<img alt="X link" src="https://img.shields.io/badge/Follow-%40lucas_ghae-000000?style=flat-square&logo=x&labelColor=black" width="156px" />](https://x.com/lucas_ghae) | Follow [@lucas_ghae](https://x.com/lucas_ghae) on X for updates. |
 
-**Use Kilo Gateway with your existing OpenCode installation - no need to install Kilo CLI fork.**
+Use Kilo Gateway with your existing OpenCode installation — no separate fork needed.
 
 > **Disclaimer**: This is an independent community plugin. It is not affiliated with, endorsed by, or sponsored by Kilo.ai or OpenCode. Kilo™ and OpenCode™ are trademarks of their respective owners.
 
-## About
+## Why this plugin?
 
-Kilo Gateway offers 342+ AI models including 29 free tier models. But using it from CLI required installing a separate Kilo CLI fork. This plugin lets you use Kilo Gateway directly in your existing OpenCode installation.
+Kilo Gateway gives access to 342+ AI models, including 29 free tier options. The catch: to use it from the terminal, you had to install a separate Kilo CLI fork and maintain a parallel setup.
 
-**What it does:**
-- Adds Kilo Gateway as an OpenCode provider
-- Access 342+ models including free tier options
-- Simple npm plugin installation
-- No separate CLI needed
+This plugin adds Kilo Gateway as a provider directly to your existing OpenCode installation. One config line. No forks.
 
 ## Support
 
@@ -35,9 +31,9 @@ If this plugin helps you, consider supporting its maintenance:
 ## Features
 
 - 🆓 **Free models** — 29 free tier models available
-- 🔌 **Easy install** — Just add to OpenCode config
+- 🔌 **Easy install** — One config line, no CLI fork
 - 📦 **342+ models** — Full Kilo Gateway access
-- ⚡ **No fork needed** — Keep using OpenCode
+- ⚡ **Drop-in** — Works with your existing OpenCode setup
 
 ## Requirements
 
