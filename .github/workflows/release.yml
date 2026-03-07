@@ -75,7 +75,16 @@ jobs:
         if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
         id: doppler
         run: |
+          set -euo pipefail
+          if [ -z "${DOPPLER_TOKEN:-}" ]; then
+            echo "::error::DOPPLER_TOKEN secret is not set"
+            exit 1
+          fi
           TOKEN=$(doppler secrets get NPM_TOKEN --plain)
+          if [ -z "$TOKEN" ]; then
+            echo "::error::NPM_TOKEN not found in Doppler"
+            exit 1
+          fi
           echo "::add-mask::$TOKEN"
           echo "NPM_TOKEN=$TOKEN" >> "$GITHUB_OUTPUT"
         env:
