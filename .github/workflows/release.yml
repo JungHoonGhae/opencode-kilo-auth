@@ -67,15 +67,19 @@ jobs:
             fi
           fi
 
-      - name: Verify NPM token
+      - name: Install Doppler CLI
         if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        uses: dopplerhq/cli-action@v3
+
+      - name: Fetch NPM token
+        if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
+        id: doppler
         run: |
-          if [ -z "${NPM_TOKEN}" ]; then
-            echo "NPM_TOKEN secret is required" >&2
-            exit 1
-          fi
+          TOKEN=$(doppler secrets get NPM_TOKEN --plain)
+          echo "::add-mask::$TOKEN"
+          echo "NPM_TOKEN=$TOKEN" >> "$GITHUB_OUTPUT"
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
 
       - name: Install dependencies
         if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
@@ -191,5 +195,5 @@ jobs:
       - name: Publish to npm
         if: steps.determine.outputs.changed == 'true' && steps.determine.outputs.tag_exists == 'false'
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ steps.doppler.outputs.NPM_TOKEN }}
         run: npm publish --access public --provenance
