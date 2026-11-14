@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-11-13T05:36:19.811Z",
-  "totalModels": 459,
+  "lastUpdated": "2026-11-14T05:26:44.138Z",
+  "totalModels": 458,
   "freeModelsCount": 10,
-  "premiumModelsCount": 449,
+  "premiumModelsCount": 448,
   "freeModels": [
     "nvidia/nemotron-3.5-super-vl:free",
+    "inclusionai/ling-3.2-flash:free",
     "baidu/ernie-5.5-flash-preview:free",
     "liquid/lfm-3-1.7b:free",
     "particle-ai/particle-1:free",
-    "apodex/apodex-1.1-mini:free",
     "dots-studio/dots-3-note-preview:free",
     "nvidia/nemotron-3.5-lightning:free",
     "cohere/north-mini-code:free",
@@ -100,7 +100,6 @@
     "nex-agi/nex-n2.5-pro",
     "openai/gpt-6-astra",
     "openai/gpt-6-astra-pro",
-    "inclusionai/ling-3.0-flash-sante",
     "qwen/qwen3.8-max-0902",
     "meta/muse-spark-1.3-contributor",
     "meta/muse-spark-1.3",
@@ -108,7 +107,6 @@
     "anthropic/claude-fable-5.1",
     "ibm-granite/granite-4.2-8b",
     "tencent/hy4-preview",
-    "inclusionai/ling-3.0-flash-fin",
     "~z-ai/glm-flash-latest",
     "qwen/qwen3.8-flash",
     "meta/muse-spark-1.2-contributor",
@@ -124,7 +122,6 @@
     "qwen/qwen3.8-2.4t-a95b",
     "deepseek/deepseek-v4-pro-0813",
     "x-ai/grok-4.6",
-    "liquid/lfm-2.5-2.6b",
     "nvidia/nemotron-3.5-lightning",
     "sakana/sakana-namazu",
     "upstage/solar-pro4",
@@ -397,8 +394,10 @@
     "openai/gpt-6-luna-fast",
     "openai/gpt-6-sol-fast",
     "inception/mercury-2.5",
+    "inclusionai/ling-3.0-flash-sante",
     "openai/gpt-6-astra-fast",
     "z-ai/glm-5.3-fast",
+    "inclusionai/ling-3.0-flash-fin",
     "mixedbread/toast-1",
     "qwen/qwen3.8-max",
     "moonshotai/kimi-k3-fast",
@@ -470,7 +469,7 @@
     "kilo-auto/efficient": {
       "id": "kilo-auto/efficient",
       "name": "Auto Efficient",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -497,7 +496,7 @@
     "kilo-auto/free": {
       "id": "kilo-auto/free",
       "name": "Auto Free",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -525,7 +524,7 @@
     "nvidia/nemotron-3.5-super-vl:free": {
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -553,7 +552,7 @@
     "stealth/glyph-cluster": {
       "id": "stealth/glyph-cluster",
       "name": "Glyph Cluster",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -579,7 +578,7 @@
     "anthropic/claude-opus-5.5": {
       "id": "anthropic/claude-opus-5.5",
       "name": "Anthropic: Claude Opus 5.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -609,7 +608,7 @@
     "openai/gpt-6.1-sol": {
       "id": "openai/gpt-6.1-sol",
       "name": "OpenAI: GPT-6.1 Sol",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -639,7 +638,7 @@
     "deepseek/deepseek-v4.1-flash-1017": {
       "id": "deepseek/deepseek-v4.1-flash-1017",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -651,7 +650,7 @@
       },
       "limit": {
         "context": 1048576,
-        "output": 393216
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -667,7 +666,7 @@
     "z-ai/glm-5.3-flash": {
       "id": "z-ai/glm-5.3-flash",
       "name": "Z.ai: GLM 5.3 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -693,10 +692,37 @@
       },
       "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while..."
     },
+    "inclusionai/ling-3.2-flash:free": {
+      "id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "release_date": "2026-11-14",
+      "attachment": true,
+      "reasoning": true,
+      "temperature": true,
+      "tool_call": true,
+      "cost": {
+        "input": 0,
+        "output": 0
+      },
+      "limit": {
+        "context": 1048576,
+        "output": 262144
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can..."
+    },
     "google/gemini-4-hydrogen": {
       "id": "google/gemini-4-hydrogen",
       "name": "Google: Gemini 4 Hydrogen",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -728,7 +754,7 @@
     "baidu/ernie-5.5-flash-preview:free": {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -754,7 +780,7 @@
     "baidu/ernie-light-dt-1.0-intl": {
       "id": "baidu/ernie-light-dt-1.0-intl",
       "name": "Baidu: ERNIE-Light-DT-1.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -781,7 +807,7 @@
     "google/gemini-4-carbon": {
       "id": "google/gemini-4-carbon",
       "name": "Google: Gemini 4 Carbon",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -813,7 +839,7 @@
     "nex-agi/nex-n2.6": {
       "id": "nex-agi/nex-n2.6",
       "name": "Nex AGI: Nex-N2.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -841,7 +867,7 @@
     "thinkingmachines/inkling-2-small": {
       "id": "thinkingmachines/inkling-2-small",
       "name": "Thinking Machines: Inkling 2 Small",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -869,7 +895,7 @@
     "anthropic/claude-fable-5.2": {
       "id": "anthropic/claude-fable-5.2",
       "name": "Anthropic: Claude Fable 5.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -899,7 +925,7 @@
     "meta/muse-ember": {
       "id": "meta/muse-ember",
       "name": "Meta: Muse Ember",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -930,7 +956,7 @@
     "liquid/lfm-3-1.7b": {
       "id": "liquid/lfm-3-1.7b",
       "name": "LiquidAI: LFM3-1.7B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -957,7 +983,7 @@
     "liquid/lfm-3-1.7b:free": {
       "id": "liquid/lfm-3-1.7b:free",
       "name": "LiquidAI: LFM3-1.7B (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -983,7 +1009,7 @@
     "google/gemini-omni-1.2-flash": {
       "id": "google/gemini-omni-1.2-flash",
       "name": "Google: Gemini Omni 1.2 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1013,11 +1039,11 @@
     "kt/midm-k-3.0-pro": {
       "id": "kt/midm-k-3.0-pro",
       "name": "KT: Mi:dm K 3.0 Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
-      "tool_call": false,
+      "tool_call": true,
       "cost": {
         "input": 2e-7,
         "output": 8e-7,
@@ -1040,7 +1066,7 @@
     "google/gemini-omni-1.1-flash": {
       "id": "google/gemini-omni-1.1-flash",
       "name": "Google: Gemini Omni 1.1 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1070,7 +1096,7 @@
     "ricursiveai/ripple-65b-preview": {
       "id": "ricursiveai/ripple-65b-preview",
       "name": "Ricursive: Ripple 65B Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1097,7 +1123,7 @@
     "tencent/hy4": {
       "id": "tencent/hy4",
       "name": "Tencent: Hy4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1125,11 +1151,11 @@
     "motif-technologies/motif-3": {
       "id": "motif-technologies/motif-3",
       "name": "Motif Technologies: Motif 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
-      "tool_call": false,
+      "tool_call": true,
       "cost": {
         "input": 3e-7,
         "output": 0.0000012,
@@ -1152,7 +1178,7 @@
     "z-ai/glm-5.3-flashx-legal": {
       "id": "z-ai/glm-5.3-flashx-legal",
       "name": "Z.ai: GLM 5.3 FlashX Legal",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1181,7 +1207,7 @@
     "particle-ai/particle-1": {
       "id": "particle-ai/particle-1",
       "name": "Particle AI: Particle-1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1209,7 +1235,7 @@
     "particle-ai/particle-1:free": {
       "id": "particle-ai/particle-1:free",
       "name": "Particle AI: Particle-1 (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1236,7 +1262,7 @@
     "openai/gpt-6.1-terra-pro": {
       "id": "openai/gpt-6.1-terra-pro",
       "name": "OpenAI: GPT-6.1 Terra Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1266,7 +1292,7 @@
     "openai/gpt-6.1-terra": {
       "id": "openai/gpt-6.1-terra",
       "name": "OpenAI: GPT-6.1 Terra",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1296,7 +1322,7 @@
     "moonshotai/kimi-k3.1-pro": {
       "id": "moonshotai/kimi-k3.1-pro",
       "name": "MoonshotAI: Kimi K3.1 Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1325,7 +1351,7 @@
     "minimax/minimax-m3.1-flash": {
       "id": "minimax/minimax-m3.1-flash",
       "name": "MiniMax: MiniMax M3.1 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1354,7 +1380,7 @@
     "elorian/glimpse": {
       "id": "elorian/glimpse",
       "name": "Elorian: Glimpse",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1383,7 +1409,7 @@
     "reflection/beam-1.0-501b-a23b": {
       "id": "reflection/beam-1.0-501b-a23b",
       "name": "Reflection: Beam 1.0 501B A23B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1410,7 +1436,7 @@
     "prism-ml/ternary-bonsai-2-9b": {
       "id": "prism-ml/ternary-bonsai-2-9b",
       "name": "PrismML: Ternary Bonsai 2 9B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1438,7 +1464,7 @@
     "moondream/moondream3-preview": {
       "id": "moondream/moondream3-preview",
       "name": "Moondream: Moondream 3 Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1465,7 +1491,7 @@
     "moondream/moondream3.1-9b-a2b": {
       "id": "moondream/moondream3.1-9b-a2b",
       "name": "Moondream: Moondream 3.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1492,7 +1518,7 @@
     "meta/muse-spark-open": {
       "id": "meta/muse-spark-open",
       "name": "Meta: Muse Spark Open",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1523,7 +1549,7 @@
     "nvidia/nemotron-3.5-super-vl": {
       "id": "nvidia/nemotron-3.5-super-vl",
       "name": "NVIDIA: Nemotron 3.5 Super VL",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1552,7 +1578,7 @@
     "unbiased/pareto-26.10": {
       "id": "unbiased/pareto-26.10",
       "name": "Pareto 26.10",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1580,7 +1606,7 @@
     "~unbiased/pareto-latest": {
       "id": "~unbiased/pareto-latest",
       "name": "Pareto Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1608,7 +1634,7 @@
     "unbiased/pareto-26.9": {
       "id": "unbiased/pareto-26.9",
       "name": "Pareto 26.9",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1636,7 +1662,7 @@
     "liquid/lfm-2.5-24b-a2b": {
       "id": "liquid/lfm-2.5-24b-a2b",
       "name": "LiquidAI: LFM2.5-24B-A2B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1663,7 +1689,7 @@
     "google/gemini-4-argon": {
       "id": "google/gemini-4-argon",
       "name": "Google: Gemini 4 Argon",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1695,7 +1721,7 @@
     "scaledown/summarize": {
       "id": "scaledown/summarize",
       "name": "ScaleDown: Summarize",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -1722,7 +1748,7 @@
     "scaledown/extract": {
       "id": "scaledown/extract",
       "name": "ScaleDown: Extract",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -1749,7 +1775,7 @@
     "meta/muse-wonder": {
       "id": "meta/muse-wonder",
       "name": "Meta: Muse Wonder",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1780,7 +1806,7 @@
     "stepfun/step-5-preview": {
       "id": "stepfun/step-5-preview",
       "name": "StepFun: Step 5 Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1809,7 +1835,7 @@
     "anthropic/claude-haiku-5.5": {
       "id": "anthropic/claude-haiku-5.5",
       "name": "Anthropic: Claude Haiku 5.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1839,7 +1865,7 @@
     "mistralai/mistral-large-4-0": {
       "id": "mistralai/mistral-large-4-0",
       "name": "Mistral: Mistral Large 4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -1867,7 +1893,7 @@
     "inclusionai/ling-3.1-flash": {
       "id": "inclusionai/ling-3.1-flash",
       "name": "inclusionAI: Ling 3.1 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -1891,36 +1917,10 @@
       },
       "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total."
     },
-    "apodex/apodex-1.1-mini:free": {
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "release_date": "2026-11-13",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 0,
-        "output": 0
-      },
-      "limit": {
-        "context": 262144,
-        "output": 235929
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,..."
-    },
     "unbiased/pareto-26.10-preview": {
       "id": "unbiased/pareto-26.10-preview",
       "name": "Pareto 26.10 Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -1948,7 +1948,7 @@
     "openai/gpt-6.1-sol-pro": {
       "id": "openai/gpt-6.1-sol-pro",
       "name": "OpenAI: GPT-6.1 Sol Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -1978,7 +1978,7 @@
     "anthropic/claude-sonnet-5.5": {
       "id": "anthropic/claude-sonnet-5.5",
       "name": "Anthropic: Claude Sonnet 5.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2008,7 +2008,7 @@
     "perceptron/perceptron-mk1.5": {
       "id": "perceptron/perceptron-mk1.5",
       "name": "Perceptron: Perceptron Mk1.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2037,7 +2037,7 @@
     "fireworks/ember-1": {
       "id": "fireworks/ember-1",
       "name": "Fireworks: Ember-1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2065,7 +2065,7 @@
     "z-ai/glm-5.3-prime": {
       "id": "z-ai/glm-5.3-prime",
       "name": "Z.ai: GLM 5.3 Prime",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2092,7 +2092,7 @@
     "qwen/qwen3.8-max-prime": {
       "id": "qwen/qwen3.8-max-prime",
       "name": "Qwen: Qwen3.8 Max Prime",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2121,7 +2121,7 @@
     "aion-labs/aion-3.5-mini": {
       "id": "aion-labs/aion-3.5-mini",
       "name": "AionLabs: Aion 3.5 Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2148,7 +2148,7 @@
     "aion-labs/aion-3.5": {
       "id": "aion-labs/aion-3.5",
       "name": "AionLabs: Aion 3.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2175,7 +2175,7 @@
     "upstage/solar-mini4": {
       "id": "upstage/solar-mini4",
       "name": "Upstage: Solar Mini 4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2202,7 +2202,7 @@
     "cohere/command-a-plus": {
       "id": "cohere/command-a-plus",
       "name": "Cohere: Command A+",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2230,7 +2230,7 @@
     "openai/gpt-6-luna-pro": {
       "id": "openai/gpt-6-luna-pro",
       "name": "OpenAI: GPT-6 Luna Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2260,7 +2260,7 @@
     "openai/gpt-6-luna": {
       "id": "openai/gpt-6-luna",
       "name": "OpenAI: GPT-6 Luna",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2290,7 +2290,7 @@
     "openai/gpt-6-sol-pro": {
       "id": "openai/gpt-6-sol-pro",
       "name": "OpenAI: GPT-6 Sol Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2320,7 +2320,7 @@
     "openai/gpt-6-sol": {
       "id": "openai/gpt-6-sol",
       "name": "OpenAI: GPT-6 Sol",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2350,7 +2350,7 @@
     "xiaomi/mimo-v2.6-pro-ultraspeed": {
       "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
       "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2380,7 +2380,7 @@
     "xiaomi/mimo-v2.6-flash": {
       "id": "xiaomi/mimo-v2.6-flash",
       "name": "Xiaomi: MiMo-V2.6-Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2410,7 +2410,7 @@
     "xiaomi/mimo-v2.6-pro": {
       "id": "xiaomi/mimo-v2.6-pro",
       "name": "Xiaomi: MiMo-V2.6-Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2440,7 +2440,7 @@
     "x-ai/grok-4.7": {
       "id": "x-ai/grok-4.7",
       "name": "SpaceXAI: Grok 4.7",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2470,7 +2470,7 @@
     "qwen/qwen3.8-omni-flash": {
       "id": "qwen/qwen3.8-omni-flash",
       "name": "Qwen: Qwen3.8 Omni Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2500,7 +2500,7 @@
     "prism-ml/ternary-bonsai-2-27b": {
       "id": "prism-ml/ternary-bonsai-2-27b",
       "name": "PrismML: Ternary Bonsai 2 27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2528,7 +2528,7 @@
     "z-ai/glm-5.3-flashx": {
       "id": "z-ai/glm-5.3-flashx",
       "name": "Z.ai: GLM 5.3 FlashX",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2557,7 +2557,7 @@
     "~deepseek/deepseek-pro-latest": {
       "id": "~deepseek/deepseek-pro-latest",
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -2584,7 +2584,7 @@
     "~deepseek/deepseek-flash-latest": {
       "id": "~deepseek/deepseek-flash-latest",
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2612,7 +2612,7 @@
     "inference-net/schematron-v2-turbo": {
       "id": "inference-net/schematron-v2-turbo",
       "name": "Inference.net: Schematron V2 Turbo",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2639,7 +2639,7 @@
     "inference-net/schematron-v2-small": {
       "id": "inference-net/schematron-v2-small",
       "name": "Inference.net: Schematron V2 Small",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -2666,7 +2666,7 @@
     "~openai/gpt-astra-latest": {
       "id": "~openai/gpt-astra-latest",
       "name": "OpenAI: GPT Astra Latest ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2696,7 +2696,7 @@
     "~openai/gpt-sol-latest": {
       "id": "~openai/gpt-sol-latest",
       "name": "OpenAI: GPT Sol Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2726,7 +2726,7 @@
     "~openai/gpt-terra-latest": {
       "id": "~openai/gpt-terra-latest",
       "name": "OpenAI: GPT Terra Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2756,7 +2756,7 @@
     "~openai/gpt-luna-latest": {
       "id": "~openai/gpt-luna-latest",
       "name": "OpenAI: GPT Luna Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2786,7 +2786,7 @@
     "sakana/fugu-ultra-v2": {
       "id": "sakana/fugu-ultra-v2",
       "name": "Sakana: Fugu Ultra v2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2814,7 +2814,7 @@
     "sakana/fugu-max": {
       "id": "sakana/fugu-max",
       "name": "Sakana: Fugu Max",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2842,7 +2842,7 @@
     "inclusionai/ling-3.0-flash-vl": {
       "id": "inclusionai/ling-3.0-flash-vl",
       "name": "inclusionAI: Ling 3.0 Flash VL",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2871,7 +2871,7 @@
     "deepseek/deepseek-v4.1-flash": {
       "id": "deepseek/deepseek-v4.1-flash",
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2883,7 +2883,7 @@
       },
       "limit": {
         "context": 1048576,
-        "output": 943718
+        "output": 393216
       },
       "modalities": {
         "input": [
@@ -2899,7 +2899,7 @@
     "nex-agi/nex-n2.5-mini": {
       "id": "nex-agi/nex-n2.5-mini",
       "name": "Nex AGI: Nex-N2.5-Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2927,7 +2927,7 @@
     "nex-agi/nex-n2.5-pro": {
       "id": "nex-agi/nex-n2.5-pro",
       "name": "Nex AGI: Nex-N2.5-Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -2955,7 +2955,7 @@
     "openai/gpt-6-astra": {
       "id": "openai/gpt-6-astra",
       "name": "OpenAI: GPT-6 Astra ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -2985,7 +2985,7 @@
     "openai/gpt-6-astra-pro": {
       "id": "openai/gpt-6-astra-pro",
       "name": "OpenAI: GPT-6 Astra Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -3012,37 +3012,10 @@
       },
       "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more..."
     },
-    "inclusionai/ling-3.0-flash-sante": {
-      "id": "inclusionai/ling-3.0-flash-sante",
-      "name": "inclusionAI: Ling 3.0 Flash Sante",
-      "release_date": "2026-11-13",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 7.5e-8,
-        "output": 2.2e-7,
-        "cache_read": 1.5e-8
-      },
-      "limit": {
-        "context": 262144,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for..."
-    },
     "qwen/qwen3.8-max-0902": {
       "id": "qwen/qwen3.8-max-0902",
       "name": "Qwen: Qwen3.8 Max (0902)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3072,7 +3045,7 @@
     "meta/muse-spark-1.3-contributor": {
       "id": "meta/muse-spark-1.3-contributor",
       "name": "Meta: Muse Spark 1.3 Contributor",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3102,7 +3075,7 @@
     "meta/muse-spark-1.3": {
       "id": "meta/muse-spark-1.3",
       "name": "Meta: Muse Spark 1.3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3132,7 +3105,7 @@
     "google/gemini-3.8-flash": {
       "id": "google/gemini-3.8-flash",
       "name": "Google: Gemini 3.8 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3164,7 +3137,7 @@
     "anthropic/claude-fable-5.1": {
       "id": "anthropic/claude-fable-5.1",
       "name": "Anthropic: Claude Fable 5.1 ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -3194,7 +3167,7 @@
     "ibm-granite/granite-4.2-8b": {
       "id": "ibm-granite/granite-4.2-8b",
       "name": "IBM: Granite 4.2 8B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3221,7 +3194,7 @@
     "tencent/hy4-preview": {
       "id": "tencent/hy4-preview",
       "name": "Tencent: Hy4 preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3245,37 +3218,10 @@
       },
       "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that..."
     },
-    "inclusionai/ling-3.0-flash-fin": {
-      "id": "inclusionai/ling-3.0-flash-fin",
-      "name": "inclusionAI: Ling 3.0 Flash Fin",
-      "release_date": "2026-11-13",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 7.5e-8,
-        "output": 2.2e-7,
-        "cache_read": 1.5e-8
-      },
-      "limit": {
-        "context": 262144,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment..."
-    },
     "~z-ai/glm-flash-latest": {
       "id": "~z-ai/glm-flash-latest",
       "name": "Z.ai: GLM Flash Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3304,7 +3250,7 @@
     "qwen/qwen3.8-flash": {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3334,7 +3280,7 @@
     "meta/muse-spark-1.2-contributor": {
       "id": "meta/muse-spark-1.2-contributor",
       "name": "Meta: Muse Spark 1.2 Contributor",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3364,7 +3310,7 @@
     "deepseek/deepseek-v4-flash-vision-exp": {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3392,7 +3338,7 @@
     "tencent/hy-mt2-1.8b": {
       "id": "tencent/hy-mt2-1.8b",
       "name": "Tencent: Hy-MT2-1.8B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3418,7 +3364,7 @@
     "tencent/hy-mt2-30b-a3b": {
       "id": "tencent/hy-mt2-30b-a3b",
       "name": "Tencent: Hy-MT2-30B-A3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3444,7 +3390,7 @@
     "~z-ai/glm-latest": {
       "id": "~z-ai/glm-latest",
       "name": "Z.ai: GLM Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3471,7 +3417,7 @@
     "tencent/hy-mt2-7b": {
       "id": "tencent/hy-mt2-7b",
       "name": "Tencent: Hy-MT2-7B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -3497,7 +3443,7 @@
     "z-ai/glm-5.3": {
       "id": "z-ai/glm-5.3",
       "name": "Z.ai: GLM 5.3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3524,7 +3470,7 @@
     "qwen/qwen3.8-27b": {
       "id": "qwen/qwen3.8-27b",
       "name": "Qwen: Qwen3.8 27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3536,7 +3482,7 @@
         "cache_write": 5.3125e-7
       },
       "limit": {
-        "context": 1048575,
+        "context": 1024000,
         "output": 235929
       },
       "modalities": {
@@ -3554,7 +3500,7 @@
     "dots-studio/dots-3-note-preview:free": {
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3581,7 +3527,7 @@
     "google/gemini-3.7-flash": {
       "id": "google/gemini-3.7-flash",
       "name": "Google: Gemini 3.7 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3613,7 +3559,7 @@
     "bytedance-seed/seed-2-1-turbo": {
       "id": "bytedance-seed/seed-2-1-turbo",
       "name": "ByteDance Seed: Seed 2.1 Turbo",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3641,7 +3587,7 @@
     "qwen/qwen3.8-2.4t-a95b": {
       "id": "qwen/qwen3.8-2.4t-a95b",
       "name": "Qwen: Qwen3.8 2.4T A95B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3669,7 +3615,7 @@
     "deepseek/deepseek-v4-pro-0813": {
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3696,7 +3642,7 @@
     "x-ai/grok-4.6": {
       "id": "x-ai/grok-4.6",
       "name": "SpaceXAI: Grok 4.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3722,37 +3668,10 @@
       },
       "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7)."
     },
-    "liquid/lfm-2.5-2.6b": {
-      "id": "liquid/lfm-2.5-2.6b",
-      "name": "LiquidAI: LFM2.5-2.6B (retires Nov 13)",
-      "release_date": "2026-11-13",
-      "attachment": false,
-      "reasoning": true,
-      "temperature": true,
-      "tool_call": true,
-      "cost": {
-        "input": 3.5e-7,
-        "output": 5e-7,
-        "cache_read": 4e-8
-      },
-      "limit": {
-        "context": 128000,
-        "output": 8192
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
-    },
     "nvidia/nemotron-3.5-lightning": {
       "id": "nvidia/nemotron-3.5-lightning",
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3779,7 +3698,7 @@
     "nvidia/nemotron-3.5-lightning:free": {
       "id": "nvidia/nemotron-3.5-lightning:free",
       "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3805,7 +3724,7 @@
     "sakana/sakana-namazu": {
       "id": "sakana/sakana-namazu",
       "name": "Sakana: Sakana Namazu",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -3833,7 +3752,7 @@
     "upstage/solar-pro4": {
       "id": "upstage/solar-pro4",
       "name": "Upstage: Solar Pro 4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3860,7 +3779,7 @@
     "meta/muse-glimmer-30b": {
       "id": "meta/muse-glimmer-30b",
       "name": "Meta: Muse Glimmer 30B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3889,7 +3808,7 @@
     "inclusionai/ling-3.0-tiny": {
       "id": "inclusionai/ling-3.0-tiny",
       "name": "inclusionAI: Ling 3.0 Tiny",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3916,7 +3835,7 @@
     "meta/muse-spark-1.2": {
       "id": "meta/muse-spark-1.2",
       "name": "Meta: Muse Spark 1.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -3946,7 +3865,7 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "id": "~deepseek/deepseek-v4-flash-latest",
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -3973,7 +3892,7 @@
     "deepseek/deepseek-v4-flash-0731": {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4000,7 +3919,7 @@
     "thinkingmachines/inkling-small": {
       "id": "thinkingmachines/inkling-small",
       "name": "Thinking Machines: Inkling Small",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4029,7 +3948,7 @@
     "qwen/qwen3.7-flash": {
       "id": "qwen/qwen3.7-flash",
       "name": "Qwen: Qwen3.7 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4059,7 +3978,7 @@
     "anthropic/claude-opus-5": {
       "id": "anthropic/claude-opus-5",
       "name": "Anthropic: Claude Opus 5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4089,7 +4008,7 @@
     "inclusionai/ling-3.0-flash": {
       "id": "inclusionai/ling-3.0-flash",
       "name": "inclusionAI: Ling 3.0 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4116,7 +4035,7 @@
     "google/gemini-3.6-flash": {
       "id": "google/gemini-3.6-flash",
       "name": "Google: Gemini 3.6 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4148,7 +4067,7 @@
     "google/gemini-3.5-flash-lite": {
       "id": "google/gemini-3.5-flash-lite",
       "name": "Google: Gemini 3.5 Flash Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4180,7 +4099,7 @@
     "meituan/longcat-2.0": {
       "id": "meituan/longcat-2.0",
       "name": "Meituan: LongCat 2.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4207,7 +4126,7 @@
     "thinkingmachines/inkling": {
       "id": "thinkingmachines/inkling",
       "name": "Thinking Machines: Inkling",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4236,7 +4155,7 @@
     "moonshotai/kimi-k3": {
       "id": "moonshotai/kimi-k3",
       "name": "MoonshotAI: Kimi K3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4266,7 +4185,7 @@
     "meta/muse-spark-1.1": {
       "id": "meta/muse-spark-1.1",
       "name": "Meta: Muse Spark 1.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4296,7 +4215,7 @@
     "openai/gpt-5.6-luna-pro": {
       "id": "openai/gpt-5.6-luna-pro",
       "name": "OpenAI: GPT-5.6 Luna Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4326,7 +4245,7 @@
     "openai/gpt-5.6-luna": {
       "id": "openai/gpt-5.6-luna",
       "name": "OpenAI: GPT-5.6 Luna",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4356,7 +4275,7 @@
     "openai/gpt-5.6-terra-pro": {
       "id": "openai/gpt-5.6-terra-pro",
       "name": "OpenAI: GPT-5.6 Terra Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4386,7 +4305,7 @@
     "openai/gpt-5.6-terra": {
       "id": "openai/gpt-5.6-terra",
       "name": "OpenAI: GPT-5.6 Terra",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4416,7 +4335,7 @@
     "openai/gpt-5.6-sol-pro": {
       "id": "openai/gpt-5.6-sol-pro",
       "name": "OpenAI: GPT-5.6 Sol Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4446,7 +4365,7 @@
     "openai/gpt-5.6-sol": {
       "id": "openai/gpt-5.6-sol",
       "name": "OpenAI: GPT-5.6 Sol",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4476,7 +4395,7 @@
     "x-ai/grok-4.5": {
       "id": "x-ai/grok-4.5",
       "name": "SpaceXAI: Grok 4.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4505,7 +4424,7 @@
     "~x-ai/grok-latest": {
       "id": "~x-ai/grok-latest",
       "name": "xAI: Grok Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4535,7 +4454,7 @@
     "aion-labs/aion-3.0-mini": {
       "id": "aion-labs/aion-3.0-mini",
       "name": "AionLabs: Aion-3.0-Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4562,7 +4481,7 @@
     "aion-labs/aion-3.0": {
       "id": "aion-labs/aion-3.0",
       "name": "AionLabs: Aion-3.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4589,7 +4508,7 @@
     "tencent/hy3": {
       "id": "tencent/hy3",
       "name": "Tencent: Hy3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4616,7 +4535,7 @@
     "anthropic/claude-sonnet-5": {
       "id": "anthropic/claude-sonnet-5",
       "name": "Anthropic: Claude Sonnet 5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4646,7 +4565,7 @@
     "sakana/fugu-ultra": {
       "id": "sakana/fugu-ultra",
       "name": "Sakana: Fugu Ultra",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4674,7 +4593,7 @@
     "cohere/north-mini-code:free": {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4700,7 +4619,7 @@
     "z-ai/glm-5.2": {
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4727,7 +4646,7 @@
     "moonshotai/kimi-k2.7-code": {
       "id": "moonshotai/kimi-k2.7-code",
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4755,7 +4674,7 @@
     "~anthropic/claude-fable-latest": {
       "id": "~anthropic/claude-fable-latest",
       "name": "Anthropic: Claude Fable Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4785,7 +4704,7 @@
     "anthropic/claude-fable-5": {
       "id": "anthropic/claude-fable-5",
       "name": "Anthropic: Claude Fable 5 ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -4815,7 +4734,7 @@
     "nvidia/nemotron-3.5-content-safety": {
       "id": "nvidia/nemotron-3.5-content-safety",
       "name": "NVIDIA: Nemotron 3.5 Content Safety",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4842,7 +4761,7 @@
     "nvidia/nemotron-3-ultra-550b-a55b": {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
       "name": "NVIDIA: Nemotron 3 Ultra",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4869,7 +4788,7 @@
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "name": "NVIDIA: Nemotron 3 Ultra (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -4895,7 +4814,7 @@
     "qwen/qwen3.7-plus": {
       "id": "qwen/qwen3.7-plus",
       "name": "Qwen: Qwen3.7 Plus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4924,7 +4843,7 @@
     "minimax/minimax-m3": {
       "id": "minimax/minimax-m3",
       "name": "MiniMax: MiniMax M3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4953,7 +4872,7 @@
     "stepfun/step-3.7-flash": {
       "id": "stepfun/step-3.7-flash",
       "name": "StepFun: Step 3.7 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -4982,7 +4901,7 @@
     "anthropic/claude-opus-4.8": {
       "id": "anthropic/claude-opus-4.8",
       "name": "Anthropic: Claude Opus 4.8",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5012,7 +4931,7 @@
     "qwen/qwen3.7-max": {
       "id": "qwen/qwen3.7-max",
       "name": "Qwen: Qwen3.7 Max",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5040,7 +4959,7 @@
     "x-ai/grok-build-0.1": {
       "id": "x-ai/grok-build-0.1",
       "name": "SpaceXAI: Grok Build 0.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5069,7 +4988,7 @@
     "google/gemini-3.5-flash": {
       "id": "google/gemini-3.5-flash",
       "name": "Google: Gemini 3.5 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5101,7 +5020,7 @@
     "perceptron/perceptron-mk1": {
       "id": "perceptron/perceptron-mk1",
       "name": "Perceptron: Perceptron Mk1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5129,7 +5048,7 @@
     "google/gemini-3.1-flash-lite": {
       "id": "google/gemini-3.1-flash-lite",
       "name": "Google: Gemini 3.1 Flash Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5161,7 +5080,7 @@
     "openai/gpt-chat-latest": {
       "id": "openai/gpt-chat-latest",
       "name": "OpenAI: GPT Chat Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": false,
@@ -5190,7 +5109,7 @@
     "x-ai/grok-4.3": {
       "id": "x-ai/grok-4.3",
       "name": "SpaceXAI: Grok 4.3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5219,7 +5138,7 @@
     "mistralai/mistral-medium-3-5": {
       "id": "mistralai/mistral-medium-3-5",
       "name": "Mistral: Mistral Medium 3.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5246,7 +5165,7 @@
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5275,7 +5194,7 @@
     "~anthropic/claude-haiku-latest": {
       "id": "~anthropic/claude-haiku-latest",
       "name": "Anthropic: Claude Haiku Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5305,7 +5224,7 @@
     "~openai/gpt-mini-latest": {
       "id": "~openai/gpt-mini-latest",
       "name": "OpenAI: GPT Mini Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5334,7 +5253,7 @@
     "~google/gemini-pro-latest": {
       "id": "~google/gemini-pro-latest",
       "name": "Google: Gemini Pro Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5366,7 +5285,7 @@
     "~moonshotai/kimi-latest": {
       "id": "~moonshotai/kimi-latest",
       "name": "MoonshotAI: Kimi Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5395,7 +5314,7 @@
     "~google/gemini-flash-latest": {
       "id": "~google/gemini-flash-latest",
       "name": "Google: Gemini Flash Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5427,7 +5346,7 @@
     "~anthropic/claude-sonnet-latest": {
       "id": "~anthropic/claude-sonnet-latest",
       "name": "Anthropic: Claude Sonnet Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5457,7 +5376,7 @@
     "qwen/qwen3.5-plus-20260420": {
       "id": "qwen/qwen3.5-plus-20260420",
       "name": "Qwen: Qwen3.5 Plus 2026-04-20",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5486,7 +5405,7 @@
     "qwen/qwen3.6-flash": {
       "id": "qwen/qwen3.6-flash",
       "name": "Qwen: Qwen3.6 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5515,7 +5434,7 @@
     "qwen/qwen3.6-35b-a3b": {
       "id": "qwen/qwen3.6-35b-a3b",
       "name": "Qwen: Qwen3.6 35B A3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5544,7 +5463,7 @@
     "qwen/qwen3.6-27b": {
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5572,7 +5491,7 @@
     "openai/gpt-5.5-pro": {
       "id": "openai/gpt-5.5-pro",
       "name": "OpenAI: GPT-5.5 Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5600,7 +5519,7 @@
     "openai/gpt-5.5": {
       "id": "openai/gpt-5.5",
       "name": "OpenAI: GPT-5.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5629,7 +5548,7 @@
     "deepseek/deepseek-v4-pro": {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5641,7 +5560,7 @@
       },
       "limit": {
         "context": 1048576,
-        "output": 384000
+        "output": 393216
       },
       "modalities": {
         "input": [
@@ -5656,7 +5575,7 @@
     "deepseek/deepseek-v4-flash": {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5683,7 +5602,7 @@
     "tencent/hy3-preview": {
       "id": "tencent/hy3-preview",
       "name": "Tencent: Hy3 preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5710,7 +5629,7 @@
     "xiaomi/mimo-v2.5-pro": {
       "id": "xiaomi/mimo-v2.5-pro",
       "name": "Xiaomi: MiMo-V2.5-Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5737,7 +5656,7 @@
     "xiaomi/mimo-v2.5": {
       "id": "xiaomi/mimo-v2.5",
       "name": "Xiaomi: MiMo-V2.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5767,7 +5686,7 @@
     "~anthropic/claude-opus-latest": {
       "id": "~anthropic/claude-opus-latest",
       "name": "Anthropic: Claude Opus Latest",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5797,7 +5716,7 @@
     "moonshotai/kimi-k2.6": {
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5825,7 +5744,7 @@
     "anthropic/claude-opus-4.7": {
       "id": "anthropic/claude-opus-4.7",
       "name": "Anthropic: Claude Opus 4.7",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -5855,7 +5774,7 @@
     "z-ai/glm-5.1": {
       "id": "z-ai/glm-5.1",
       "name": "Z.ai: GLM 5.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -5882,15 +5801,15 @@
     "google/gemma-4-26b-a4b-it": {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
       "tool_call": true,
       "cost": {
-        "input": 1.2e-8,
-        "output": 3.6e-8,
-        "cache_read": 6e-9
+        "input": 3.4e-8,
+        "output": 1.02e-7,
+        "cache_read": 1.7e-8
       },
       "limit": {
         "context": 262144,
@@ -5911,7 +5830,7 @@
     "google/gemma-4-31b-it": {
       "id": "google/gemma-4-31b-it",
       "name": "Google: Gemma 4 31B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5940,7 +5859,7 @@
     "qwen/qwen3.6-plus": {
       "id": "qwen/qwen3.6-plus",
       "name": "Qwen: Qwen3.6 Plus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5969,7 +5888,7 @@
     "z-ai/glm-5v-turbo": {
       "id": "z-ai/glm-5v-turbo",
       "name": "Z.ai: GLM 5V Turbo",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -5998,7 +5917,7 @@
     "x-ai/grok-4.20-multi-agent": {
       "id": "x-ai/grok-4.20-multi-agent",
       "name": "SpaceXAI: Grok 4.20 Multi-Agent",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6027,7 +5946,7 @@
     "x-ai/grok-4.20": {
       "id": "x-ai/grok-4.20",
       "name": "SpaceXAI: Grok 4.20",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6056,7 +5975,7 @@
     "google/lyria-3-pro-preview": {
       "id": "google/lyria-3-pro-preview",
       "name": "Google: Lyria 3 Pro Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6084,7 +6003,7 @@
     "google/lyria-3-clip-preview": {
       "id": "google/lyria-3-clip-preview",
       "name": "Google: Lyria 3 Clip Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6112,7 +6031,7 @@
     "rekaai/reka-edge": {
       "id": "rekaai/reka-edge",
       "name": "Reka Edge",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -6140,7 +6059,7 @@
     "minimax/minimax-m2.7": {
       "id": "minimax/minimax-m2.7",
       "name": "MiniMax: MiniMax M2.7",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6167,7 +6086,7 @@
     "openai/gpt-5.4-nano": {
       "id": "openai/gpt-5.4-nano",
       "name": "OpenAI: GPT-5.4 Nano",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6196,7 +6115,7 @@
     "openai/gpt-5.4-mini": {
       "id": "openai/gpt-5.4-mini",
       "name": "OpenAI: GPT-5.4 Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6225,7 +6144,7 @@
     "mistralai/mistral-small-2603": {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6253,7 +6172,7 @@
     "z-ai/glm-5-turbo": {
       "id": "z-ai/glm-5-turbo",
       "name": "Z.ai: GLM 5 Turbo",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6280,7 +6199,7 @@
     "nvidia/nemotron-3-super-120b-a12b": {
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "NVIDIA: Nemotron 3 Super",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6306,7 +6225,7 @@
     "bytedance-seed/seed-2.0-lite": {
       "id": "bytedance-seed/seed-2.0-lite",
       "name": "ByteDance Seed: Seed-2.0-Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6334,15 +6253,15 @@
     "qwen/qwen3.5-9b": {
       "id": "qwen/qwen3.5-9b",
       "name": "Qwen: Qwen3.5-9B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
       "tool_call": true,
       "cost": {
-        "input": 8.9e-8,
-        "output": 1.3e-7,
-        "cache_read": 8e-8
+        "input": 1.17e-7,
+        "output": 1.72e-7,
+        "cache_read": 1.05e-7
       },
       "limit": {
         "context": 262144,
@@ -6363,7 +6282,7 @@
     "openai/gpt-5.4-pro": {
       "id": "openai/gpt-5.4-pro",
       "name": "OpenAI: GPT-5.4 Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6391,7 +6310,7 @@
     "openai/gpt-5.4": {
       "id": "openai/gpt-5.4",
       "name": "OpenAI: GPT-5.4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6420,7 +6339,7 @@
     "google/gemini-3.1-flash-lite-preview": {
       "id": "google/gemini-3.1-flash-lite-preview",
       "name": "Google: Gemini 3.1 Flash Lite Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6452,7 +6371,7 @@
     "bytedance-seed/seed-2.0-mini": {
       "id": "bytedance-seed/seed-2.0-mini",
       "name": "ByteDance Seed: Seed-2.0-Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6480,7 +6399,7 @@
     "qwen/qwen3.5-35b-a3b": {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6508,7 +6427,7 @@
     "qwen/qwen3.5-27b": {
       "id": "qwen/qwen3.5-27b",
       "name": "Qwen: Qwen3.5-27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6536,7 +6455,7 @@
     "qwen/qwen3.5-122b-a10b": {
       "id": "qwen/qwen3.5-122b-a10b",
       "name": "Qwen: Qwen3.5-122B-A10B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6564,7 +6483,7 @@
     "qwen/qwen3.5-flash-02-23": {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6592,7 +6511,7 @@
     "google/gemini-3.1-pro-preview-customtools": {
       "id": "google/gemini-3.1-pro-preview-customtools",
       "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6624,7 +6543,7 @@
     "openai/gpt-5.3-codex": {
       "id": "openai/gpt-5.3-codex",
       "name": "OpenAI: GPT-5.3-Codex",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -6653,7 +6572,7 @@
     "aion-labs/aion-2.0": {
       "id": "aion-labs/aion-2.0",
       "name": "AionLabs: Aion-2.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6680,7 +6599,7 @@
     "google/gemini-3.1-pro-preview": {
       "id": "google/gemini-3.1-pro-preview",
       "name": "Google: Gemini 3.1 Pro Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6712,7 +6631,7 @@
     "anthropic/claude-sonnet-4.6": {
       "id": "anthropic/claude-sonnet-4.6",
       "name": "Anthropic: Claude Sonnet 4.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6742,7 +6661,7 @@
     "qwen/qwen3.5-plus-02-15": {
       "id": "qwen/qwen3.5-plus-02-15",
       "name": "Qwen: Qwen3.5 Plus 2026-02-15",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6770,7 +6689,7 @@
     "qwen/qwen3.5-397b-a17b": {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6798,19 +6717,19 @@
     "minimax/minimax-m2.5": {
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
       "tool_call": true,
       "cost": {
         "input": 2.7e-7,
-        "output": 0.00000108,
-        "cache_read": 2.7e-8
+        "output": 9.5e-7,
+        "cache_read": 3e-8
       },
       "limit": {
-        "context": 200000,
-        "output": 128000
+        "context": 198000,
+        "output": 32768
       },
       "modalities": {
         "input": [
@@ -6825,7 +6744,7 @@
     "z-ai/glm-5": {
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6852,7 +6771,7 @@
     "anthropic/claude-opus-4.6": {
       "id": "anthropic/claude-opus-4.6",
       "name": "Anthropic: Claude Opus 4.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6882,7 +6801,7 @@
     "qwen/qwen3-coder-next": {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6908,8 +6827,8 @@
     },
     "stepfun/step-3.5-flash": {
       "id": "stepfun/step-3.5-flash",
-      "name": "StepFun: Step 3.5 Flash",
-      "release_date": "2026-11-13",
+      "name": "StepFun: Step 3.5 Flash (retires Nov 15)",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -6935,7 +6854,7 @@
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -6962,7 +6881,7 @@
     "writer/palmyra-x5": {
       "id": "writer/palmyra-x5",
       "name": "Writer: Palmyra X5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -6988,7 +6907,7 @@
     "openai/gpt-audio": {
       "id": "openai/gpt-audio",
       "name": "OpenAI: GPT Audio",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7017,7 +6936,7 @@
     "openai/gpt-audio-mini": {
       "id": "openai/gpt-audio-mini",
       "name": "OpenAI: GPT Audio Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7046,7 +6965,7 @@
     "z-ai/glm-4.7-flash": {
       "id": "z-ai/glm-4.7-flash",
       "name": "Z.ai: GLM 4.7 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7072,7 +6991,7 @@
     "openai/gpt-5.2-codex": {
       "id": "openai/gpt-5.2-codex",
       "name": "OpenAI: GPT-5.2-Codex",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7101,7 +7020,7 @@
     "z-ai/glm-4.7": {
       "id": "z-ai/glm-4.7",
       "name": "Z.ai: GLM 4.7",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7128,7 +7047,7 @@
     "google/gemini-3-flash-preview": {
       "id": "google/gemini-3-flash-preview",
       "name": "Google: Gemini 3 Flash Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7160,7 +7079,7 @@
     "nvidia/nemotron-3-nano-30b-a3b": {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7187,7 +7106,7 @@
     "openai/gpt-5.2-pro": {
       "id": "openai/gpt-5.2-pro",
       "name": "OpenAI: GPT-5.2 Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7215,7 +7134,7 @@
     "openai/gpt-5.2": {
       "id": "openai/gpt-5.2",
       "name": "OpenAI: GPT-5.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7244,7 +7163,7 @@
     "mistralai/devstral-2512": {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7271,7 +7190,7 @@
     "relace/relace-search": {
       "id": "relace/relace-search",
       "name": "Relace: Relace Search",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7297,7 +7216,7 @@
     "z-ai/glm-4.6v": {
       "id": "z-ai/glm-4.6v",
       "name": "Z.ai: GLM 4.6V",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7326,7 +7245,7 @@
     "openai/gpt-5.1-codex-max": {
       "id": "openai/gpt-5.1-codex-max",
       "name": "OpenAI: GPT-5.1-Codex-Max",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7355,7 +7274,7 @@
     "amazon/nova-2-lite-v1": {
       "id": "amazon/nova-2-lite-v1",
       "name": "Amazon: Nova 2 Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7383,7 +7302,7 @@
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/ministral-14b-2512",
       "name": "Mistral: Ministral 3 14B 2512",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7411,7 +7330,7 @@
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/ministral-8b-2512",
       "name": "Mistral: Ministral 3 8B 2512",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7439,7 +7358,7 @@
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/ministral-3b-2512",
       "name": "Mistral: Ministral 3 3B 2512",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7467,7 +7386,7 @@
     "mistralai/mistral-large-2512": {
       "id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7495,7 +7414,7 @@
     "deepseek/deepseek-v3.2": {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7522,7 +7441,7 @@
     "anthropic/claude-opus-4.5": {
       "id": "anthropic/claude-opus-4.5",
       "name": "Anthropic: Claude Opus 4.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7552,7 +7471,7 @@
     "openai/gpt-5.1": {
       "id": "openai/gpt-5.1",
       "name": "OpenAI: GPT-5.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7581,7 +7500,7 @@
     "openai/gpt-5.1-codex": {
       "id": "openai/gpt-5.1-codex",
       "name": "OpenAI: GPT-5.1-Codex",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7610,7 +7529,7 @@
     "openai/gpt-5.1-codex-mini": {
       "id": "openai/gpt-5.1-codex-mini",
       "name": "OpenAI: GPT-5.1-Codex-Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7639,7 +7558,7 @@
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/kimi-k2-thinking",
       "name": "MoonshotAI: Kimi K2 Thinking",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7666,7 +7585,7 @@
     "amazon/nova-premier-v1": {
       "id": "amazon/nova-premier-v1",
       "name": "Amazon: Nova Premier 1.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7694,7 +7613,7 @@
     "perplexity/sonar-pro-search": {
       "id": "perplexity/sonar-pro-search",
       "name": "Perplexity: Sonar Pro Search",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7721,7 +7640,7 @@
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/voxtral-small-24b-2507",
       "name": "Mistral: Voxtral Small 24B 2507",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -7749,7 +7668,7 @@
     "openai/gpt-oss-safeguard-20b": {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "OpenAI: gpt-oss-safeguard-20b",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7776,7 +7695,7 @@
     "anthropic/claude-haiku-4.5": {
       "id": "anthropic/claude-haiku-4.5",
       "name": "Anthropic: Claude Haiku 4.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7806,7 +7725,7 @@
     "qwen/qwen3-vl-8b-instruct": {
       "id": "qwen/qwen3-vl-8b-instruct",
       "name": "Qwen: Qwen3 VL 8B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7833,8 +7752,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
-      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "release_date": "2026-11-13",
+      "name": "Qwen: Qwen3 VL 30B A3B Thinking (retires Nov 15)",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7861,7 +7780,7 @@
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -7888,7 +7807,7 @@
     "openai/gpt-5-pro": {
       "id": "openai/gpt-5-pro",
       "name": "OpenAI: GPT-5 Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -7916,7 +7835,7 @@
     "z-ai/glm-4.6": {
       "id": "z-ai/glm-4.6",
       "name": "Z.ai: GLM 4.6",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7943,7 +7862,7 @@
     "anthropic/claude-sonnet-4.5": {
       "id": "anthropic/claude-sonnet-4.5",
       "name": "Anthropic: Claude Sonnet 4.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -7973,7 +7892,7 @@
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek/deepseek-v3.2-exp",
       "name": "DeepSeek: DeepSeek V3.2 Exp",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -7999,7 +7918,7 @@
     "thedrummer/cydonia-24b-v4.1": {
       "id": "thedrummer/cydonia-24b-v4.1",
       "name": "TheDrummer: Cydonia 24B V4.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8026,7 +7945,7 @@
     "relace/relace-apply-3": {
       "id": "relace/relace-apply-3",
       "name": "Relace: Relace Apply 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -8052,7 +7971,7 @@
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "qwen/qwen3-vl-235b-a22b-instruct",
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8080,7 +7999,7 @@
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8106,7 +8025,7 @@
     "qwen/qwen3-coder-flash": {
       "id": "qwen/qwen3-coder-flash",
       "name": "Qwen: Qwen3 Coder Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8134,7 +8053,7 @@
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8160,7 +8079,7 @@
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/kimi-k2-0905",
       "name": "MoonshotAI: Kimi K2 0905",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8186,7 +8105,7 @@
     "nousresearch/hermes-4-405b": {
       "id": "nousresearch/hermes-4-405b",
       "name": "Nous: Hermes 4 405B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8213,7 +8132,7 @@
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek/deepseek-chat-v3.1",
       "name": "DeepSeek: DeepSeek V3.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8240,7 +8159,7 @@
     "mistralai/mistral-medium-3.1": {
       "id": "mistralai/mistral-medium-3.1",
       "name": "Mistral: Mistral Medium 3.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8268,7 +8187,7 @@
     "z-ai/glm-4.5v": {
       "id": "z-ai/glm-4.5v",
       "name": "Z.ai: GLM 4.5V",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -8296,7 +8215,7 @@
     "openai/gpt-5": {
       "id": "openai/gpt-5",
       "name": "OpenAI: GPT-5 (retires Dec 11)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -8325,7 +8244,7 @@
     "openai/gpt-5-mini": {
       "id": "openai/gpt-5-mini",
       "name": "OpenAI: GPT-5 Mini (retires Dec 11)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -8354,7 +8273,7 @@
     "openai/gpt-5-nano": {
       "id": "openai/gpt-5-nano",
       "name": "OpenAI: GPT-5 Nano (retires Dec 11)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -8383,7 +8302,7 @@
     "openai/gpt-oss-120b": {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8410,7 +8329,7 @@
     "openai/gpt-oss-20b": {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8437,7 +8356,7 @@
     "anthropic/claude-opus-4.1": {
       "id": "anthropic/claude-opus-4.1",
       "name": "Anthropic: Claude Opus 4.1 ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -8467,7 +8386,7 @@
     "mistralai/codestral-2508": {
       "id": "mistralai/codestral-2508",
       "name": "Mistral: Codestral 2508",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8494,7 +8413,7 @@
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8520,7 +8439,7 @@
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8547,7 +8466,7 @@
     "z-ai/glm-4.5": {
       "id": "z-ai/glm-4.5",
       "name": "Z.ai: GLM 4.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8574,7 +8493,7 @@
     "z-ai/glm-4.5-air": {
       "id": "z-ai/glm-4.5-air",
       "name": "Z.ai: GLM 4.5 Air",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8601,7 +8520,7 @@
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8627,7 +8546,7 @@
     "qwen/qwen3-coder": {
       "id": "qwen/qwen3-coder",
       "name": "Qwen: Qwen3 Coder 480B A35B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8654,7 +8573,7 @@
     "bytedance/ui-tars-1.5-7b": {
       "id": "bytedance/ui-tars-1.5-7b",
       "name": "ByteDance: UI-TARS 7B ",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8682,7 +8601,7 @@
     "google/gemini-2.5-flash-lite": {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -8714,7 +8633,7 @@
     "qwen/qwen3-235b-a22b-2507": {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8741,7 +8660,7 @@
     "moonshotai/kimi-k2": {
       "id": "moonshotai/kimi-k2",
       "name": "MoonshotAI: Kimi K2 0711",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8767,7 +8686,7 @@
     "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
       "name": "Venice: Uncensored",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8792,8 +8711,8 @@
     },
     "tencent/hunyuan-a13b-instruct": {
       "id": "tencent/hunyuan-a13b-instruct",
-      "name": "Tencent: Hunyuan A13B Instruct",
-      "release_date": "2026-11-13",
+      "name": "Tencent: Hunyuan A13B Instruct (retires Nov 15)",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -8819,7 +8738,7 @@
     "morph/morph-v3-large": {
       "id": "morph/morph-v3-large",
       "name": "Morph: Morph V3 Large",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8845,7 +8764,7 @@
     "morph/morph-v3-fast": {
       "id": "morph/morph-v3-fast",
       "name": "Morph: Morph V3 Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -8871,7 +8790,7 @@
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "name": "Mistral: Mistral Small 3.2 24B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -8899,7 +8818,7 @@
     "google/gemini-2.5-flash": {
       "id": "google/gemini-2.5-flash",
       "name": "Google: Gemini 2.5 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -8931,7 +8850,7 @@
     "google/gemini-2.5-pro": {
       "id": "google/gemini-2.5-pro",
       "name": "Google: Gemini 2.5 Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -8963,7 +8882,7 @@
     "openai/o3-pro": {
       "id": "openai/o3-pro",
       "name": "OpenAI: o3 Pro ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -8991,7 +8910,7 @@
     "google/gemini-2.5-pro-preview": {
       "id": "google/gemini-2.5-pro-preview",
       "name": "Google: Gemini 2.5 Pro Preview 06-05",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -9022,7 +8941,7 @@
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9049,7 +8968,7 @@
     "mistralai/mistral-medium-3": {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9077,7 +8996,7 @@
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9104,7 +9023,7 @@
     "qwen/qwen3-30b-a3b": {
       "id": "qwen/qwen3-30b-a3b",
       "name": "Qwen: Qwen3 30B A3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9130,7 +9049,7 @@
     "qwen/qwen3-14b": {
       "id": "qwen/qwen3-14b",
       "name": "Qwen: Qwen3 14B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9156,7 +9075,7 @@
     "qwen/qwen3-32b": {
       "id": "qwen/qwen3-32b",
       "name": "Qwen: Qwen3 32B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9182,7 +9101,7 @@
     "openai/o3": {
       "id": "openai/o3",
       "name": "OpenAI: o3 (retires Dec 11)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -9211,7 +9130,7 @@
     "openai/gpt-4.1": {
       "id": "openai/gpt-4.1",
       "name": "OpenAI: GPT-4.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9240,7 +9159,7 @@
     "openai/gpt-4.1-mini": {
       "id": "openai/gpt-4.1-mini",
       "name": "OpenAI: GPT-4.1 Mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9269,7 +9188,7 @@
     "openai/gpt-4.1-nano": {
       "id": "openai/gpt-4.1-nano",
       "name": "OpenAI: GPT-4.1 Nano",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9298,7 +9217,7 @@
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9326,7 +9245,7 @@
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9353,7 +9272,7 @@
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek/deepseek-chat-v3-0324",
       "name": "DeepSeek: DeepSeek V3 0324",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9380,7 +9299,7 @@
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9407,7 +9326,7 @@
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9435,7 +9354,7 @@
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
       "name": "Google: Gemma 3 12B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9462,7 +9381,7 @@
     "cohere/command-a": {
       "id": "cohere/command-a",
       "name": "Cohere: Command A",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9488,7 +9407,7 @@
     "rekaai/reka-flash-3": {
       "id": "rekaai/reka-flash-3",
       "name": "Reka Flash 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9514,7 +9433,7 @@
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9541,7 +9460,7 @@
     "thedrummer/skyfall-36b-v2": {
       "id": "thedrummer/skyfall-36b-v2",
       "name": "TheDrummer: Skyfall 36B V2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9568,7 +9487,7 @@
     "perplexity/sonar-reasoning-pro": {
       "id": "perplexity/sonar-reasoning-pro",
       "name": "Perplexity: Sonar Reasoning Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -9595,7 +9514,7 @@
     "perplexity/sonar-pro": {
       "id": "perplexity/sonar-pro",
       "name": "Perplexity: Sonar Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9622,7 +9541,7 @@
     "perplexity/sonar-deep-research": {
       "id": "perplexity/sonar-deep-research",
       "name": "Perplexity: Sonar Deep Research",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -9648,7 +9567,7 @@
     "mistralai/mistral-saba": {
       "id": "mistralai/mistral-saba",
       "name": "Mistral: Saba",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9675,7 +9594,7 @@
     "aion-labs/aion-rp-llama-3.1-8b": {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9701,7 +9620,7 @@
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9729,7 +9648,7 @@
     "qwen/qwen-plus": {
       "id": "qwen/qwen-plus",
       "name": "Qwen: Qwen-Plus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9757,7 +9676,7 @@
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/mistral-small-24b-instruct-2501",
       "name": "Mistral: Mistral Small 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9783,7 +9702,7 @@
     "perplexity/sonar": {
       "id": "perplexity/sonar",
       "name": "Perplexity: Sonar",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9810,7 +9729,7 @@
     "microsoft/phi-4": {
       "id": "microsoft/phi-4",
       "name": "Microsoft: Phi 4",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9836,18 +9755,18 @@
     "deepseek/deepseek-chat": {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
       "tool_call": true,
       "cost": {
-        "input": 3.2e-7,
-        "output": 8.9e-7
+        "input": 2.574e-7,
+        "output": 0.0000010287
       },
       "limit": {
         "context": 163840,
-        "output": 16384
+        "output": 16000
       },
       "modalities": {
         "input": [
@@ -9862,7 +9781,7 @@
     "cohere/command-r7b-12-2024": {
       "id": "cohere/command-r7b-12-2024",
       "name": "Cohere: Command R7B (12-2024)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9888,7 +9807,7 @@
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9914,7 +9833,7 @@
     "amazon/nova-lite-v1": {
       "id": "amazon/nova-lite-v1",
       "name": "Amazon: Nova Lite 1.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9941,7 +9860,7 @@
     "amazon/nova-micro-v1": {
       "id": "amazon/nova-micro-v1",
       "name": "Amazon: Nova Micro 1.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -9967,7 +9886,7 @@
     "amazon/nova-pro-v1": {
       "id": "amazon/nova-pro-v1",
       "name": "Amazon: Nova Pro 1.0",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -9994,7 +9913,7 @@
     "openai/gpt-4o-2024-11-20": {
       "id": "openai/gpt-4o-2024-11-20",
       "name": "OpenAI: GPT-4o (2024-11-20)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10023,7 +9942,7 @@
     "mistralai/mistral-large-2407": {
       "id": "mistralai/mistral-large-2407",
       "name": "Mistral Large 2407",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10050,7 +9969,7 @@
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "qwen/qwen-2.5-coder-32b-instruct",
       "name": "Qwen2.5 Coder 32B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10076,7 +9995,7 @@
     "thedrummer/unslopnemo-12b": {
       "id": "thedrummer/unslopnemo-12b",
       "name": "TheDrummer: UnslopNemo 12B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10102,7 +10021,7 @@
     "anthracite-org/magnum-v4-72b": {
       "id": "anthracite-org/magnum-v4-72b",
       "name": "Magnum v4 72B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10129,7 +10048,7 @@
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/llama-3.2-1b-instruct",
       "name": "Meta: Llama 3.2 1B Instruct (retires Nov 20)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10154,8 +10073,8 @@
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "id": "meta-llama/llama-3.2-3b-instruct",
-      "name": "Meta: Llama 3.2 3B Instruct",
-      "release_date": "2026-11-13",
+      "name": "Meta: Llama 3.2 3B Instruct (retires Nov 20)",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10166,7 +10085,7 @@
       },
       "limit": {
         "context": 131072,
-        "output": 117964
+        "output": 72000
       },
       "modalities": {
         "input": [
@@ -10181,7 +10100,7 @@
     "qwen/qwen-2.5-72b-instruct": {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10207,7 +10126,7 @@
     "cohere/command-r-08-2024": {
       "id": "cohere/command-r-08-2024",
       "name": "Cohere: Command R (08-2024)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10233,7 +10152,7 @@
     "cohere/command-r-plus-08-2024": {
       "id": "cohere/command-r-plus-08-2024",
       "name": "Cohere: Command R+ (08-2024)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10259,7 +10178,7 @@
     "sao10k/l3.1-euryale-70b": {
       "id": "sao10k/l3.1-euryale-70b",
       "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10285,7 +10204,7 @@
     "sao10k/l3-lunaris-8b": {
       "id": "sao10k/l3-lunaris-8b",
       "name": "Sao10K: Llama 3 8B Lunaris",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10311,7 +10230,7 @@
     "openai/gpt-4o-2024-08-06": {
       "id": "openai/gpt-4o-2024-08-06",
       "name": "OpenAI: GPT-4o (2024-08-06)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10340,7 +10259,7 @@
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10366,7 +10285,7 @@
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10392,7 +10311,7 @@
     "mistralai/mistral-nemo": {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10419,7 +10338,7 @@
     "openai/gpt-4o-mini": {
       "id": "openai/gpt-4o-mini",
       "name": "OpenAI: GPT-4o-mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10448,7 +10367,7 @@
     "openai/gpt-4o-mini-2024-07-18": {
       "id": "openai/gpt-4o-mini-2024-07-18",
       "name": "OpenAI: GPT-4o-mini (2024-07-18)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10477,7 +10396,7 @@
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10503,7 +10422,7 @@
     "openai/gpt-4o": {
       "id": "openai/gpt-4o",
       "name": "OpenAI: GPT-4o",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10532,7 +10451,7 @@
     "openai/gpt-4o-2024-05-13": {
       "id": "openai/gpt-4o-2024-05-13",
       "name": "OpenAI: GPT-4o (2024-05-13)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -10560,7 +10479,7 @@
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/mixtral-8x22b-instruct",
       "name": "Mistral: Mixtral 8x22B Instruct",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10587,7 +10506,7 @@
     "mistralai/mistral-large": {
       "id": "mistralai/mistral-large",
       "name": "Mistral Large",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10614,7 +10533,7 @@
     "openai/gpt-3.5-turbo-0613": {
       "id": "openai/gpt-3.5-turbo-0613",
       "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10641,7 +10560,7 @@
     "openai/gpt-3.5-turbo-16k": {
       "id": "openai/gpt-3.5-turbo-16k",
       "name": "OpenAI: GPT-3.5 Turbo 16k",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10668,7 +10587,7 @@
     "mancer/weaver": {
       "id": "mancer/weaver",
       "name": "Mancer: Weaver (alpha)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10695,7 +10614,7 @@
     "undi95/remm-slerp-l2-13b": {
       "id": "undi95/remm-slerp-l2-13b",
       "name": "ReMM SLERP 13B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10722,7 +10641,7 @@
     "gryphe/mythomax-l2-13b": {
       "id": "gryphe/mythomax-l2-13b",
       "name": "MythoMax 13B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10748,7 +10667,7 @@
     "openai/gpt-4": {
       "id": "openai/gpt-4",
       "name": "OpenAI: GPT-4 ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -10775,7 +10694,7 @@
     "typesafe/jev-router": {
       "id": "typesafe/jev-router",
       "name": "TypeSafe: Jev Router",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -10804,7 +10723,7 @@
     "nvidia/switchyard": {
       "id": "nvidia/switchyard",
       "name": "NVIDIA: Switchyard",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -10830,7 +10749,7 @@
     "openrouter/fusion": {
       "id": "openrouter/fusion",
       "name": "OpenRouter: Fusion",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -10856,7 +10775,7 @@
     "openrouter/pareto-code": {
       "id": "openrouter/pareto-code",
       "name": "OpenRouter Pareto Code Router",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -10882,7 +10801,7 @@
     "openrouter/free": {
       "id": "openrouter/free",
       "name": "OpenRouter Free Models Router",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -10909,7 +10828,7 @@
     "openrouter/bodybuilder": {
       "id": "openrouter/bodybuilder",
       "name": "OpenRouter Body Builder (beta)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": false,
@@ -10935,7 +10854,7 @@
     "paperinstruments/ultramarine-1-flash": {
       "id": "paperinstruments/ultramarine-1-flash",
       "name": "Ultramarine 1 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -10963,7 +10882,7 @@
     "deepseek/deepseek-v4.1-flash-1017-ultrafast": {
       "id": "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 Ultrafast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -10991,7 +10910,7 @@
     "humansand/ampersand-v0.1": {
       "id": "humansand/ampersand-v0.1",
       "name": "Ampersand v0.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11017,7 +10936,7 @@
     "meituan/longcat-2.5": {
       "id": "meituan/longcat-2.5",
       "name": "Meituan: LongCat 2.5",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11045,7 +10964,7 @@
     "inclusionai/ling-3.1-flash-1019": {
       "id": "inclusionai/ling-3.1-flash-1019",
       "name": "inclusionAI: Ling 3.1 Flash 1019",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11072,7 +10991,7 @@
     "particle/particle-1": {
       "id": "particle/particle-1",
       "name": "Particle-1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11100,7 +11019,7 @@
     "openai/gpt-6.1-terra-fast": {
       "id": "openai/gpt-6.1-terra-fast",
       "name": "OpenAI: GPT-6.1 Terra (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11130,7 +11049,7 @@
     "moonshotai/kimi-k3.1-pro-highspeed": {
       "id": "moonshotai/kimi-k3.1-pro-highspeed",
       "name": "MoonshotAI: Kimi K3.1 Pro Highspeed",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11139,7 +11058,7 @@
         "input": 0.000004,
         "output": 0.00002,
         "cache_read": 2e-7,
-        "cache_write": 0.000004
+        "cache_write": 0.000005
       },
       "limit": {
         "context": 1048576,
@@ -11154,12 +11073,12 @@
           "text"
         ]
       },
-      "description": "Kimi K3.1 Pro Highspeed is the high-speed variant of Moonshot AI’s frontier Kimi K3.1 Pro model for complex reasoning, coding, and agentic workflows, with vision, tool use, structured outputs, and long-context support."
+      "description": "Kimi K3.1 Pro Highspeed is Moonshot AI's most capable open-weight model, combining native vision with a 1-million-token context window for long-running coding and knowledge workflows that sustain context across large repositories, documents, and images."
     },
     "scaledown/scaledown-extract-1": {
       "id": "scaledown/scaledown-extract-1",
       "name": "ScaleDown: Extract-1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11185,7 +11104,7 @@
     "scaledown/scaledown-summarize-1": {
       "id": "scaledown/scaledown-summarize-1",
       "name": "ScaleDown: Summarize-1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11211,7 +11130,7 @@
     "inception/mercury-3": {
       "id": "inception/mercury-3",
       "name": "Mercury 3",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11238,7 +11157,7 @@
     "deepseek/deepseek-v4.1-flash-1017-fast": {
       "id": "deepseek/deepseek-v4.1-flash-1017-fast",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11266,7 +11185,7 @@
     "reflection/beam-free": {
       "id": "reflection/beam-free",
       "name": "Reflection: Beam 1.0 (Free)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11292,7 +11211,7 @@
     "callstack/apex": {
       "id": "callstack/apex",
       "name": "Apex",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11320,7 +11239,7 @@
     "deepseek/deepseek-v4.1-flash-fast": {
       "id": "deepseek/deepseek-v4.1-flash-fast",
       "name": "DeepSeek: DeepSeek V4.1 Flash Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11348,7 +11267,7 @@
     "openai/gpt-6.1-sol-fast": {
       "id": "openai/gpt-6.1-sol-fast",
       "name": "OpenAI: GPT-6.1 Sol (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11378,7 +11297,7 @@
     "openai/gpt-6-luna-fast": {
       "id": "openai/gpt-6-luna-fast",
       "name": "OpenAI: GPT-6 Luna (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11408,7 +11327,7 @@
     "openai/gpt-6-sol-fast": {
       "id": "openai/gpt-6-sol-fast",
       "name": "OpenAI: GPT-6 Sol (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11438,7 +11357,7 @@
     "inception/mercury-2.5": {
       "id": "inception/mercury-2.5",
       "name": "Mercury 2.5 (retires Nov 15)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11462,10 +11381,37 @@
       },
       "description": "Mercury 2.5 is Inception’s diffusion-based reasoning model for chat, agents, and structured workflows, with tool calling, structured outputs, and a 260K context window."
     },
+    "inclusionai/ling-3.0-flash-sante": {
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "name": "inclusionAI: Ling 3.0 Flash Sante",
+      "release_date": "2026-11-14",
+      "attachment": false,
+      "reasoning": true,
+      "temperature": true,
+      "tool_call": true,
+      "cost": {
+        "input": 7.5e-8,
+        "output": 2.2e-7,
+        "cache_read": 1.5e-8
+      },
+      "limit": {
+        "context": 256000,
+        "output": 32000
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "description": "Ling-3.0-Flash-Sante is inclusionAI’s language model specialized for health and medicine, built on a Mixture-of-Experts architecture with 124 billion total parameters and approximately 5.1 billion active per token. With a 256K context window and function calling, it supports medical knowledge reasoning, evidence-based retrieval, and complex medical workflows while retaining general reasoning, coding, and agentic capabilities."
+    },
     "openai/gpt-6-astra-fast": {
       "id": "openai/gpt-6-astra-fast",
       "name": "OpenAI: GPT-6 Astra (Fast) ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -11495,7 +11441,7 @@
     "z-ai/glm-5.3-fast": {
       "id": "z-ai/glm-5.3-fast",
       "name": "Z.ai: GLM 5.3 Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11519,10 +11465,37 @@
       },
       "description": "Speed-optimized version of Z.AI’s GLM-5.3 agentic coding model, built for responsive, real-time workloads. It supports advanced coding, long-horizon task execution, testing, vulnerability discovery, and cybersecurity analysis, making it ideal for developer tools, coding agents, and complex multi-step engineering workflows."
     },
+    "inclusionai/ling-3.0-flash-fin": {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
+      "release_date": "2026-11-14",
+      "attachment": false,
+      "reasoning": true,
+      "temperature": true,
+      "tool_call": true,
+      "cost": {
+        "input": 7.5e-8,
+        "output": 2.2e-7,
+        "cache_read": 1.5e-8
+      },
+      "limit": {
+        "context": 256000,
+        "output": 32000
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "description": "Ling 3.0 Flash Fin is InclusionAI’s finance-enhanced MoE language model, combining 124 billion total parameters with approximately 5.1 billion active parameters for efficient financial reasoning. Its 256K context window, function calling, and support for complex, multi-step investment workflows make it ideal for financial research, analysis, long-horizon planning, and execution, while retaining strong capabilities in coding and mathematics."
+    },
     "mixedbread/toast-1": {
       "id": "mixedbread/toast-1",
       "name": "Toast 1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11549,7 +11522,7 @@
     "qwen/qwen3.8-max": {
       "id": "qwen/qwen3.8-max",
       "name": "Qwen: Qwen 3.8 Max",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11557,10 +11530,11 @@
       "cost": {
         "input": 0.000002,
         "output": 0.000006,
-        "cache_read": 2.5e-7
+        "cache_read": 2.5e-7,
+        "cache_write": 0.0000025
       },
       "limit": {
-        "context": 262144,
+        "context": 1000000,
         "output": 128000
       },
       "modalities": {
@@ -11577,19 +11551,19 @@
     "moonshotai/kimi-k3-fast": {
       "id": "moonshotai/kimi-k3-fast",
       "name": "MoonshotAI: Kimi K3 Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
       "tool_call": true,
       "cost": {
-        "input": 0.0000045,
+        "input": 0.000006,
         "output": 0.0000225,
-        "cache_read": 4.5e-7
+        "cache_read": 6e-7
       },
       "limit": {
         "context": 1000000,
-        "output": 131072
+        "output": 1000000
       },
       "modalities": {
         "input": [
@@ -11606,7 +11580,7 @@
     "openai/gpt-5.6-luna-fast": {
       "id": "openai/gpt-5.6-luna-fast",
       "name": "OpenAI: GPT 5.6 Luna (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -11636,7 +11610,7 @@
     "openai/gpt-5.6-sol-fast": {
       "id": "openai/gpt-5.6-sol-fast",
       "name": "OpenAI: GPT 5.6 Sol (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -11666,7 +11640,7 @@
     "openai/gpt-5.6-terra-fast": {
       "id": "openai/gpt-5.6-terra-fast",
       "name": "OpenAI: GPT 5.6 Terra (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -11696,7 +11670,7 @@
     "google/gemini-omni-flash-preview": {
       "id": "google/gemini-omni-flash-preview",
       "name": "Google: Gemini Omni Flash Preview",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11726,7 +11700,7 @@
     "z-ai/glm-5.2-fast": {
       "id": "z-ai/glm-5.2-fast",
       "name": "Z.ai: GLM 5.2 Fast",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11753,7 +11727,7 @@
     "moonshotai/kimi-k2.7-code-highspeed": {
       "id": "moonshotai/kimi-k2.7-code-highspeed",
       "name": "MoonshotAI: Kimi K2.7 Code High Speed",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11783,7 +11757,7 @@
     "tencent/hy-mt2-lite": {
       "id": "tencent/hy-mt2-lite",
       "name": "Tencent: Tencent Hy-MT2-Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11809,7 +11783,7 @@
     "tencent/hy-mt2-plus": {
       "id": "tencent/hy-mt2-plus",
       "name": "Tencent: Tencent Hy-MT2-Plus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11835,7 +11809,7 @@
     "tencent/hy-mt2-pro": {
       "id": "tencent/hy-mt2-pro",
       "name": "Tencent: Tencent Hy-MT2-Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -11861,7 +11835,7 @@
     "openai/gpt-5.5-fast": {
       "id": "openai/gpt-5.5-fast",
       "name": "OpenAI: GPT 5.5 (Fast) ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -11890,7 +11864,7 @@
     "minimax/minimax-m2.7-highspeed": {
       "id": "minimax/minimax-m2.7-highspeed",
       "name": "MiniMax: MiniMax M2.7 High Speed (retires Nov 18)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -11918,7 +11892,7 @@
     "openai/gpt-5.4-mini-fast": {
       "id": "openai/gpt-5.4-mini-fast",
       "name": "OpenAI: GPT 5.4 Mini (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11947,7 +11921,7 @@
     "x-ai/grok-4.20-multi-agent-beta": {
       "id": "x-ai/grok-4.20-multi-agent-beta",
       "name": "SpaceXAI: Grok 4.20 Multi Agent Beta",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -11976,7 +11950,7 @@
     "x-ai/grok-4.20-non-reasoning-beta": {
       "id": "x-ai/grok-4.20-non-reasoning-beta",
       "name": "SpaceXAI: Grok 4.20 Beta Non-Reasoning",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -12005,7 +11979,7 @@
     "x-ai/grok-4.20-reasoning-beta": {
       "id": "x-ai/grok-4.20-reasoning-beta",
       "name": "SpaceXAI: Grok 4.20 Beta Reasoning",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12034,7 +12008,7 @@
     "x-ai/grok-4.20-non-reasoning": {
       "id": "x-ai/grok-4.20-non-reasoning",
       "name": "SpaceXAI: Grok 4.20 Non-Reasoning",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -12063,7 +12037,7 @@
     "x-ai/grok-4.20-reasoning": {
       "id": "x-ai/grok-4.20-reasoning",
       "name": "SpaceXAI: Grok 4.20 Reasoning",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12092,7 +12066,7 @@
     "openai/gpt-5.4-fast": {
       "id": "openai/gpt-5.4-fast",
       "name": "OpenAI: GPT 5.4 (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12121,7 +12095,7 @@
     "qwen/qwen3.5-flash": {
       "id": "qwen/qwen3.5-flash",
       "name": "Qwen: Qwen 3.5 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12151,7 +12125,7 @@
     "inception/mercury-2": {
       "id": "inception/mercury-2",
       "name": "Mercury 2 (retires Nov 15)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12178,7 +12152,7 @@
     "qwen/qwen3.5-plus": {
       "id": "qwen/qwen3.5-plus",
       "name": "Qwen: Qwen 3.5 Plus",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12208,7 +12182,7 @@
     "minimax/minimax-m2.5-highspeed": {
       "id": "minimax/minimax-m2.5-highspeed",
       "name": "MiniMax: MiniMax M2.5 High Speed (retires Nov 18)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12236,7 +12210,7 @@
     "openai/gpt-5.3-codex-fast": {
       "id": "openai/gpt-5.3-codex-fast",
       "name": "OpenAI: GPT 5.3 Codex (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12265,7 +12239,7 @@
     "qwen/qwen3-max-thinking": {
       "id": "qwen/qwen3-max-thinking",
       "name": "Qwen: Qwen 3 Max Thinking",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12292,7 +12266,7 @@
     "z-ai/glm-4.7-flashx": {
       "id": "z-ai/glm-4.7-flashx",
       "name": "Z.ai: GLM 4.7 FlashX",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12319,7 +12293,7 @@
     "minimax/minimax-m2.1": {
       "id": "minimax/minimax-m2.1",
       "name": "MiniMax: MiniMax M2.1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12347,7 +12321,7 @@
     "minimax/minimax-m2.1-lightning": {
       "id": "minimax/minimax-m2.1-lightning",
       "name": "MiniMax: MiniMax M2.1 Lightning (retires Nov 18)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12375,7 +12349,7 @@
     "google/gemini-3-flash": {
       "id": "google/gemini-3-flash",
       "name": "Google: Gemini 3 Flash",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12404,7 +12378,7 @@
     "openai/gpt-5.2-fast": {
       "id": "openai/gpt-5.2-fast",
       "name": "OpenAI: GPT 5.2 (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12433,7 +12407,7 @@
     "mistralai/ministral-14b": {
       "id": "mistralai/ministral-14b",
       "name": "Mistral: Ministral 14B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -12462,7 +12436,7 @@
     "openai/gpt-oss-safeguard-120b": {
       "id": "openai/gpt-oss-safeguard-120b",
       "name": "OpenAI: GPT OSS Safeguard 120B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12488,7 +12462,7 @@
     "deepseek/deepseek-v3.2-thinking": {
       "id": "deepseek/deepseek-v3.2-thinking",
       "name": "DeepSeek: DeepSeek V3.2 Thinking",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12514,7 +12488,7 @@
     "openai/gpt-5.1-thinking": {
       "id": "openai/gpt-5.1-thinking",
       "name": "OpenAI: GPT 5.1 Thinking",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12543,7 +12517,7 @@
     "openai/gpt-5.1-thinking-fast": {
       "id": "openai/gpt-5.1-thinking-fast",
       "name": "OpenAI: GPT 5.1 Thinking (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12572,7 +12546,7 @@
     "nvidia/nemotron-nano-12b-v2-vl": {
       "id": "nvidia/nemotron-nano-12b-v2-vl",
       "name": "NVIDIA: Nvidia Nemotron Nano 12B V2 VL",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12599,7 +12573,7 @@
     "minimax/minimax-m2": {
       "id": "minimax/minimax-m2",
       "name": "MiniMax: MiniMax M2 (retires Nov 18)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12627,7 +12601,7 @@
     "interfaze/interfaze-beta": {
       "id": "interfaze/interfaze-beta",
       "name": "Interfaze Beta",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -12655,7 +12629,7 @@
     "openai/gpt-5-codex": {
       "id": "openai/gpt-5-codex",
       "name": "OpenAI: GPT-5-Codex",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -12684,7 +12658,7 @@
     "qwen/qwen3-next-80b-a3b-thinking": {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
       "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12710,7 +12684,7 @@
     "nvidia/nemotron-nano-9b-v2": {
       "id": "nvidia/nemotron-nano-9b-v2",
       "name": "NVIDIA: Nvidia Nemotron Nano 9B V2",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12736,7 +12710,7 @@
     "openai/gpt-5-fast": {
       "id": "openai/gpt-5-fast",
       "name": "OpenAI: GPT-5 (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -12765,7 +12739,7 @@
     "openai/gpt-5-mini-fast": {
       "id": "openai/gpt-5-mini-fast",
       "name": "OpenAI: GPT-5 mini (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -12794,7 +12768,7 @@
     "openai/gpt-4.1-mini-fast": {
       "id": "openai/gpt-4.1-mini-fast",
       "name": "OpenAI: GPT-4.1 mini (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -12823,7 +12797,7 @@
     "qwen/qwen-3-14b": {
       "id": "qwen/qwen-3-14b",
       "name": "Qwen: Qwen3-14B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -12849,7 +12823,7 @@
     "openai/o3-fast": {
       "id": "openai/o3-fast",
       "name": "OpenAI: o3 (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -12878,7 +12852,7 @@
     "openai/o4-mini": {
       "id": "openai/o4-mini",
       "name": "OpenAI: o4-mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -12907,7 +12881,7 @@
     "openai/gpt-4.1-fast": {
       "id": "openai/gpt-4.1-fast",
       "name": "OpenAI: GPT-4.1 (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -12936,7 +12910,7 @@
     "inception/mercury-coder-small": {
       "id": "inception/mercury-coder-small",
       "name": "Mercury Coder Small Beta (retires Nov 15)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -12962,7 +12936,7 @@
     "openai/o3-mini": {
       "id": "openai/o3-mini",
       "name": "OpenAI: o3-mini",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": false,
@@ -12990,7 +12964,7 @@
     "deepseek/deepseek-r1": {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: DeepSeek-R1",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": true,
       "temperature": true,
@@ -13016,7 +12990,7 @@
     "openai/o1": {
       "id": "openai/o1",
       "name": "OpenAI: o1 ($$$$)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": false,
@@ -13045,7 +13019,7 @@
     "amazon/nova-lite": {
       "id": "amazon/nova-lite",
       "name": "Amazon: Nova Lite",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13074,7 +13048,7 @@
     "amazon/nova-micro": {
       "id": "amazon/nova-micro",
       "name": "Amazon: Nova Micro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -13101,7 +13075,7 @@
     "amazon/nova-pro": {
       "id": "amazon/nova-pro",
       "name": "Amazon: Nova Pro",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13130,7 +13104,7 @@
     "mistralai/ministral-3b": {
       "id": "mistralai/ministral-3b",
       "name": "Mistral: Ministral 3B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13158,7 +13132,7 @@
     "mistralai/ministral-8b": {
       "id": "mistralai/ministral-8b",
       "name": "Mistral: Ministral 8B",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13186,7 +13160,7 @@
     "mistralai/mistral-small": {
       "id": "mistralai/mistral-small",
       "name": "Mistral: Mistral Small",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13214,7 +13188,7 @@
     "openai/gpt-4o-mini-fast": {
       "id": "openai/gpt-4o-mini-fast",
       "name": "OpenAI: GPT-4o mini (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13243,7 +13217,7 @@
     "mistralai/codestral": {
       "id": "mistralai/codestral",
       "name": "Mistral: Mistral Codestral",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": false,
       "reasoning": false,
       "temperature": true,
@@ -13270,7 +13244,7 @@
     "openai/gpt-4o-fast": {
       "id": "openai/gpt-4o-fast",
       "name": "OpenAI: GPT-4o (Fast)",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": false,
       "temperature": true,
@@ -13299,7 +13273,7 @@
     "kilo-auto/frontier": {
       "id": "kilo-auto/frontier",
       "name": "Auto Frontier",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -13327,7 +13301,7 @@
     "kilo-auto/balanced": {
       "id": "kilo-auto/balanced",
       "name": "Auto Balanced",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
@@ -13354,7 +13328,7 @@
     "kilo-auto/small": {
       "id": "kilo-auto/small",
       "name": "Auto Small",
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-14",
       "attachment": true,
       "reasoning": true,
       "temperature": true,
